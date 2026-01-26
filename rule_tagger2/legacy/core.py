@@ -1,4 +1,5 @@
 import math
+import os
 from copy import deepcopy
 import chess
 import chess.engine
@@ -359,7 +360,9 @@ def tag_position(
             deltas.append({key: round(metrics[key] - base[key], 3) for key in STYLE_COMPONENT_KEYS})
         return deltas
 
-    with chess.engine.SimpleEngine.popen_uci(engine_path) as follow_engine:
+    use_http_engine = bool(os.getenv("ENGINE_URL")) or engine_path.startswith("http")
+    if use_http_engine:
+        follow_engine = None
         base_self_before, base_opp_before, seq_self_before, seq_opp_before = simulate_followup_metrics(
             follow_engine, board, actor, steps=followup_steps
         )
@@ -369,6 +372,17 @@ def tag_position(
         base_self_best, base_opp_best, seq_self_best, seq_opp_best = simulate_followup_metrics(
             follow_engine, best_board, actor, steps=followup_steps
         )
+    else:
+        with chess.engine.SimpleEngine.popen_uci(engine_path) as follow_engine:
+            base_self_before, base_opp_before, seq_self_before, seq_opp_before = simulate_followup_metrics(
+                follow_engine, board, actor, steps=followup_steps
+            )
+            base_self_played, base_opp_played, seq_self_played, seq_opp_played = simulate_followup_metrics(
+                follow_engine, played_board, actor, steps=followup_steps
+            )
+            base_self_best, base_opp_best, seq_self_best, seq_opp_best = simulate_followup_metrics(
+                follow_engine, best_board, actor, steps=followup_steps
+            )
 
     follow_self_deltas = _compute_delta_sequence(base_self_before, seq_self_played)
     follow_opp_deltas = _compute_delta_sequence(base_opp_before, seq_opp_played)
