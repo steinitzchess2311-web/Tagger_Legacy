@@ -1,0 +1,54 @@
+# 调整判定阈值（若缺失则使用默认值）
+
+tension_mobility_min: 0.40
+tension_mobility_near: 0.30
+contact_ratio_min: 0.05
+contact_ratio_delay: 0.035
+tension_mobility_delay: 0.26
+tension_trend_self: -0.25
+tension_trend_opp: 0.30
+tension_sustain_min: 0.18
+tension_sustain_var_cap: 0.16
+
+prophylaxis_preventive_trigger: 0.29
+prophylaxis_safety_bonus_cap: 0.55
+prophylaxis_threat_drop: 0.45
+prophylaxis_plan_drop_enabled: 0
+plan_drop_psi_min: 0.6
+plan_drop_eval_cap: -0.3
+plan_drop_multipv: 5
+plan_drop_depth: 8
+plan_drop_sample_rate: 0.3
+plan_drop_variance_cap: 0.2
+plan_drop_runtime_cap_ms: 800
+plan_drop_plan_loss_min: 0.15
+
+maneuver_constructive_threshold: 0.40
+maneuver_neutral_threshold: 0.12
+maneuver_misplaced_threshold: -0.15
+maneuver_eval_tolerance: 0.10
+maneuver_timing_neutral: 0.70
+maneuver_trend_neutral: 0.10
+maneuver_ev_fail_cp: 55
+maneuver_ev_protect_cp: 18
+maneuver_allow_light_capture: 0
+maneuver_opening_fullmove_cutoff: 10
+
+risk_avoidance_mobility_drop: 0.15
+volatility_drop_tolerance: -0.015
+
+static_blockage_threshold: 1.10
+static_blockage_hysteresis: 0.05
+soft_block_scale: 0.70
+winning_tau_max: 2.0
+winning_tau_scale: 0.2
+losing_tau_min: 0.6
+losing_tau_scale: 0.2
+soft_gate_midpoint: -0.25
+soft_gate_width: 0.1
+aggression_threshold: 0.45
+structure_weaken_limit: -0.2
+mobility_self_limit: 0.22
+file_pressure_threshold: 0.35
+premature_attack_threshold: -0.25
+premature_attack_hard: -0.4

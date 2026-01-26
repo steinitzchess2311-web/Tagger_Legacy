@@ -1,0 +1,231 @@
+{
+  "player": "Aryan Tari",
+  "games_analyzed": 0,
+  "moves_total": 12411,
+  "global_tag_distribution": {
+    "control_over_dynamics": {
+      "count": 1114,
+      "ratio": 0.219162
+    },
+    "neutral_maneuver": {
+      "count": 771,
+      "ratio": 0.151682
+    },
+    "deferred_initiative": {
+      "count": 732,
+      "ratio": 0.144009
+    },
+    "prophylactic_latent": {
+      "count": 728,
+      "ratio": 0.143223
+    },
+    "winning_position_handling": {
+      "count": 622,
+      "ratio": 0.122369
+    },
+    "control_file_seal": {
+      "count": 592,
+      "ratio": 0.116467
+    },
+    "structural_integrity": {
+      "count": 526,
+      "ratio": 0.103482
+    },
+    "maneuver_opening": {
+      "count": 477,
+      "ratio": 0.093842
+    },
+    "constructive_maneuver": {
+      "count": 470,
+      "ratio": 0.092465
+    },
+    "cod_file_seal": {
+      "count": 453,
+      "ratio": 0.089121
+    },
+    "prophylactic_direct": {
+      "count": 371,
+      "ratio": 0.072988
+    },
+    "losing_position_handling": {
+      "count": 367,
+      "ratio": 0.072201
+    },
+    "control_regroup_consolidate": {
+      "count": 339,
+      "ratio": 0.066693
+    },
+    "forced_move": {
+      "count": 321,
+      "ratio": 0.063152
+    },
+    "failed_maneuver": {
+      "count": 284,
+      "ratio": 0.055873
+    },
+    "misplaced_maneuver": {
+      "count": 284,
+      "ratio": 0.055873
+    },
+    "neutral_tension_creation": {
+      "count": 274,
+      "ratio": 0.053905
+    },
+    "control_plan_kill": {
+      "count": 273,
+      "ratio": 0.053708
+    },
+    "structural_compromise_dynamic": {
+      "count": 254,
+      "ratio": 0.04997
+    },
+    "control_king_safety_shell": {
+      "count": 244,
+      "ratio": 0.048003
+    },
+    "risk_avoidance": {
+      "count": 233,
+      "ratio": 0.045839
+    },
+    "opening_central_pawn_move": {
+      "count": 227,
+      "ratio": 0.044659
+    },
+    "prophylactic_meaningless": {
+      "count": 207,
+      "ratio": 0.040724
+    },
+    "tension_creation": {
+      "count": 187,
+      "ratio": 0.036789
+    },
+    "positional_sacrifice": {
+      "count": 173,
+      "ratio": 0.034035
+    },
+    "cod_regroup_consolidate": {
+      "count": 171,
+      "ratio": 0.033642
+    },
+    "constructive_maneuver_prepare": {
+      "count": 166,
+      "ratio": 0.032658
+    },
+    "cod_king_safety_shell": {
+      "count": 157,
+      "ratio": 0.030887
+    },
+    "positional_space_sacrifice": {
+      "count": 155,
+      "ratio": 0.030494
+    },
+    "accurate_knight_bishop_exchange": {
+      "count": 151,
+      "ratio": 0.029707
+    },
+    "missed_tactic": {
+      "count": 102,
+      "ratio": 0.020067
+    },
+    "initiative_attempt": {
+      "count": 100,
+      "ratio": 0.019673
+    },
+    "prophylactic_failed": {
+      "count": 96,
+      "ratio": 0.018886
+    },
+    "file_pressure_c": {
+      "count": 95,
+      "ratio": 0.01869
+    },
+    "control_freeze_bind": {
+      "count": 90,
+      "ratio": 0.017706
+    },
+    "cod_freeze_bind": {
+      "count": 76,
+      "ratio": 0.014952
+    },
+    "cod_plan_kill": {
+      "count": 55,
+      "ratio": 0.01082
+    },
+    "structural_compromise_static": {
+      "count": 54,
+      "ratio": 0.010624
+    },
+    "bad_knight_bishop_exchange": {
+      "count": 48,
+      "ratio": 0.009443
+    },
+    "positional_structure_sacrifice": {
+      "count": 46,
+      "ratio": 0.00905
+    },
+    "speculative_sacrifice": {
+      "count": 44,
+      "ratio": 0.008656
+    },
+    "tactical_sacrifice": {
+      "count": 39,
+      "ratio": 0.007673
+    },
+    "premature_attack": {
+      "count": 36,
+      "ratio": 0.007082
+    },
+    "control_space_clamp": {
+      "count": 35,
+      "ratio": 0.006886
+    },
+    "structural_blockage": {
+      "count": 31,
+      "ratio": 0.006099
+    },
+    "inaccurate_knight_bishop_exchange": {
+      "count": 29,
+      "ratio": 0.005705
+    },
+    "opening_rook_pawn_move": {
+      "count": 22,
+      "ratio": 0.004328
+    },
+    "tactical_initiative_sacrifice": {
+      "count": 21,
+      "ratio": 0.004131
+    },
+    "control_blockade_passed": {
+      "count": 16,
+      "ratio": 0.003148
+    },
+    "cod_blockade_passed": {
+      "count": 13,
+      "ratio": 0.002558
+    },
+    "tactical_sensitivity": {
+      "count": 13,
+      "ratio": 0.002558
+    },
+    "inaccurate_tactical_sacrifice": {
+      "count": 12,
+      "ratio": 0.002361
+    },
+    "tactical_combination_sacrifice": {
+      "count": 11,
+      "ratio": 0.002164
+    },
+    "first_choice": {
+      "count": 2,
+      "ratio": 0.000393
+    },
+    "conversion_precision": {
+      "count": 1,
+      "ratio": 0.000197
+    },
+    "failed_prophylactic": {
+      "count": 1,
+      "ratio": 0.000197
+    }
+  }
+}

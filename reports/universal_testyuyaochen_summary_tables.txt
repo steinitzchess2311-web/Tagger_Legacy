@@ -1,0 +1,78 @@
+Aggregate tag distribution (parent tags)
+tag                              count  ratio
+-------------------------------  -----  -----
+winning_position_handling           21  0.2360
+prophylactic_latent                 17  0.1910
+prophylactic_direct                 15  0.1685
+control_over_dynamics               12  0.1348
+maneuver_opening                    10  0.1124
+structural_integrity                10  0.1124
+constructive_maneuver                9  0.1011
+structural_compromise_dynamic        9  0.1011
+forced_move                          8  0.0899
+neutral_maneuver                     8  0.0899
+positional_sacrifice                 8  0.0899
+control_file_seal                    7  0.0787
+control_plan_kill                    7  0.0787
+deferred_initiative                  7  0.0787
+tension_creation                     7  0.0787
+cod_file_seal                        6  0.0674
+risk_avoidance                       6  0.0674
+accurate_knight_bishop_exchange      5  0.0562
+cod_plan_kill                        5  0.0562
+misplaced_maneuver                   4  0.0449
+opening_central_pawn_move            4  0.0449
+constructive_maneuver_prepare        2  0.0225
+control_king_safety_shell            2  0.0225
+prophylactic_meaningless             2  0.0225
+bad_knight_bishop_exchange           1  0.0112
+control_blockade_passed              1  0.0112
+control_freeze_bind                  1  0.0112
+control_regroup_consolidate          1  0.0112
+control_space_clamp                  1  0.0112
+file_pressure_c                      1  0.0112
+opening_rook_pawn_move               1  0.0112
+premature_attack                     1  0.0112
+structural_compromise_static         1  0.0112
+tactical_sacrifice                   1  0.0112
+
+Fine-grained tag distribution (ratio desc)
+tag                             count  ratio
+------------------------------  -----  -----
+positional_space_sacrifice          7  0.0787
+failed_maneuver                     4  0.0449
+neutral_tension_creation            2  0.0225
+missed_tactic                       1  0.0112
+positional_structure_sacrifice      1  0.0112
+tactical_initiative_sacrifice       1  0.0112
+
+Structured distribution (by category)
+[Maneuver]
+  failed_maneuver                     4  0.0449
+
+[Tension]
+  neutral_tension_creation            2  0.0225
+
+[Initiative]
+  tactical_initiative_sacrifice       1  0.0112
+
+[Sacrifice]
+  positional_space_sacrifice          7  0.0787
+  positional_structure_sacrifice      1  0.0112
+
+[Tactical]
+  missed_tactic                       1  0.0112
+
+Scoring kernel v9
+  style_mix: AggressiveModel 66.3%, RestrictiveModel 16.8%, CounterAttackerModel 16.9%
+  raw_score: 0.0298
+  net_score: 0.0206
+  performance_percent: 51.03
+  estimated_fide_elo: 2016.5
+  penalties: neutral 0.0056 | redundant 0.0036
+  top_positive:
+    positional_space_sacrifice: +0.0267 (ratio 0.079, weight 0.30, mult 1.13)
+    tactical_initiative_sacrifice: +0.0038 (ratio 0.011, weight 0.30, mult 1.13)
+    positional_structure_sacrifice: +0.0032 (ratio 0.011, weight 0.25, mult 1.13)
+  top_negative:
+    missed_tactic: -0.0039 (ratio 0.011, weight -0.35, mult 1.00)

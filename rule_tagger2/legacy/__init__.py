@@ -1,0 +1,68 @@
+"""
+Rule tagger package exposing the public tagging API.
+"""
+
+from .core import (  # noqa: F401
+    CENTER_FILES,
+    CONTROL,
+    CONTROL_EVAL_DROP,
+    KING_SAFETY_GAIN,
+    MOBILITY_RISK_TRADEOFF,
+    RISK_SMALL_LOSS,
+    PROPHYLAXIS_CONFIG,
+    PROPHYLAXIS_PREVENTIVE_TRIGGER,
+    PROPHYLAXIS_SCORE_THRESHOLD,
+    PROPHYLAXIS_SAFETY_CAP,
+    PROPHYLAXIS_STRUCTURE_MIN,
+    PROPHYLAXIS_THREAT_DEPTH,
+    PROPHYLAXIS_THREAT_DROP,
+    SOFT_BLOCK_SCALE,
+    STATIC_BLOCKAGE_THRESHOLD_BASE,
+    TAG_PRIORITY,
+    TENSION_CONTACT_DELAY,
+    TENSION_TRIGGER_PRIORITY,
+    Candidate,
+    StyleTracker,
+    TagResult,
+    apply_tactical_gating,
+    parse_move,
+    tag_position,
+)
+from .engine import (  # noqa: F401
+    analyse_candidates,
+    load_positions_from_json,
+    load_positions_from_pgn,
+)
+from .runner import batch_tag_positions, main  # noqa: F401
+
+__all__ = [
+    "CENTER_FILES",
+    "CONTROL",
+    "CONTROL_EVAL_DROP",
+    "KING_SAFETY_GAIN",
+    "MOBILITY_RISK_TRADEOFF",
+    "RISK_SMALL_LOSS",
+    "PROPHYLAXIS_CONFIG",
+    "PROPHYLAXIS_PREVENTIVE_TRIGGER",
+    "PROPHYLAXIS_SCORE_THRESHOLD",
+    "PROPHYLAXIS_SAFETY_CAP",
+    "PROPHYLAXIS_STRUCTURE_MIN",
+    "PROPHYLAXIS_THREAT_DEPTH",
+    "PROPHYLAXIS_THREAT_DROP",
+    "SOFT_BLOCK_SCALE",
+    "STATIC_BLOCKAGE_THRESHOLD_BASE",
+    "TAG_PRIORITY",
+    "TENSION_CONTACT_DELAY",
+    "TENSION_TRIGGER_PRIORITY",
+    "Candidate",
+    "StyleTracker",
+    "TagResult",
+    "analyse_candidates",
+    "apply_tactical_gating",
+    "batch_tag_positions",
+    "load_positions_from_json",
+    "load_positions_from_pgn",
+    "main",
+    "parse_move",
+    "tag_position",
+]

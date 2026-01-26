@@ -1,0 +1,717 @@
+[
+  {
+    "id": "log_moves_log_0051",
+    "fen": "1k2r1r1/ppp2pp1/8/2P5/1P2Pp2/1B3P1P/P2R1KP1/8 b - - 0 32",
+    "move": "e8d8",
+    "move_uci": "e8d8",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "positional_sacrifice"
+    ],
+    "current_tags": [
+      "neutral_tension_creation",
+      "constructive_maneuver",
+      "prophylactic_move",
+      "control_over_dynamics",
+      "constructive_maneuver_prepare"
+    ]
+  },
+  {
+    "id": "log_moves_log_0052",
+    "fen": "1k1R2r1/ppp2pp1/8/2P5/1P2Pp2/1B3P1P/P4KP1/8 b - - 0 33",
+    "move": "g8d8",
+    "move_uci": "g8d8",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "forced_move"
+    ],
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_king_safety_shell"
+    ]
+  },
+  {
+    "id": "log_moves_log_0053",
+    "fen": "1k1r4/ppp2pp1/8/2P5/1P2Pp2/1B3P1P/P3K1P1/8 b - - 1 34",
+    "move": "d8d7",
+    "move_uci": "d8d7",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling",
+      "neutral_maneuver",
+      "control_over_dynamic"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0054",
+    "fen": "1k6/pppr1pp1/8/2PB4/1P2Pp2/5P1P/P3K1P1/8 b - - 3 35",
+    "move": "c7c6",
+    "move_uci": "c7c6",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0055",
+    "fen": "1k6/pp1r1pp1/2p5/2P5/1PB1Pp2/5P1P/P3K1P1/8 b - - 1 36",
+    "move": "b8c7",
+    "move_uci": "b8c7",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling",
+      "neutral_maneuver"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0056",
+    "fen": "8/ppkr1pp1/2p5/2P5/PPB1Pp2/5P1P/4K1P1/8 b - - 0 37",
+    "move": "d7d4",
+    "move_uci": "d7d4",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "constructive_maneuver",
+      "initiative_attempt",
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0057",
+    "fen": "8/ppk2Bp1/2p5/2P5/PP1rPp2/5P1P/4K1P1/8 b - - 0 38",
+    "move": "c7d8",
+    "move_uci": "c7d8",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0058",
+    "fen": "3k4/pp3Bp1/2p5/1PP5/P2rPp2/5P1P/4K1P1/8 b - - 0 39",
+    "move": "d4a4",
+    "move_uci": "d4a4",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0059",
+    "fen": "3k4/pp3Bp1/2P5/2P5/r3Pp2/5P1P/4K1P1/8 b - - 0 40",
+    "move": "b7c6",
+    "move_uci": "b7c6",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0060",
+    "fen": "3k4/p4Bp1/2p5/2P5/r3Pp2/3K1P1P/6P1/8 b - - 1 41",
+    "move": "a4a1",
+    "move_uci": "a4a1",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0061",
+    "fen": "3k4/p4Bp1/2p5/2P1P3/5p2/3K1P1P/6P1/r7 b - - 0 42",
+    "move": "a1c1",
+    "move_uci": "a1c1",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0062",
+    "fen": "3k4/p4Bp1/2p5/2P1P3/3K1p2/5P1P/6P1/2r5 b - - 2 43",
+    "move": "d8e7",
+    "move_uci": "d8e7",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0063",
+    "fen": "8/p3k1p1/2p5/2P1P3/2BK1p2/5P1P/6P1/2r5 b - - 4 44",
+    "move": "e7d8",
+    "move_uci": "e7d8",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0064",
+    "fen": "3k4/p5p1/2p1P3/2P5/2BK1p2/5P1P/6P1/2r5 b - - 0 45",
+    "move": "d8e7",
+    "move_uci": "d8e7",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0065",
+    "fen": "8/p3k1p1/2p1P3/2P1K3/2B2p2/5P1P/6P1/2r5 b - - 2 46",
+    "move": "c1c4",
+    "move_uci": "c1c4",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0066",
+    "fen": "8/p3k1p1/2p1P3/2P2K2/2r2p2/5P1P/6P1/8 b - - 1 47",
+    "move": "c4a4",
+    "move_uci": "c4a4",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0067",
+    "fen": "8/p3k1p1/2p1P3/2P2K2/r4p1P/5P2/6P1/8 b - - 0 48",
+    "move": "a4c4",
+    "move_uci": "a4c4",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0068",
+    "fen": "8/p3k1p1/2p1P3/2P2K1P/2r2p2/5P2/6P1/8 b - - 0 49",
+    "move": "c4a4",
+    "move_uci": "c4a4",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0069",
+    "fen": "8/p3k1p1/2p1P1K1/2P4P/r4p2/5P2/6P1/8 b - - 2 50",
+    "move": "e7e6",
+    "move_uci": "e7e6",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0070",
+    "fen": "8/p5K1/2p1k3/2P4P/r4p2/5P2/6P1/8 b - - 0 51",
+    "move": "a4a5",
+    "move_uci": "a4a5",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0071",
+    "fen": "8/p5K1/2p1k2P/r1P5/5p2/5P2/6P1/8 b - - 0 52",
+    "move": "a5a1",
+    "move_uci": "a5a1",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0072",
+    "fen": "8/p5KP/2p1k3/2P5/5p2/5P2/6P1/r7 b - - 0 53",
+    "move": "a1h1",
+    "move_uci": "a1h1",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "forced_move"
+    ]
+  },
+  {
+    "id": "log_moves_log_0073",
+    "fen": "7Q/p5K1/2p1k3/2P5/5p2/5P2/6P1/7r b - - 0 54",
+    "move": "h1h8",
+    "move_uci": "h1h8",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "forced_move"
+    ]
+  },
+  {
+    "id": "log_moves_log_0074",
+    "fen": "7K/p7/2p1k3/2P5/5p2/5P2/6P1/8 b - - 0 55",
+    "move": "e6f6",
+    "move_uci": "e6f6",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0075",
+    "fen": "8/p6K/2p2k2/2P5/5p2/5P2/6P1/8 b - - 2 56",
+    "move": "f6f7",
+    "move_uci": "f6f7",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0076",
+    "fen": "8/p4k2/2p4K/2P5/5p2/5P2/6P1/8 b - - 4 57",
+    "move": "f7f6",
+    "move_uci": "f7f6",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0077",
+    "fen": "8/p7/2p2k2/2P4K/5p2/5P2/6P1/8 b - - 6 58",
+    "move": "f6e5",
+    "move_uci": "f6e5",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0078",
+    "fen": "8/p7/2p5/2P1k3/5pK1/5P2/6P1/8 b - - 8 59",
+    "move": "a7a5",
+    "move_uci": "a7a5",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0079",
+    "fen": "8/8/2p5/p1P1k1K1/5p2/5P2/6P1/8 b - - 1 60",
+    "move": "a5a4",
+    "move_uci": "a5a4",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0080",
+    "fen": "8/8/2p5/2P1k3/p4pK1/5P2/6P1/8 b - - 1 61",
+    "move": "e5e6",
+    "move_uci": "e5e6",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0081",
+    "fen": "8/8/2p1k3/2P5/p4K2/5P2/6P1/8 b - - 0 62",
+    "move": "e6f7",
+    "move_uci": "e6f7",
+    "description": "profile=petrosianTestV9; make_error=True",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0082",
+    "fen": "8/5k2/2p5/2P1K3/p7/5P2/6P1/8 b - - 2 63",
+    "move": "a4a3",
+    "move_uci": "a4a3",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "forced_move"
+    ]
+  },
+  {
+    "id": "log_moves_log_0083",
+    "fen": "8/5k2/2pK4/2P5/8/p4P2/6P1/8 b - - 1 64",
+    "move": "f7g8",
+    "move_uci": "f7g8",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0084",
+    "fen": "6k1/8/2K5/2P5/8/p4P2/6P1/8 b - - 0 65",
+    "move": "g8f8",
+    "move_uci": "g8f8",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0085",
+    "fen": "5k2/3K4/8/2P5/8/p4P2/6P1/8 b - - 2 66",
+    "move": "a3a2",
+    "move_uci": "a3a2",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "forced_move"
+    ]
+  },
+  {
+    "id": "log_moves_log_0086",
+    "fen": "5k2/3K4/2P5/8/8/5P2/p5P1/8 b - - 0 67",
+    "move": "a2a1q",
+    "move_uci": "a2a1q",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "forced_move"
+    ]
+  },
+  {
+    "id": "log_moves_log_0087",
+    "fen": "5k2/2PK4/8/8/8/5P2/6P1/q7 b - - 0 68",
+    "move": "a1a7",
+    "move_uci": "a1a7",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0088",
+    "fen": "3K1k2/q1P5/8/8/8/5P2/6P1/8 b - - 2 69",
+    "move": "a7a5",
+    "move_uci": "a7a5",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "forced_move"
+    ]
+  },
+  {
+    "id": "log_moves_log_0089",
+    "fen": "5k2/2PK4/8/q7/8/5P2/6P1/8 b - - 4 70",
+    "move": "a5d5",
+    "move_uci": "a5d5",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "forced_move"
+    ]
+  },
+  {
+    "id": "log_moves_log_0090",
+    "fen": "2K2k2/2P5/8/3q4/8/5P2/6P1/8 b - - 6 71",
+    "move": "d5b5",
+    "move_uci": "d5b5",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0091",
+    "fen": "3K1k2/2P5/8/1q6/8/5P2/6P1/8 b - - 8 72",
+    "move": "b5a5",
+    "move_uci": "b5a5",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0092",
+    "fen": "5k2/2PK4/8/q7/8/5P2/6P1/8 b - - 10 73",
+    "move": "a5d5",
+    "move_uci": "a5d5",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "forced_move"
+    ]
+  },
+  {
+    "id": "log_moves_log_0093",
+    "fen": "2K2k2/2P5/8/3q4/8/5P2/6P1/8 b - - 12 74",
+    "move": "d5b5",
+    "move_uci": "d5b5",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0094",
+    "fen": "3K1k2/2P5/8/1q6/8/5P2/6P1/8 b - - 14 75",
+    "move": "b5b6",
+    "move_uci": "b5b6",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0095",
+    "fen": "5k2/2PK4/1q6/8/8/5P2/6P1/8 b - - 16 76",
+    "move": "b6b7",
+    "move_uci": "b6b7",
+    "description": "profile=petrosianTestV9; make_error=True",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0096",
+    "fen": "3K1k2/1qP5/8/8/8/5P2/6P1/8 b - - 18 77",
+    "move": "f8f7",
+    "move_uci": "f8f7",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "winning_position_handling"
+    ]
+  },
+  {
+    "id": "log_moves_log_0097",
+    "fen": "2QK4/1q3k2/8/8/8/5P2/6P1/8 b - - 0 78",
+    "move": "b7e7",
+    "move_uci": "b7e7",
+    "description": "profile=petrosianTestV9; make_error=False",
+    "source_file": "moves_log.jsonl",
+    "label": "",
+    "expected_tags": [
+      "winning_position_handling"
+    ],
+    "current_tags": [
+      "forced_move"
+    ]
+  }
+]

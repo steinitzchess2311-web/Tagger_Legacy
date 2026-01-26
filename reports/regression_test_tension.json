@@ -1,0 +1,82 @@
+{
+  "detector": "tension",
+  "sample_size": 2,
+  "test_cases": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "move": "e2e4",
+      "description": "Opening e4 - should NOT trigger neutral_tension (no evidence)"
+    },
+    {
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "move": "d2d3",
+      "description": "Middlegame quiet move"
+    }
+  ],
+  "results": {
+    "tension": {
+      "legacy": [
+        {
+          "tension_creation": false,
+          "neutral_tension_creation": false,
+          "notes": {
+            "structural_integrity": "structure improved by +0.30 while tactics change +0.00",
+            "prophylactic_move": "pawn advance to restrict opponent play | pattern support override (score +0.20 \u2192 +0.20) | preventive score +0.20 \u2265 trigger +0.08 | self safety bonus +0.12 | preventive context: threat \u2193+0.39, center +0.75",
+            "prophylaxis_type": "active prophylaxis (reposition and restrict)",
+            "control_over_dynamics": "CoD.prophylaxis: preventive move dampened dynamics (volatility drop 19.0cp, opp mobility\u0394 +0)",
+            "prophylaxis_quality": "prophylactic_soft (score +0.60)",
+            "structural_compromise_forced": "shield -1; best move required similar structure concession",
+            "gating_weight": "tactical_weight=0.20 (mode=positional)"
+          },
+          "error": null
+        },
+        {
+          "tension_creation": true,
+          "neutral_tension_creation": false,
+          "notes": {
+            "prophylactic_move": "pawn advance to restrict opponent play | pattern support override (score +0.69 \u2192 +0.69) | preventive score +0.69 \u2265 trigger +0.08 | preventive context: threat \u2193+0.48, opp mobility trend -1.18, opp tactics -0.20, center +0.40",
+            "prophylaxis_type": "active prophylaxis (reposition and restrict)",
+            "prophylaxis_quality": "prophylactic_strong (score +1.00)",
+            "structural_compromise_dynamic": "backward +1, blockage +3.00; dynamic potential \u2191 (self mobility now +0.65, future +1.33; opponent mobility now -0.65, future -1.33; tactics +0.20, center +0.40; trend self +1.18, opp -1.18); blocked bishop b5 on b-file",
+            "tension_creation": "tension creation: eval -0.12; mobility self +0.65; opp -0.65; structural shift detected; triggered via symmetry_core; follow-up self trend +1.18",
+            "gating_weight": "tactical_weight=0.25 (mode=positional)"
+          },
+          "error": null
+        }
+      ],
+      "new": [
+        {
+          "tension_creation": false,
+          "neutral_tension_creation": false,
+          "notes": {
+            "structural_integrity": "structure improved by +0.30 while tactics change +0.00",
+            "prophylactic_move": "pawn advance to restrict opponent play | pattern support override (score +0.20 \u2192 +0.20) | preventive score +0.20 \u2265 trigger +0.08 | self safety bonus +0.12 | preventive context: threat \u2193+0.39, center +0.75",
+            "prophylaxis_type": "active prophylaxis (reposition and restrict)",
+            "control_over_dynamics": "CoD.prophylaxis: preventive move dampened dynamics (volatility drop 19.0cp, opp mobility\u0394 +0)",
+            "prophylaxis_quality": "prophylactic_soft (score +0.60)",
+            "structural_compromise_forced": "shield -1; best move required similar structure concession",
+            "gating_weight": "tactical_weight=0.20 (mode=positional)"
+          },
+          "error": null
+        },
+        {
+          "tension_creation": false,
+          "neutral_tension_creation": false,
+          "notes": {
+            "prophylactic_move": "pawn advance to restrict opponent play | pattern support override (score +0.69 \u2192 +0.69) | preventive score +0.69 \u2265 trigger +0.08 | preventive context: threat \u2193+0.48, opp mobility trend -1.18, opp tactics -0.20, center +0.40",
+            "prophylaxis_type": "active prophylaxis (reposition and restrict)",
+            "prophylaxis_quality": "prophylactic_strong (score +1.00)",
+            "structural_compromise_dynamic": "backward +1, blockage +3.00; dynamic potential \u2191 (self mobility now +0.65, future +1.33; opponent mobility now -0.65, future -1.33; tactics +0.20, center +0.40; trend self +1.18, opp -1.18); blocked bishop b5 on b-file",
+            "tension_creation": "tension creation: eval -0.12; mobility self +0.65; opp -0.65; structural shift detected; triggered via symmetry_core; follow-up self trend +1.18",
+            "gating_weight": "tactical_weight=0.25 (mode=positional)"
+          },
+          "error": null
+        }
+      ]
+    },
+    "cod": {
+      "legacy": [],
+      "new": []
+    }
+  }
+}

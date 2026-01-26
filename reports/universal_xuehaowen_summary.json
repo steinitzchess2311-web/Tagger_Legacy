@@ -1,0 +1,325 @@
+{
+  "player": "Xue,Haowen",
+  "games_analyzed": 2,
+  "moves_total": 115,
+  "global_tag_distribution": {
+    "prophylactic_latent": {
+      "count": 43,
+      "ratio": 0.3739
+    },
+    "constructive_maneuver": {
+      "count": 39,
+      "ratio": 0.3391
+    },
+    "deferred_initiative": {
+      "count": 32,
+      "ratio": 0.2783
+    },
+    "control_over_dynamics": {
+      "count": 31,
+      "ratio": 0.2696
+    },
+    "neutral_maneuver": {
+      "count": 30,
+      "ratio": 0.2609
+    },
+    "neutral_tension_creation": {
+      "count": 28,
+      "ratio": 0.2435
+    },
+    "control_file_seal": {
+      "count": 17,
+      "ratio": 0.1478
+    },
+    "cod_file_seal": {
+      "count": 14,
+      "ratio": 0.1217
+    },
+    "control_king_safety_shell": {
+      "count": 9,
+      "ratio": 0.0783
+    },
+    "prophylactic_direct": {
+      "count": 9,
+      "ratio": 0.0783
+    },
+    "control_regroup_consolidate": {
+      "count": 8,
+      "ratio": 0.0696
+    },
+    "maneuver_opening": {
+      "count": 8,
+      "ratio": 0.0696
+    },
+    "risk_avoidance": {
+      "count": 8,
+      "ratio": 0.0696
+    },
+    "structural_compromise_dynamic": {
+      "count": 8,
+      "ratio": 0.0696
+    },
+    "cod_king_safety_shell": {
+      "count": 7,
+      "ratio": 0.0609
+    },
+    "file_pressure_c": {
+      "count": 6,
+      "ratio": 0.0522
+    },
+    "structural_integrity": {
+      "count": 6,
+      "ratio": 0.0522
+    },
+    "constructive_maneuver_prepare": {
+      "count": 5,
+      "ratio": 0.0435
+    },
+    "control_plan_kill": {
+      "count": 5,
+      "ratio": 0.0435
+    },
+    "positional_sacrifice": {
+      "count": 5,
+      "ratio": 0.0435
+    },
+    "tactical_sacrifice": {
+      "count": 5,
+      "ratio": 0.0435
+    },
+    "cod_regroup_consolidate": {
+      "count": 4,
+      "ratio": 0.0348
+    },
+    "initiative_attempt": {
+      "count": 4,
+      "ratio": 0.0348
+    },
+    "positional_space_sacrifice": {
+      "count": 4,
+      "ratio": 0.0348
+    },
+    "accurate_knight_bishop_exchange": {
+      "count": 3,
+      "ratio": 0.0261
+    },
+    "tactical_initiative_sacrifice": {
+      "count": 3,
+      "ratio": 0.0261
+    },
+    "failed_maneuver": {
+      "count": 2,
+      "ratio": 0.0174
+    },
+    "forced_move": {
+      "count": 2,
+      "ratio": 0.0174
+    },
+    "misplaced_maneuver": {
+      "count": 2,
+      "ratio": 0.0174
+    },
+    "prophylactic_meaningless": {
+      "count": 2,
+      "ratio": 0.0174
+    },
+    "tension_creation": {
+      "count": 2,
+      "ratio": 0.0174
+    },
+    "winning_position_handling": {
+      "count": 2,
+      "ratio": 0.0174
+    },
+    "cod_freeze_bind": {
+      "count": 1,
+      "ratio": 0.0087
+    },
+    "cod_plan_kill": {
+      "count": 1,
+      "ratio": 0.0087
+    },
+    "control_freeze_bind": {
+      "count": 1,
+      "ratio": 0.0087
+    },
+    "control_space_clamp": {
+      "count": 1,
+      "ratio": 0.0087
+    },
+    "missed_tactic": {
+      "count": 1,
+      "ratio": 0.0087
+    },
+    "opening_rook_pawn_move": {
+      "count": 1,
+      "ratio": 0.0087
+    },
+    "positional_structure_sacrifice": {
+      "count": 1,
+      "ratio": 0.0087
+    },
+    "speculative_sacrifice": {
+      "count": 1,
+      "ratio": 0.0087
+    },
+    "structural_compromise_static": {
+      "count": 1,
+      "ratio": 0.0087
+    },
+    "tactical_combination_sacrifice": {
+      "count": 1,
+      "ratio": 0.0087
+    }
+  },
+  "tag_ratios_raw": {
+    "prophylactic_latent": 0.3739,
+    "constructive_maneuver": 0.3391,
+    "deferred_initiative": 0.2783,
+    "control_over_dynamics": 0.2696,
+    "neutral_maneuver": 0.2609,
+    "neutral_tension_creation": 0.2435,
+    "control_file_seal": 0.1478,
+    "cod_file_seal": 0.1217,
+    "control_king_safety_shell": 0.0783,
+    "prophylactic_direct": 0.0783,
+    "control_regroup_consolidate": 0.0696,
+    "maneuver_opening": 0.0696,
+    "risk_avoidance": 0.0696,
+    "structural_compromise_dynamic": 0.0696,
+    "cod_king_safety_shell": 0.0609,
+    "file_pressure_c": 0.0522,
+    "structural_integrity": 0.0522,
+    "constructive_maneuver_prepare": 0.0435,
+    "control_plan_kill": 0.0435,
+    "positional_sacrifice": 0.0435,
+    "tactical_sacrifice": 0.0435,
+    "cod_regroup_consolidate": 0.0348,
+    "initiative_attempt": 0.0348,
+    "positional_space_sacrifice": 0.0348,
+    "accurate_knight_bishop_exchange": 0.0261,
+    "tactical_initiative_sacrifice": 0.0261,
+    "failed_maneuver": 0.0174,
+    "forced_move": 0.0174,
+    "misplaced_maneuver": 0.0174,
+    "prophylactic_meaningless": 0.0174,
+    "tension_creation": 0.0174,
+    "winning_position_handling": 0.0174,
+    "cod_freeze_bind": 0.0087,
+    "cod_plan_kill": 0.0087,
+    "control_freeze_bind": 0.0087,
+    "control_space_clamp": 0.0087,
+    "missed_tactic": 0.0087,
+    "opening_rook_pawn_move": 0.0087,
+    "positional_structure_sacrifice": 0.0087,
+    "speculative_sacrifice": 0.0087,
+    "structural_compromise_static": 0.0087,
+    "tactical_combination_sacrifice": 0.0087
+  },
+  "maneuver_failure_true_ratio": 0.0174,
+  "style_performance": {
+    "style_mix": {
+      "AggressiveModel": 0.23185867661615775,
+      "RestrictiveModel": 0.02649813447041803,
+      "CounterAttackerModel": 0.7416431889134242
+    },
+    "raw_score": 0.01925841353841468,
+    "net_score": -0.007353586461585321,
+    "performance_percent": 49.63,
+    "estimated_fide_elo": 1994.1,
+    "penalties": {
+      "neutral_penalty": 0.02522,
+      "redundant_penalty": 0.001392,
+      "total_penalty": 0.026612
+    },
+    "top_positive": [
+      {
+        "tag": "positional_space_sacrifice",
+        "category": "sacrifice",
+        "ratio": 0.0348,
+        "base_weight": 0.3,
+        "style_multiplier": 1.0463717353232316,
+        "contribution": 0.010924120916774537
+      },
+      {
+        "tag": "tactical_initiative_sacrifice",
+        "category": "sacrifice",
+        "ratio": 0.0261,
+        "base_weight": 0.3,
+        "style_multiplier": 1.0463717353232316,
+        "contribution": 0.008193090687580904
+      },
+      {
+        "tag": "tactical_combination_sacrifice",
+        "category": "sacrifice",
+        "ratio": 0.0087,
+        "base_weight": 0.35,
+        "style_multiplier": 1.0463717353232316,
+        "contribution": 0.0031862019340592397
+      }
+    ],
+    "top_negative": [
+      {
+        "tag": "missed_tactic",
+        "category": "meta",
+        "ratio": 0.0087,
+        "base_weight": -0.35,
+        "style_multiplier": 1.0,
+        "contribution": -0.0030449999999999995
+      },
+      {
+        "tag": "speculative_sacrifice",
+        "category": "sacrifice",
+        "ratio": 0.0087,
+        "base_weight": -0.25,
+        "style_multiplier": 1.0463717353232316,
+        "contribution": -0.0022758585243280284
+      }
+    ],
+    "ratios_used": {
+      "prophylactic_latent": 0.3739,
+      "constructive_maneuver": 0.3391,
+      "deferred_initiative": 0.2783,
+      "control_over_dynamics": 0.2696,
+      "neutral_maneuver": 0.2609,
+      "neutral_tension_creation": 0.2435,
+      "control_file_seal": 0.1478,
+      "cod_file_seal": 0.1217,
+      "control_king_safety_shell": 0.0783,
+      "prophylactic_direct": 0.0783,
+      "control_regroup_consolidate": 0.0696,
+      "maneuver_opening": 0.0696,
+      "risk_avoidance": 0.0696,
+      "structural_compromise_dynamic": 0.0696,
+      "cod_king_safety_shell": 0.0609,
+      "file_pressure_c": 0.0522,
+      "structural_integrity": 0.0522,
+      "constructive_maneuver_prepare": 0.0435,
+      "control_plan_kill": 0.0435,
+      "positional_sacrifice": 0.0435,
+      "tactical_sacrifice": 0.0435,
+      "cod_regroup_consolidate": 0.0348,
+      "initiative_attempt": 0.0348,
+      "positional_space_sacrifice": 0.0348,
+      "accurate_knight_bishop_exchange": 0.0261,
+      "tactical_initiative_sacrifice": 0.0261,
+      "failed_maneuver": 0.0174,
+      "forced_move": 0.0174,
+      "misplaced_maneuver": 0.0174,
+      "prophylactic_meaningless": 0.0174,
+      "tension_creation": 0.0174,
+      "winning_position_handling": 0.0174,
+      "cod_freeze_bind": 0.0087,
+      "cod_plan_kill": 0.0087,
+      "control_freeze_bind": 0.0087,
+      "control_space_clamp": 0.0087,
+      "missed_tactic": 0.0087,
+      "opening_rook_pawn_move": 0.0087,
+      "positional_structure_sacrifice": 0.0087,
+      "speculative_sacrifice": 0.0087,
+      "structural_compromise_static": 0.0087,
+      "tactical_combination_sacrifice": 0.0087
+    }
+  },
+  "estimated_fide_elo": 1994.1
+}

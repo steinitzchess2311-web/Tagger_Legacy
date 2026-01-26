@@ -1,0 +1,622 @@
+[
+  {
+    "id": "case_001",
+    "fen": "8/ppr2qkp/1b3pp1/8/3P1Q2/5NP1/P4PKP/4R3 w - - 1 31",
+    "move": "a4",
+    "expected_tags": [
+      "neutral_tension_creation"
+    ],
+    "description": "Flank pawn push - potential tension creation",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "risk_avoidance",
+      "neutral_tension_creation",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_003",
+    "fen": "3R4/5rkp/2qb1pp1/1p6/3P3P/4QNP1/5P2/6K1 w - - 2 39",
+    "move": "h5",
+    "expected_tags": [
+      "neutral_tension_creation",
+      "positional_sacrifice",
+      "positional_structure_sacrifice",
+      "positional_space_sacrifice",
+      "first_choice"
+    ],
+    "description": "Pawn advance in tactical position",
+    "current_tags": [
+      "neutral_tension_creation",
+      "positional_sacrifice",
+      "positional_structure_sacrifice",
+      "positional_space_sacrifice",
+      "first_choice"
+    ]
+  },
+  {
+    "id": "case_004",
+    "fen": "3R1b2/5rkp/2q2pp1/1p5P/3P4/4QNP1/5P2/6K1 w - - 1 40",
+    "move": "d5",
+    "expected_tags": [
+      "initiative_attempt",
+      "tension_creation",
+      "first_choice",
+      "conversion_precision"
+    ],
+    "description": "Central pawn advance - structural change",
+    "current_tags": [
+      "initiative_attempt",
+      "tension_creation",
+      "first_choice",
+      "conversion_precision"
+    ]
+  },
+  {
+    "id": "case_005",
+    "fen": "2kr1b1r/8/pqbppp2/1p5p/4P3/2NB4/PPPQ2PP/1K1R3R w - - 0 16",
+    "move": "Ne2",
+    "expected_tags": [
+      "control_over_dynamics",
+      "cod_regroup_consolidate",
+      "constructive_maneuver",
+      "prophylactic_strong"
+    ],
+    "description": "Knight maneuver - regrouping",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_file_seal",
+      "structural_integrity",
+      "neutral_maneuver",
+      "tension_creation",
+      "prophylactic_strong"
+    ]
+  },
+  {
+    "id": "case_044",
+    "fen": "",
+    "move": "h5",
+    "expected_tags": [
+      "initiative_attempt"
+    ],
+    "description": "*** pawn push to h5 - initiates kingside tension and space gain.",
+    "current_tags": []
+  },
+  {
+    "id": "case_045",
+    "fen": "",
+    "move": "Ne5",
+    "expected_tags": [
+      "constructive_maneuver"
+    ],
+    "description": "*** knight jump to e5 occupying central outpost; typical structural dominance maneuver.",
+    "current_tags": []
+  },
+  {
+    "id": "case_048",
+    "fen": "r1bq1rk1/1pp2pbn/n2p2p1/p2Pp3/2P1P1P1/2N1B3/PP1NBP2/R2QK2R b KQ - 0 18",
+    "move": "Bf6",
+    "expected_tags": [
+      "deferred_initiative",
+      "constructive_maneuver"
+    ],
+    "description": "*** This is a constructive_maneuver. The bishop is passive here on g7. However, white's e3 bishop is strong. He is trying to do the maneuver of Bg7-f6-g5 to trade the active e3 bishop. if this is the first choice it should also be classified as constructive_maneuver rather than latent maneuver automatically.",
+    "current_tags": [
+      "deferred_initiative",
+      "neutral_maneuver",
+      "tension_creation"
+    ]
+  },
+  {
+    "id": "case_050",
+    "fen": "r4rk1/3bppbp/1q4p1/np1pP3/3P4/1P2BN2/4BPPP/R2Q1RK1 w - - 0 19",
+    "move": "Ne1",
+    "expected_tags": [
+      "constructive_maneuver"
+    ],
+    "description": "** This is a temporal regroup. Although the knight is going into a rather passive location and blocks. On the next move, the knight is going to c5 via d3. The knight is rerouted from a rather passive f3 square to the active c5 square.",
+    "current_tags": [
+      "neutral_tension_creation",
+      "neutral_maneuver"
+    ]
+  },
+  {
+    "id": "case_051",
+    "fen": "r2q1rk1/1p3pbp/p1n1pnp1/3p4/3P1B2/2NQPN1P/PP3PP1/R1R3K1 w - - 0 13",
+    "move": "Na4",
+    "expected_tags": [
+      "neutral_maneuver",
+      "initiative_attempt"
+    ],
+    "description": "This is a ***latent improve (or temporally regroup/or constructive_maneuver)\nThe knight is going to the active c5 square via a4. On c5, the knight will be active.",
+    "current_tags": [
+      "structural_integrity",
+      "neutral_tension_creation",
+      "neutral_maneuver",
+      "initiative_attempt"
+    ]
+  },
+  {
+    "id": "case_052",
+    "fen": "2k5/p2r3p/2p1b1n1/2p2p1N/2P2P2/2R4P/P2B1KP1/8 w - - 1 1",
+    "move": "Be3",
+    "expected_tags": [
+      "initiative_attempt",
+      "constructive_maneuver"
+    ],
+    "description": "*** This is another case of latent improved. White bishop is going from d2 square to active e3 square that is attacknig a weakness on c5",
+    "current_tags": [
+      "risk_avoidance",
+      "tactical_sensitivity",
+      "maneuver_opening",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_053",
+    "fen": "r4nk1/pp3pb1/2pR2p1/2n5/2P1pN1p/1PN1P2P/PB3PP1/6K1 w - - 0 1",
+    "move": "Na4",
+    "expected_tags": [
+      "structural_compromise_dynamic",
+      "prophylactic_strong"
+    ],
+    "description": "***** This is an accurate exchange, and structural compromise dynamic\nAlthough structure is weakened, the eva does not drop, meaning there is strong counter-play",
+    "current_tags": [
+      "maneuver_opening",
+      "inaccurate_tactical_sacrifice"
+    ]
+  },
+  {
+    "id": "case_054",
+    "fen": "r3k1nr/1pp3pp/p2bbp2/2p5/4P3/2N1BN2/PPP2PPP/2KR3R w - - 0 1",
+    "move": "e5",
+    "expected_tags": [
+      "neutral_tension_creation",
+      "positional_sacrifice",
+      "positional_space_sacrifice"
+    ],
+    "description": "This is a positional sacrifice. It sacifice a pawn, but the knight on c3 gains higher mobility for being able to go to e4. And the engine eva does not drop.",
+    "current_tags": [
+      "neutral_tension_creation",
+      "positional_sacrifice",
+      "positional_space_sacrifice"
+    ]
+  },
+  {
+    "id": "case_055",
+    "fen": "rn1qk2r/pp3pp1/2p1pnp1/8/Pb1P2P1/2N1P2P/1P3P2/R1BQKB1R b KQkq - 0 1",
+    "move": "Qd5",
+    "expected_tags": [
+      "constructive_maneuver"
+    ],
+    "description": "*** This is a latent improved. The queen is going to an active square.\n*** This is a disappearing move. Comparing this with Qa5 directly, black forces the move 2.f3, weakening the structure.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "neutral_tension_creation",
+      "maneuver_opening",
+      "positional_sacrifice",
+      "positional_structure_sacrifice",
+      "positional_space_sacrifice",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_057",
+    "fen": "2b3k1/2q4p/p2p2p1/P1p2n2/2Pb2Q1/8/R2BrNPP/5RK1 b - - 0 1",
+    "move": "Qc6",
+    "expected_tags": [
+      "initiative_attempt",
+      "first_choice",
+      "tactical_sacrifice",
+      "constructive_maneuver"
+    ],
+    "description": "** This is an unforcing tactical sacrifice. Black hangs the rook on e2, and if Qxe2 and after Nh4 black cannot prevent the checkmate.\nHowever, this is not a forcing move forcing white to react. White can have at least 5 more choices rather than taking the rooks",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_regroup_consolidate",
+      "deferred_initiative",
+      "risk_avoidance",
+      "maneuver_opening"
+    ]
+  },
+  {
+    "id": "case_058",
+    "fen": "1rbqr1k1/R4p2/3p1bp1/1p1Pp3/2p1B3/2P2N1P/1P1Q1PP1/R5K1 w - - 0 1",
+    "move": "h4",
+    "expected_tags": [
+      "initiative_attempt"
+    ],
+    "description": "*** This is an unforcing tactical sacrifice. Although white hangs a pawn, black can have several choices other than taking it. Black will lose directly after 1...Bxh4?! due to 2.Bxg6",
+    "current_tags": [
+      "premature_attack"
+    ]
+  },
+  {
+    "id": "case_059",
+    "fen": "1rbqr1k1/R4p2/3p2p1/1p1Pp3/2p1B2b/2P2N2/1P1Q1PP1/R5K1 w - - 0 2",
+    "move": "Bxg6",
+    "expected_tags": [
+      "tactical_sacrifice",
+      "tactical_combination_sacrifice",
+      "tactical_initiative_sacrifice",
+      "tension_creation"
+    ],
+    "description": "** This is a forcing tactical sacrifice. It is forcing because it is capturing a piece. For all sacrifice that is capturing a piece that worse less material than it (and itself can be captured back) or making a check, it should be classified as forcing tactical sacrifice. It is a tactical sacrifice because black's king safety drops dramatically.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "inaccurate_tactical_sacrifice",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_060",
+    "fen": "r4rk1/1b2bppp/ppq1p3/2ppB2n/5P2/1P1BP3/P1PPQ1PP/R4RK1 w - - 0 1",
+    "move": "Bxh7+",
+    "expected_tags": [
+      "tactical_sacrifice",
+      "tactical_combination_sacrifice",
+      "tactical_initiative_sacrifice",
+      "tension_creation"
+    ],
+    "description": "*** This is a forcing tactical sacrifice.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_king_safety_shell",
+      "tactical_sacrifice",
+      "tactical_combination_sacrifice",
+      "tactical_initiative_sacrifice",
+      "tension_creation"
+    ]
+  },
+  {
+    "id": "case_061",
+    "fen": "3rq1k1/4rppp/2n3b1/pp2P3/2pP1QB1/P1P1R3/1B4PP/4R1K1 b - - 0 1",
+    "move": "Re6",
+    "expected_tags": [
+      "neutral_tension_creation",
+      "maneuver_opening",
+      "positional_sacrifice",
+      "positional_space_sacrifice"
+    ],
+    "description": "****This is a strong positional sacrifice. Material loss but eva does not drop a lot\n***This is a prophylactic move. It stops white from pushing e5-e6 breaking the structure. This also allows black's c6 knight to go via e7 to d5",
+    "current_tags": [
+      "file_pressure_c",
+      "neutral_tension_creation",
+      "maneuver_opening",
+      "positional_sacrifice",
+      "positional_space_sacrifice"
+    ]
+  },
+  {
+    "id": "case_062",
+    "fen": "3q1rk1/3n1ppp/p2b1r2/P1pPp2P/1pP1P1Q1/1N2B3/1P4P1/R4RK1 b - - 0 1",
+    "move": "Rf4",
+    "expected_tags": [
+      "positional_sacrifice",
+      "positional_space_sacrifice",
+      "tension_creation"
+    ],
+    "description": "** This is a positional sacrifice. Although black gives up materia, the evaluation does not drop a lot. The idea is to spare the e5 square for the bishop. For instance:",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "tactical_sensitivity",
+      "maneuver_opening",
+      "positional_sacrifice",
+      "positional_space_sacrifice",
+      "tension_creation",
+      "prophylactic_strong"
+    ]
+  },
+  {
+    "id": "case_064",
+    "fen": "3q1rk1/3n1ppp/p2b4/P1pP3P/1pP1PpQ1/8/1P1N2P1/R4RK1 b - - 1 32",
+    "move": "Be5",
+    "expected_tags": [
+      "constructive_maneuver"
+    ],
+    "description": "*** This is a latent improving move for the bishop is going into more active square of d4.",
+    "current_tags": [
+      "neutral_maneuver",
+      "tension_creation"
+    ]
+  },
+  {
+    "id": "case_065",
+    "fen": "1r5r/p3npk1/2bq2p1/2pp4/3n1PP1/PpNP2B1/1P1Q2B1/4RRK1 b - - 0 18",
+    "move": "Rbe8",
+    "expected_tags": [
+      "neutral_maneuver",
+      "prophylactic_strong",
+      "cod_plan_kill"
+    ],
+    "description": "****This is an extremely strong piece prophylactic move. White has the idea of Qe3 attacking the e7 knight with a tempo and prepraing f4-f5 push. Now Qe3 is no longer gaining a tempo attacking the knight on e7, so black can easily play f7-f5 to stop the threat of f4-f5.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "file_pressure_c",
+      "neutral_maneuver",
+      "tension_creation",
+      "prophylactic_strong"
+    ]
+  },
+  {
+    "id": "case_066",
+    "fen": "3r2k1/p4pbp/b3p3/npqpP1pP/8/2P3P1/P3QPBN/R3R1K1 w - - 0 1",
+    "move": "h6",
+    "expected_tags": [
+      "positional_sacrifice"
+    ],
+    "description": "*** This is a (you can decide if it is tactical or positional sacrifice based on delta king safety, does not matter) sacrifice.\n*** This is also a prophylactic move for preventing black to play h7-h6 consolidating the position.",
+    "current_tags": [
+      "neutral_tension_creation"
+    ]
+  },
+  {
+    "id": "case_067",
+    "fen": "r6k/2R3pp/8/p1pR4/2r5/P5P1/5P1P/6K1 w - - 0 18",
+    "move": "Rg5",
+    "expected_tags": [
+      "control_over_dynamics",
+      "cod_freeze_bind",
+      "deferred_initiative",
+      "neutral_maneuver"
+    ],
+    "description": "*** This is a disappearing move. it forces black to play either Rg8 or g6.\n- if black plays Rg8 Rxc5 Rxc5 Rxc5. Compared with the direct 1.Rxc5, black has to spend another tempo to protect the pawn on a5.\n- if black plays g6, it weakens the 7th rank. White is planning to directly attack h7 and reroute the g5 knight via d5 to e7.",
+    "current_tags": [
+      "deferred_initiative",
+      "neutral_maneuver"
+    ]
+  },
+  {
+    "id": "case_068",
+    "fen": "2r3k1/1q3p1p/pp1Qp1p1/8/P2P4/4P2P/2r2PP1/RR4K1 b - - 1 1",
+    "move": "Rxf2",
+    "expected_tags": [
+      "tactical_sacrifice",
+      "tactical_combination_sacrifice",
+      "tactical_initiative_sacrifice",
+      "first_choice"
+    ],
+    "description": "***This is a forcing tactical sacrifice. For it is taking a piece that has lower static value than him. White has no more choice other than taking it.",
+    "current_tags": [
+      "file_pressure_c",
+      "tactical_sacrifice",
+      "tactical_combination_sacrifice",
+      "tactical_initiative_sacrifice",
+      "first_choice"
+    ]
+  },
+  {
+    "id": "case_069",
+    "fen": "r3r1k1/pp2nppp/1qnb2b1/3p4/3N3B/1NP5/PP2BPPP/R2QR1K1 w - - 1 16",
+    "move": "Bf1",
+    "expected_tags": [
+      "constructive_maneuver",
+      "prophylactic_strong",
+      "cod_regroup_consolidate"
+    ],
+    "description": "This is a neutrual maneuver",
+    "current_tags": [
+      "constructive_maneuver",
+      "initiative_attempt"
+    ]
+  },
+  {
+    "id": "case_073",
+    "fen": "3k2rr/ppp5/3b1p1p/4pP1P/3pP2N/3P3P/PPP5/2KR2R1 w - - 0 19",
+    "move": "Rg6",
+    "expected_tags": [
+      "initiative_attempt",
+      "constructive_maneuver"
+    ],
+    "description": "This is a constructive_maneuver",
+    "current_tags": [
+      "neutral_tension_creation",
+      "neutral_maneuver",
+      "positional_sacrifice",
+      "positional_space_sacrifice",
+      "initiative_attempt"
+    ]
+  },
+  {
+    "id": "case_074",
+    "fen": "r2rq1k1/pp3ppp/1np1n3/4P3/5P2/1N4P1/PP4BP/2QRR1K1 w - - 0 18",
+    "move": "Na5",
+    "expected_tags": [
+      "constructive_maneuver"
+    ],
+    "description": "This is a constructive_maneuver. The knight is more active and threatening the eva does not drop a lot. all move putting the piece to an Outpost should be classified as constructive_maneuver.",
+    "current_tags": [
+      "neutral_maneuver"
+    ]
+  },
+  {
+    "id": "case_076",
+    "fen": "rn1q1rk1/ppp1nppp/6b1/3p4/1b1P1N2/2NB1P2/PPP3PP/R1BQ1RK1 w - - 3 10",
+    "move": "Nce2",
+    "expected_tags": [
+      "maneuver_opening",
+      "structural_integrity"
+    ],
+    "description": "This is a neutral maneuver. engine does not drop a lot, yet the knight is not better.\nThis is also structural integrity. This prevents black taking on c3 forming double pawn.",
+    "current_tags": [
+      "structural_compromise_dynamic",
+      "maneuver_opening"
+    ]
+  },
+  {
+    "id": "case_077",
+    "fen": "r4rk1/1bp1qppp/pp1b1n2/1P1p4/P2P4/2Q1PN2/4BPPP/1RB2RK1 b - - 0 15",
+    "move": "Rfc8",
+    "expected_tags": [
+      "deferred_initiative",
+      "neutral_maneuver"
+    ],
+    "description": "*** This is neutral maneuver. Single piece's mobility or related scores does not improve, while delta Eva does not drop. However, this has intention of expansion, he is reading for pawn break.",
+    "current_tags": [
+      "deferred_initiative",
+      "neutral_tension_creation",
+      "neutral_maneuver"
+    ]
+  },
+  {
+    "id": "case_078",
+    "fen": "r4rk1/1bp1qppp/pp1b1n2/1P1p4/P2P4/2Q1PN2/4BPPP/1RB2RK1 b - - 0 15",
+    "move": "Ne4",
+    "expected_tags": [
+      "neutral_tension_creation",
+      "constructive_maneuver",
+      "initiative_attempt"
+    ],
+    "description": "This is a constructive_maneuver for moving the knight to the outpost that is quite strong.",
+    "current_tags": [
+      "risk_avoidance",
+      "neutral_tension_creation",
+      "neutral_maneuver",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_079",
+    "fen": "r1b2r1k/1pq3pp/p1nb4/5p2/2Bp1P2/3P1QN1/PP1BR1PP/5RK1 w - - 0 18",
+    "move": "Nh1",
+    "expected_tags": [
+      "constructive_maneuver",
+      "control_over_dynamics",
+      "cod_regroup_consolidate"
+    ],
+    "description": "This is a temporally regroup. Mobility drops, delta eva does not drop, and the knight is about to go via f2-h3-g5 to the active g5 square.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_file_seal",
+      "failed_maneuver"
+    ]
+  },
+  {
+    "id": "case_079a",
+    "fen": "r1bqkb1r/pp3ppp/2n1pn2/3p4/2PP4/2N1PN2/PP3PPP/R1BQKB1R w KQkq - 0 7",
+    "move": "Nxd5",
+    "expected_tags": [
+      "inaccurate_knight_bishop_exchange"
+    ],
+    "description": "Inaccurate knight-for-knight trade: White captures the d5 pawn with the knight, allowing Black to recapture. Eval drop ~15-20cp due to slightly awkward piece placement after recapture.",
+    "current_tags": []
+  },
+  {
+    "id": "case_079b",
+    "fen": "r1bqk2r/ppp2ppp/2n1bn2/3p4/1bPP4/2N1PN2/PP2BPPP/R1BQK2R w KQkq - 4 7",
+    "move": "Bxb4",
+    "expected_tags": [
+      "bad_knight_bishop_exchange"
+    ],
+    "description": "Bad bishop-for-bishop trade: White captures the b4 bishop but allows Nxb4 recapture, losing time and piece coordination. Eval drop ~35-40cp.",
+    "current_tags": []
+  },
+  {
+    "id": "case_079c",
+    "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 4 5",
+    "move": "h3",
+    "expected_tags": [
+      "prophylactic_move",
+      "failed_prophylactic"
+    ],
+    "description": "Failed prophylactic: h3 aims to prevent Bg4 pin but allows Nxe4 with strong initiative. Opponent's best response drops eval by ~55cp, showing the prophylaxis failed.",
+    "current_tags": []
+  },
+  {
+    "id": "case_079d",
+    "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
+    "move": "a3",
+    "expected_tags": [
+      "prophylactic_move",
+      "failed_prophylactic"
+    ],
+    "description": "Failed prophylactic: a3 aims to prevent Bb4 pin but wastes time. Black can play dxc4 followed by aggressive development, gaining ~60cp advantage.",
+    "current_tags": []
+  },
+  {
+    "id": "case_080",
+    "fen": "3q1rk1/r2nbpp1/3np2p/p2p4/Pp1P1B2/1N1QPN2/1P3PPP/R1R3K1 w - - 4 19",
+    "move": "Bxd6",
+    "expected_tags": [
+      "accurate_knight_bishop_exchange"
+    ],
+    "description": "Accurate bishop-for-knight trade: the d6 knight dominates f5 and the passive bishop from f4 should capture it. Acceptable if also flagged as a latent improvement.",
+    "current_tags": [
+      "file_pressure_c",
+      "initiative_attempt",
+      "tension_creation"
+    ]
+  },
+  {
+    "id": "case_081",
+    "fen": "r1n4r/p1k2pp1/2p1p2p/1pP1P2P/6P1/1P2B3/P1K2P2/3R3R w - - 1 27",
+    "move": "Rh3",
+    "expected_tags": [
+      "constructive_maneuver"
+    ],
+    "description": "*** This is a constructive_maneuver. Engine does not drop. The rook is going to f3 to attack f7. When it has a clear weakness to attack, it can be classified as constructive_maneuver.",
+    "current_tags": [
+      "deferred_initiative",
+      "neutral_tension_creation",
+      "neutral_maneuver"
+    ]
+  },
+  {
+    "id": "case_082",
+    "fen": "r4r2/p1k1npp1/2p1p2p/1pP1P2P/6P1/1P2BR2/P1KR1P2/8 w - - 6 29",
+    "move": "Rd6",
+    "expected_tags": [
+      "constructive_maneuver"
+    ],
+    "description": "This is a contructive_maneuver. Rook going to an outpost and eva does not drop, so it is constructive_maneuver.",
+    "current_tags": [
+      "risk_avoidance",
+      "neutral_tension_creation",
+      "neutral_maneuver",
+      "tactical_sacrifice",
+      "tactical_initiative_sacrifice"
+    ]
+  },
+    {
+    "id": "case_083",
+    "fen": "r1bq1rk1/3n1pbp/p2p1np1/2pPp3/1pP1P3/3BBP2/PP1QN1PP/2RNK2R w K - 0 1",
+    "move": "g4",
+    "expected_tags": ["initiative_attempt"],
+    "description": "*** This is an effective pawn push control. Pushing the pawn to g4 is not forming any kind of direct threat, but it is expanding squares on the\n*** This is also an effective pawn push prophylactic, for preventing the idea of Nh5",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "tension_creation",
+      "prophylactic_soft"
+    ]
+    },
+  {
+    "id": "case_084",
+    "fen": "8/pp3rkp/1b3pp1/3q4/P2PRQ2/5NP1/5PKP/8 w - - 3 33",
+    "move": "h4",
+    "expected_tags": ["initiative_attempt"],
+    "description": "Kingside pawn push - initiative/attack",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "risk_avoidance",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_085",
+    "fen": "rnbqk1nr/pp3ppp/3p4/2pPp1n1/2P1P3/2N5/PP3PPP/R1BQKBNR w KQkq - 1 18",
+    "move": "Bxg5",
+    "expected_tags": [
+      "constructive_maneuver",
+      "accurate_knight_bishop_exchange"
+    ],
+    "description": "White converts a passive c1 bishop by rerouting along d2–e3–f4 and capturing the active knight on g5; the capture should score as both constructive maneuvering and an accurate bishop-for-knight exchange.",
+    "current_tags": []
+  }
+]

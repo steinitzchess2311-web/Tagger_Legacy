@@ -1,0 +1,840 @@
+# Tag Catalog v2.1
+# Complete taxonomy of chess style tags with hierarchy and metadata
+# Version: 2.1.0
+# Last updated: 2025-11-05
+
+# ---------------------------------------------------------------------
+# Family: initiative
+# Description: Tags related to initiative attempts and exploitation
+# ---------------------------------------------------------------------
+initiative_exploitation:
+  family: initiative
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 1
+  description: "Successful exploitation of initiative advantage"
+  category: initiative
+
+initiative_attempt:
+  family: initiative
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 2
+  description: "Attempt to seize initiative without full exploitation"
+  category: initiative
+
+deferred_initiative:
+  family: initiative
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 15
+  description: "Initiative deferred for positional reasons"
+  category: initiative
+
+# ---------------------------------------------------------------------
+# Family: tension
+# Description: Tags related to tension creation and premature attacks
+# ---------------------------------------------------------------------
+tension_creation:
+  family: tension
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.tension.TensionDetector
+  since_version: "2.0"
+  priority: 4
+  description: "Creation of meaningful tension in the position"
+  category: tension
+  thresholds:
+    eval_min: -0.9
+    eval_max: 0.1
+    mobility_min: 0.10
+    contact_min: 0.01
+
+neutral_tension_creation:
+  family: tension
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.tension.TensionDetector
+  since_version: "2.0"
+  priority: 5
+  description: "Tension creation in neutral evaluation band"
+  category: tension
+  thresholds:
+    eval_min: -0.35
+    eval_max: 0.35
+    min_mobility_evidence: 0.10
+    min_contact_evidence: 0.01
+
+premature_attack:
+  family: tension
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 6
+  description: "Attack launched prematurely without sufficient preparation"
+  category: tension
+
+file_pressure_c:
+  family: tension
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 3
+  description: "Pressure on c-file"
+  category: tension
+
+# ---------------------------------------------------------------------
+# Family: maneuver
+# Description: Tags related to piece maneuvers
+# ---------------------------------------------------------------------
+constructive_maneuver:
+  family: maneuver
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 7
+  description: "Constructive piece maneuver improving position"
+  category: maneuver
+
+constructive_maneuver_prepare:
+  family: maneuver
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.maneuver.detect_maneuver_prepare
+  since_version: "2.1"
+  priority: 7
+  description: "Preparatory maneuver with engine consensus and quality indicators"
+  category: maneuver
+  thresholds:
+    min_multipv: 3
+    score_gap_min_cp: 15
+    score_gap_max_cp: 60
+    eval_tolerance_cp: 20
+    mobility_gain_min: 0.08
+
+neutral_maneuver:
+  family: maneuver
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 8
+  description: "Neutral maneuver without significant impact"
+  category: maneuver
+
+misplaced_maneuver:
+  family: maneuver
+  parent: null
+  children: []
+  aliases: ["failed_maneuver"]
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 9
+  description: "Maneuver resulting in misplaced piece"
+  category: maneuver
+
+maneuver_opening:
+  family: maneuver
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 9
+  description: "Opening phase maneuver"
+  category: maneuver
+
+# ---------------------------------------------------------------------
+# Family: sacrifice
+# Description: Tags related to material sacrifices
+# ---------------------------------------------------------------------
+tactical_sacrifice:
+  family: sacrifice
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 10
+  description: "Tactical sacrifice with concrete calculation"
+  category: sacrifice
+
+positional_sacrifice:
+  family: sacrifice
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 10
+  description: "Positional sacrifice for long-term compensation"
+  category: sacrifice
+
+inaccurate_tactical_sacrifice:
+  family: sacrifice
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 11
+  description: "Tactical sacrifice with inaccuracies"
+  category: sacrifice
+
+speculative_sacrifice:
+  family: sacrifice
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 12
+  description: "Speculative sacrifice without full compensation"
+  category: sacrifice
+
+desperate_sacrifice:
+  family: sacrifice
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 13
+  description: "Desperate sacrifice in losing position"
+  category: sacrifice
+
+tactical_combination_sacrifice:
+  family: sacrifice
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 14
+  description: "Sacrifice as part of tactical combination"
+  category: sacrifice
+
+tactical_initiative_sacrifice:
+  family: sacrifice
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 14
+  description: "Sacrifice to seize initiative"
+  category: sacrifice
+
+positional_structure_sacrifice:
+  family: sacrifice
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 15
+  description: "Sacrifice for structural advantage"
+  category: sacrifice
+
+positional_space_sacrifice:
+  family: sacrifice
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 15
+  description: "Sacrifice for space advantage"
+  category: sacrifice
+
+# ---------------------------------------------------------------------
+# Family: control_over_dynamics (CoD)
+# Description: Control over dynamics with 9 subtypes
+# ---------------------------------------------------------------------
+control_over_dynamics:
+  family: control
+  parent: null
+  children:
+    - cod_simplify
+    - cod_plan_kill
+    - cod_freeze_bind
+    - cod_blockade_passed
+    - cod_file_seal
+    - cod_king_safety_shell
+    - cod_space_clamp
+    - cod_regroup_consolidate
+    - cod_slowdown
+  aliases: []
+  deprecated: false
+  detector: detectors.prophylaxis.ProphylaxisDetector
+  since_version: "1.0"
+  priority: 14
+  description: "Control over dynamics parent tag"
+  category: prophylaxis
+  ab_switch: USE_NEW_COD
+  thresholds:
+    volatility_drop_min_cp: 12
+    eval_tolerance: 15
+
+prophylactic_move:
+  family: control
+  parent: null
+  children: [prophylactic_direct, prophylactic_latent]
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 10
+  description: "Prophylactic move preventing opponent threats"
+  category: prophylaxis
+
+prophylactic_direct:
+  family: control
+  parent: prophylactic_move
+  children: []
+  aliases: [prophylactic_strong]
+  deprecated: false
+  detector: legacy.prophylaxis
+  since_version: "2.2"
+  priority: 10
+  description: "Direct tactical prophylaxis with high preventive weight"
+  category: prophylaxis
+
+prophylactic_latent:
+  family: control
+  parent: prophylactic_move
+  children: []
+  aliases: [prophylactic_soft]
+  deprecated: false
+  detector: legacy.prophylaxis
+  since_version: "2.2"
+  priority: 11
+  description: "Latent positional prophylaxis with moderate weight"
+  category: prophylaxis
+
+failed_prophylactic:
+  family: control
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.failed_prophylactic.FailedProphylacticDetector
+  since_version: "2.1"
+  priority: 12
+  description: "Prophylactic move that fails due to strong opponent response"
+  category: prophylaxis
+  env_vars:
+    PROPHY_FAIL_CP: 50
+    PROPHY_FAIL_TOPN: 3
+  thresholds:
+    min_eval_drop_cp: 50
+
+# ---------------------------------------------------------------------
+# Family: opening
+# Description: Opening pawn classification (decoupled from prophylaxis)
+# ---------------------------------------------------------------------
+opening_central_pawn_move:
+  family: opening
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "2.3"
+  priority: 9
+  description: "Full-material opening pawn push to the central squares (d4/e4/d5/e5)"
+  category: opening
+  thresholds:
+    fullmove_cutoff: 15
+    material: 32
+
+opening_rook_pawn_move:
+  family: opening
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "2.3"
+  priority: 9
+  description: "Full-material opening pawn push of the rook pawn (a3/h3/a6/h6)"
+  category: opening
+  thresholds:
+    fullmove_cutoff: 15
+    material: 32
+
+# CoD Subtypes
+cod_simplify:
+  family: control
+  parent: control_over_dynamics
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.prophylaxis.ProphylaxisDetector
+  subtype: simplify
+  since_version: "1.0"
+  priority: 14
+  description: "Simplification to reduce opponent's options"
+  category: prophylaxis
+
+cod_plan_kill:
+  family: control
+  parent: control_over_dynamics
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.prophylaxis.ProphylaxisDetector
+  subtype: plan_kill
+  since_version: "1.0"
+  priority: 14
+  description: "Preventing opponent's plan"
+  category: prophylaxis
+
+cod_freeze_bind:
+  family: control
+  parent: control_over_dynamics
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.prophylaxis.ProphylaxisDetector
+  subtype: freeze_bind
+  since_version: "1.0"
+  priority: 14
+  description: "Freezing or binding opponent pieces"
+  category: prophylaxis
+
+cod_blockade_passed:
+  family: control
+  parent: control_over_dynamics
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.prophylaxis.ProphylaxisDetector
+  subtype: blockade_passed
+  since_version: "1.0"
+  priority: 14
+  description: "Blockading passed pawns"
+  category: prophylaxis
+
+cod_file_seal:
+  family: control
+  parent: control_over_dynamics
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.prophylaxis.ProphylaxisDetector
+  subtype: file_seal
+  since_version: "1.0"
+  priority: 14
+  description: "Sealing files against opponent activity"
+  category: prophylaxis
+
+cod_king_safety_shell:
+  family: control
+  parent: control_over_dynamics
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.prophylaxis.ProphylaxisDetector
+  subtype: king_safety_shell
+  since_version: "1.0"
+  priority: 14
+  description: "Reinforcing king safety"
+  category: prophylaxis
+
+cod_space_clamp:
+  family: control
+  parent: control_over_dynamics
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.prophylaxis.ProphylaxisDetector
+  subtype: space_clamp
+  since_version: "1.0"
+  priority: 14
+  description: "Clamping opponent space"
+  category: prophylaxis
+
+cod_regroup_consolidate:
+  family: control
+  parent: control_over_dynamics
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.prophylaxis.ProphylaxisDetector
+  subtype: regroup_consolidate
+  since_version: "1.0"
+  priority: 14
+  description: "Regrouping and consolidating position"
+  category: prophylaxis
+
+cod_slowdown:
+  family: control
+  parent: control_over_dynamics
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.prophylaxis.ProphylaxisDetector
+  subtype: slowdown
+  since_version: "1.0"
+  priority: 14
+  description: "Slowing down opponent's play"
+  category: prophylaxis
+
+# Semantic control tags (no gating, can coexist with cod_* tags)
+control_simplify:
+  family: control
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.control.ControlDetector
+  subtype: simplify
+  since_version: "2.0"
+  priority: 15
+  description: "Semantic: Simplification via exchanges (no gating)"
+  category: control_semantic
+
+control_plan_kill:
+  family: control
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.control.ControlDetector
+  subtype: plan_kill
+  since_version: "2.0"
+  priority: 15
+  description: "Semantic: Preventing opponent plans (no gating)"
+  category: control_semantic
+
+control_freeze_bind:
+  family: control
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.control.ControlDetector
+  subtype: freeze_bind
+  since_version: "2.0"
+  priority: 15
+  description: "Semantic: Freezing/binding opponent pieces (no gating)"
+  category: control_semantic
+
+control_blockade_passed:
+  family: control
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.control.ControlDetector
+  subtype: blockade_passed
+  since_version: "2.0"
+  priority: 15
+  description: "Semantic: Blockading passed pawns (no gating)"
+  category: control_semantic
+
+control_file_seal:
+  family: control
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.control.ControlDetector
+  subtype: file_seal
+  since_version: "2.0"
+  priority: 15
+  description: "Semantic: Sealing files (no gating)"
+  category: control_semantic
+
+control_king_safety_shell:
+  family: control
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.control.ControlDetector
+  subtype: king_safety_shell
+  since_version: "2.0"
+  priority: 15
+  description: "Semantic: Reinforcing king safety (no gating)"
+  category: control_semantic
+
+control_space_clamp:
+  family: control
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.control.ControlDetector
+  subtype: space_clamp
+  since_version: "2.0"
+  priority: 15
+  description: "Semantic: Clamping opponent space (no gating)"
+  category: control_semantic
+
+control_regroup_consolidate:
+  family: control
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.control.ControlDetector
+  subtype: regroup_consolidate
+  since_version: "2.0"
+  priority: 15
+  description: "Semantic: Regrouping and consolidating (no gating)"
+  category: control_semantic
+
+control_slowdown:
+  family: control
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.control.ControlDetector
+  subtype: slowdown
+  since_version: "2.0"
+  priority: 15
+  description: "Semantic: Slowing down opponent's play (no gating)"
+  category: control_semantic
+
+# ---------------------------------------------------------------------
+# Family: structural
+# Description: Tags related to structural characteristics
+# ---------------------------------------------------------------------
+structural_integrity:
+  family: structural
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 19
+  description: "Maintaining structural integrity"
+  category: structural
+
+structural_compromise_dynamic:
+  family: structural
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 17
+  description: "Dynamic structural compromise"
+  category: structural
+
+structural_compromise_static:
+  family: structural
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 18
+  description: "Static structural compromise"
+  category: structural
+
+# ---------------------------------------------------------------------
+# Family: knight_bishop_exchange
+# Description: Tags related to knight-bishop exchanges
+# ---------------------------------------------------------------------
+knight_bishop_exchange:
+  family: knight_bishop_exchange
+  parent: null
+  children:
+    - accurate_knight_bishop_exchange
+    - inaccurate_knight_bishop_exchange
+    - bad_knight_bishop_exchange
+  aliases: []
+  deprecated: false
+  detector: detectors.knight_bishop_exchange.KnightBishopExchangeDetector
+  since_version: "2.1"
+  priority: 20
+  description: "Parent tag for knight-bishop exchanges"
+  category: exchange
+  env_vars:
+    KBE_DEPTH: 14
+    KBE_TOPN: 3
+    KBE_THRESHOLDS: "10,30"
+
+accurate_knight_bishop_exchange:
+  family: knight_bishop_exchange
+  parent: knight_bishop_exchange
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.knight_bishop_exchange.KnightBishopExchangeDetector
+  since_version: "2.1"
+  priority: 20
+  description: "Minor piece exchange with minimal evaluation loss (Δcp < 10)"
+  category: exchange
+  thresholds:
+    max_eval_delta_cp: 10
+
+inaccurate_knight_bishop_exchange:
+  family: knight_bishop_exchange
+  parent: knight_bishop_exchange
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.knight_bishop_exchange.KnightBishopExchangeDetector
+  since_version: "2.1"
+  priority: 21
+  description: "Minor piece exchange with moderate evaluation loss (10 ≤ Δcp < 30)"
+  category: exchange
+  thresholds:
+    min_eval_delta_cp: 10
+    max_eval_delta_cp: 30
+
+bad_knight_bishop_exchange:
+  family: knight_bishop_exchange
+  parent: knight_bishop_exchange
+  children: []
+  aliases: []
+  deprecated: false
+  detector: detectors.knight_bishop_exchange.KnightBishopExchangeDetector
+  since_version: "2.1"
+  priority: 22
+  description: "Minor piece exchange with significant evaluation loss (Δcp ≥ 30)"
+  category: exchange
+  thresholds:
+    min_eval_delta_cp: 30
+
+# ---------------------------------------------------------------------
+# Family: meta
+# Description: Meta-level tactical and decision quality tags
+# ---------------------------------------------------------------------
+tactical_sensitivity:
+  family: meta
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 20
+  description: "Sensitivity to tactical opportunities"
+  category: meta
+
+first_choice:
+  family: meta
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 21
+  description: "Move matches engine's first choice"
+  category: meta
+
+missed_tactic:
+  family: meta
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 22
+  description: "Missed tactical opportunity"
+  category: meta
+
+conversion_precision:
+  family: meta
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 23
+  description: "Precision in converting advantages"
+  category: meta
+
+panic_move:
+  family: meta
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 24
+  description: "Move made under time pressure or panic"
+  category: meta
+
+tactical_recovery:
+  family: meta
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 25
+  description: "Recovery from tactical mistake"
+  category: meta
+
+risk_avoidance:
+  family: meta
+  parent: null
+  children: []
+  aliases: []
+  deprecated: false
+  detector: legacy.core
+  since_version: "1.0"
+  priority: 16
+  description: "Avoiding unnecessary risks"
+  category: meta
+
+# ---------------------------------------------------------------------
+# Schema Version
+# ---------------------------------------------------------------------
+schema_version: "2.1.0"
+control_schema_version: 2

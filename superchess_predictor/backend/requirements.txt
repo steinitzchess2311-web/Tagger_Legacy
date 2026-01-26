@@ -1,0 +1,4 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-chess==1.11.2
+numpy>=1.24

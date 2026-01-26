@@ -1,0 +1,131 @@
+[Event "Style Tag Testing positions: Prophylactic sample 1"]
+[Date "2025.10.19"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Style Tag Testing positions"]
+[ChapterName "Prophylactic sample 1"]
+[ChapterURL "https://lichess.org/study/SvT1tc7o/p56991ZJ"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r1b2rk1/pp1nqppp/2p2n2/b3p3/2BP4/P1N1PN2/1PQB1PPP/R4RK1 w - - 2 12"]
+[SetUp "1"]
+[UTCDate "2025.10.19"]
+[UTCTime "04:34:00"]
+
+12. Ba2!! { **** This move is a strong prophylactic move. This prevents black's idea of Ba5-c7
+previously black is intending to play Ba5-c7, reading for e5-e4. Now, the move Ba5-c7 is stopped because of the move Nb5 (the queen can x-tray the c7 bishop and make use of the pin on c6 pawn). } (12. d5!? { After the move Nb6, white gains bishop pair. However, the position is more messy than the move after Ba2, } 12... Nb6 13. Ba2 Bxc3 14. Bxc3 Nbxd5 15. Bxe5) 12... Bc7 (12... Re8 13. Ng5! { The bishop also keeps on this active diagonal, pressing f7 } 13... Rf8 14. Nd5! { This lead to tactical chance }) 13. Nb5 *
+
+
+[Event "Style Tag Testing positions: Prophylactic sample 2"]
+[Date "2025.10.17"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Style Tag Testing positions"]
+[ChapterName "Prophylactic sample 2"]
+[ChapterURL "https://lichess.org/study/SvT1tc7o/i9rQ1wwb"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r1b1kb1r/3p1ppp/p3p3/1p6/2q1PP2/2N1B3/PPPQ2PP/1K1R3R w kq - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.17"]
+[UTCTime "04:15:04"]
+
+1. Bd4! { ** This move is a strong prophylactic move. This prevents black's important plan.
+Previously, black wants to develop the f8 bishop to e7 and quickly castles short. Now, the bishop on d4 is attacking the square on g7. Black hence cannot play Bf8-e7. He has to weaken his own position using the move f7-f6, allowing white to play g4 to exploit that extra weakness. } 1... f6 2. g4 *
+
+
+[Event "Style Tag Testing positions: Prophylactic sample 3"]
+[Date "2025.10.17"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Style Tag Testing positions"]
+[ChapterName "Prophylactic sample 3"]
+[ChapterURL "https://lichess.org/study/SvT1tc7o/sGpx8lgS"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r4rk1/1pq1npbp/4p1p1/1BPpn3/1P3B2/5N1P/2P2PP1/R2Q1RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.17"]
+[UTCTime "13:50:25"]
+
+1. Kh1!! { ** This is a strong prophylactic move. White has to keep pressure on the e5 knight because black cannot easily get rid of that pin (bishop f4-c7 Queen). However, white had the threat of Nxf3 check with a tempo and thus grabbing the rook on a1. } (1. Rb1?! { This move is a weak prophylactic move. white does see the threat of Nxf3+ with a tempo and grabbing a1 rook with g7 bishop, yet he did not prevent the idea of Nxf3+ with tempo and e6-e5 push. }) *
+
+
+[Event "Style Tag Testing positions: Prophylactic sample 4"]
+[Date "2025.10.17"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Style Tag Testing positions"]
+[ChapterName "Prophylactic sample 4"]
+[ChapterURL "https://lichess.org/study/SvT1tc7o/CyJWxdJu"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "rn3rk1/ppqbbppp/4pn2/8/1PN5/NQ2P1P1/P2B1PBP/R3K2R w KQ - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.17"]
+[UTCTime "16:12:00"]
+
+1. b5!! { ** This is a prophylactic move. Black's plan is to play Bd7-c6 to trade pieces. Black has fewer space, thus wants to trade pieces to get his pieces out. This b4-b5 move directly stops black from getting his pieces out, prevent the plan of Bc6 trading pieces. } (1. O-O?! { This is a risk_avoidance move. He allows black's pieces to be more active, just to let his own king be safer. }) *
+
+
+[Event "Style Tag Testing positions: Prophylactic sample 5"]
+[Date "2025.10.19"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Style Tag Testing positions"]
+[ChapterName "Prophylactic sample 5"]
+[ChapterURL "https://lichess.org/study/SvT1tc7o/jj1wxqtX"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "1rb1k2r/1pqnb1pp/p2ppp2/8/P2QP3/2N1BN1P/1PP2PP1/R2R2K1 w k - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.19"]
+[UTCTime "04:45:22"]
+
+1. Qa7!? { ** This is a STRONG prophylactic move.
+This is a strong move because it stops black's multiple plans. Black wants to finish his development with b6-Bb7 or Ne5-Nc6. However, with this move, all black's chances to get his pieces developed are prevented.
+if 1...Ne5, 2.Nxe5 and 3.Bb6 is on the agenda. 1...b6 cannot be played obviously because of the pin. } 1... Bd8 2. a5 b6 3. axb6 Nxb6 4. Qxc7 Bxc7 5. b3 { From a human's perspective, this position is easier for white black of the manuever of Rd4-Rb4. } 5... Kf7 6. Rd4! *
+
+
+[Event "Style Tag Testing positions: Prophylactic sample 6"]
+[Date "2025.10.19"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Style Tag Testing positions"]
+[ChapterName "Prophylactic sample 6"]
+[ChapterURL "https://lichess.org/study/SvT1tc7o/ev0qRkdE"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r3k1r1/pb6/1p1Bq2p/P1p1Pp2/6P1/6Q1/2P3PP/1R2R1K1 w q - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.19"]
+[UTCTime "04:51:19"]
+
+1. h3!! { *** This is a STRONG prophylactic move
+This is a prophylactic move. Black is intending to play Rxg4 and attacking through the g-file. The black's rook has strong mobility. After h3, white is intending to play } 1... fxg4 2. h4 { And the activity of black's g8 rook is restricted because black's g4 pawn stops it. } *
+
+
+[Event "Style Tag Testing positions: Prophylactic sample 7"]
+[Date "2025.10.19"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Style Tag Testing positions"]
+[ChapterName "Prophylactic sample 7"]
+[ChapterURL "https://lichess.org/study/SvT1tc7o/9T7YnZol"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "5r1k/1p2b1pp/p2p4/4p2q/4Pr2/P2R1PR1/NPP1Q2P/1K6 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.19"]
+[UTCTime "04:55:17"]
+
+1. Qg2!! { **** Strong prophylactic move. White sees black's idea of Rh4 trying to grab h2 pawn. Now if } (1. Nc3?! Rh4! { White willl be forced to sacrificle a pawn here. Although his position is still better according to engine, from human's perspective, it is now much harder to win. } 2. h3) (1. h3?! { *** This is a weak prophylactic move. This does stops black's idea of Rh4 because of Qg2. But this does not stops the idea of d6-d5 push } 1... Rh4?! (1... d5! 2. Rxd5?! (2. exd5 e4! { Wand with the pin on f3, black wins back. }) 2... Bh4! 3. Rg2 Rxf3! { And black fights back }) 2. Qg2!) 1... Rh4 2. h3!! { Now the pawn can be protected. } *
+
+

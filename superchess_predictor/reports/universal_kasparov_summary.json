@@ -1,0 +1,91 @@
+{
+  "player": "Kasparov",
+  "games_analyzed": 64,
+  "moves_total": 2063,
+  "global_tag_distribution": {
+    "control_over_dynamics": {
+      "count": 842,
+      "ratio": 0.4081
+    },
+    "neutral_maneuver": {
+      "count": 840,
+      "ratio": 0.4072
+    },
+    "tension_creation": {
+      "count": 543,
+      "ratio": 0.2632
+    },
+    "first_choice": {
+      "count": 497,
+      "ratio": 0.2409
+    },
+    "initiative_attempt": {
+      "count": 413,
+      "ratio": 0.2002
+    },
+    "deferred_initiative": {
+      "count": 380,
+      "ratio": 0.1842
+    },
+    "prophylactic_strong": {
+      "count": 333,
+      "ratio": 0.1614
+    },
+    "risk_avoidance": {
+      "count": 332,
+      "ratio": 0.1609
+    },
+    "file_pressure_c": {
+      "count": 313,
+      "ratio": 0.1517
+    },
+    "conversion_precision": {
+      "count": 300,
+      "ratio": 0.1454
+    },
+    "structural_integrity": {
+      "count": 205,
+      "ratio": 0.0994
+    },
+    "prophylactic_failed": {
+      "count": 192,
+      "ratio": 0.0931
+    },
+    "constructive_maneuver": {
+      "count": 115,
+      "ratio": 0.0557
+    },
+    "prophylactic_soft": {
+      "count": 99,
+      "ratio": 0.048
+    },
+    "structural_compromise_dynamic": {
+      "count": 76,
+      "ratio": 0.0368
+    },
+    "tactical_sensitivity": {
+      "count": 66,
+      "ratio": 0.032
+    },
+    "structural_compromise_static": {
+      "count": 43,
+      "ratio": 0.0208
+    },
+    "premature_attack": {
+      "count": 33,
+      "ratio": 0.016
+    },
+    "missed_tactic": {
+      "count": 17,
+      "ratio": 0.0082
+    },
+    "structural_blockage": {
+      "count": 5,
+      "ratio": 0.0024
+    },
+    "initiative_exploitation": {
+      "count": 1,
+      "ratio": 0.0005
+    }
+  }
+}

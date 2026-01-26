@@ -1,0 +1,87 @@
+{
+  "player": "Petrosian",
+  "games_analyzed": 25,
+  "moves_total": 898,
+  "global_tag_distribution": {
+    "control_over_dynamics": {
+      "count": 449,
+      "ratio": 0.5
+    },
+    "neutral_maneuver": {
+      "count": 397,
+      "ratio": 0.4421
+    },
+    "prophylactic_strong": {
+      "count": 228,
+      "ratio": 0.2539
+    },
+    "tension_creation": {
+      "count": 209,
+      "ratio": 0.2327
+    },
+    "deferred_initiative": {
+      "count": 199,
+      "ratio": 0.2216
+    },
+    "initiative_attempt": {
+      "count": 145,
+      "ratio": 0.1615
+    },
+    "file_pressure_c": {
+      "count": 144,
+      "ratio": 0.1604
+    },
+    "risk_avoidance": {
+      "count": 126,
+      "ratio": 0.1403
+    },
+    "first_choice": {
+      "count": 96,
+      "ratio": 0.1069
+    },
+    "structural_integrity": {
+      "count": 91,
+      "ratio": 0.1013
+    },
+    "prophylactic_soft": {
+      "count": 63,
+      "ratio": 0.0702
+    },
+    "constructive_maneuver": {
+      "count": 53,
+      "ratio": 0.059
+    },
+    "structural_compromise_dynamic": {
+      "count": 51,
+      "ratio": 0.0568
+    },
+    "prophylactic_failed": {
+      "count": 48,
+      "ratio": 0.0535
+    },
+    "conversion_precision": {
+      "count": 19,
+      "ratio": 0.0212
+    },
+    "structural_compromise_static": {
+      "count": 19,
+      "ratio": 0.0212
+    },
+    "tactical_sensitivity": {
+      "count": 19,
+      "ratio": 0.0212
+    },
+    "premature_attack": {
+      "count": 14,
+      "ratio": 0.0156
+    },
+    "missed_tactic": {
+      "count": 6,
+      "ratio": 0.0067
+    },
+    "structural_blockage": {
+      "count": 1,
+      "ratio": 0.0011
+    }
+  }
+}

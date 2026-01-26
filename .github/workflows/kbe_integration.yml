@@ -1,0 +1,41 @@
+name: KBE Integration Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11"]
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install chess pytest pytest-cov
+        pip install -e .
+
+    - name: Run KBE integration tests (with mocks)
+      run: |
+        # MockEngine-based tests - no Stockfish dependency required
+        # Tests patch chess.engine.SimpleEngine.popen_uci to inject MockEngine
+        # See tests/test_knight_bishop_exchange_integration.py lines 31-39
+        # Test reads USE_REAL_ENGINE (line 31): "0" means use MockEngine, "1" means use real Stockfish
+        NEW_PIPELINE=1 CONTROL_ENABLED=0 USE_REAL_ENGINE=0 python -m pytest tests/test_knight_bishop_exchange_integration.py -v --tb=short
+
+    - name: Verify test file compiles
+      run: |
+        python -m compileall tests/test_knight_bishop_exchange_integration.py
+        python -m compileall tests/fixtures/mock_engine.py

@@ -1,0 +1,101 @@
+[
+  {
+    "game_index": 1,
+    "player": "Kasparov",
+    "moves_analyzed": 23,
+    "tag_distribution": {
+      "prophylactic_latent": {
+        "count": 5,
+        "ratio": 0.2174
+      },
+      "deferred_initiative": {
+        "count": 4,
+        "ratio": 0.1739
+      },
+      "losing_position_handling": {
+        "count": 4,
+        "ratio": 0.1739
+      },
+      "neutral_maneuver": {
+        "count": 4,
+        "ratio": 0.1739
+      },
+      "structural_compromise_dynamic": {
+        "count": 3,
+        "ratio": 0.1304
+      },
+      "accurate_knight_bishop_exchange": {
+        "count": 2,
+        "ratio": 0.087
+      },
+      "control_over_dynamics": {
+        "count": 2,
+        "ratio": 0.087
+      },
+      "failed_maneuver": {
+        "count": 2,
+        "ratio": 0.087
+      },
+      "maneuver_opening": {
+        "count": 2,
+        "ratio": 0.087
+      },
+      "misplaced_maneuver": {
+        "count": 2,
+        "ratio": 0.087
+      },
+      "positional_sacrifice": {
+        "count": 2,
+        "ratio": 0.087
+      },
+      "positional_space_sacrifice": {
+        "count": 2,
+        "ratio": 0.087
+      },
+      "structural_integrity": {
+        "count": 2,
+        "ratio": 0.087
+      },
+      "tension_creation": {
+        "count": 2,
+        "ratio": 0.087
+      },
+      "bad_knight_bishop_exchange": {
+        "count": 1,
+        "ratio": 0.0435
+      },
+      "cod_file_seal": {
+        "count": 1,
+        "ratio": 0.0435
+      },
+      "cod_king_safety_shell": {
+        "count": 1,
+        "ratio": 0.0435
+      },
+      "constructive_maneuver": {
+        "count": 1,
+        "ratio": 0.0435
+      },
+      "constructive_maneuver_prepare": {
+        "count": 1,
+        "ratio": 0.0435
+      },
+      "initiative_attempt": {
+        "count": 1,
+        "ratio": 0.0435
+      },
+      "premature_attack": {
+        "count": 1,
+        "ratio": 0.0435
+      },
+      "prophylactic_direct": {
+        "count": 1,
+        "ratio": 0.0435
+      },
+      "risk_avoidance": {
+        "count": 1,
+        "ratio": 0.0435
+      }
+    }
+  }
+]

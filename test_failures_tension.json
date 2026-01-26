@@ -1,0 +1,12 @@
+[
+  {
+    "case_id": "case_044",
+    "description": "*** pawn push to h5 - initiates kingside tension and space gain.",
+    "error": "empty fen"
+  },
+  {
+    "case_id": "case_045",
+    "description": "*** knight jump to e5 occupying central outpost; typical structural dominance maneuver.",
+    "error": "empty fen"
+  }
+]

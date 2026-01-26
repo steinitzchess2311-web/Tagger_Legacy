@@ -1,0 +1,105 @@
+[
+  {
+    "game_index": 1,
+    "player": "Kasparov",
+    "moves_analyzed": 20,
+    "tag_distribution": {
+      "constructive_maneuver": {
+        "count": 4,
+        "ratio": 0.2
+      },
+      "constructive_maneuver_prepare": {
+        "count": 4,
+        "ratio": 0.2
+      },
+      "maneuver_opening": {
+        "count": 4,
+        "ratio": 0.2
+      },
+      "control_file_seal": {
+        "count": 3,
+        "ratio": 0.15
+      },
+      "control_over_dynamics": {
+        "count": 3,
+        "ratio": 0.15
+      },
+      "neutral_tension_creation": {
+        "count": 3,
+        "ratio": 0.15
+      },
+      "prophylactic_latent": {
+        "count": 3,
+        "ratio": 0.15
+      },
+      "structural_integrity": {
+        "count": 3,
+        "ratio": 0.15
+      },
+      "accurate_knight_bishop_exchange": {
+        "count": 2,
+        "ratio": 0.1
+      },
+      "deferred_initiative": {
+        "count": 2,
+        "ratio": 0.1
+      },
+      "prophylactic_direct": {
+        "count": 2,
+        "ratio": 0.1
+      },
+      "structural_compromise_dynamic": {
+        "count": 2,
+        "ratio": 0.1
+      },
+      "winning_position_handling": {
+        "count": 2,
+        "ratio": 0.1
+      },
+      "cod_file_seal": {
+        "count": 1,
+        "ratio": 0.05
+      },
+      "cod_freeze_bind": {
+        "count": 1,
+        "ratio": 0.05
+      },
+      "control_freeze_bind": {
+        "count": 1,
+        "ratio": 0.05
+      },
+      "control_king_safety_shell": {
+        "count": 1,
+        "ratio": 0.05
+      },
+      "control_plan_kill": {
+        "count": 1,
+        "ratio": 0.05
+      },
+      "control_regroup_consolidate": {
+        "count": 1,
+        "ratio": 0.05
+      },
+      "control_space_clamp": {
+        "count": 1,
+        "ratio": 0.05
+      },
+      "initiative_attempt": {
+        "count": 1,
+        "ratio": 0.05
+      },
+      "neutral_maneuver": {
+        "count": 1,
+        "ratio": 0.05
+      },
+      "risk_avoidance": {
+        "count": 1,
+        "ratio": 0.05
+      },
+      "structural_compromise_static": {
+        "count": 1,
+        "ratio": 0.05
+      }
+    }
+  }
+]

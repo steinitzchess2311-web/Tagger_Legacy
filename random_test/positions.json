@@ -1,0 +1,22 @@
+[
+  {
+    "fen": "8/pp3qkp/1b3pp1/8/3P1Q2/2r2NP1/P4PKP/4R3 b - - 0 30",
+    "move": "Rc7"
+  },
+  {
+    "fen": "8/ppr2qkp/1b3pp1/8/P2P1Q2/5NP1/5PKP/4R3 b - - 0 31",
+    "move": "Qd5"
+  },
+  {
+    "fen": "4R3/1p3rkp/p2b1pp1/3q4/P2P3P/4QNP1/5P2/6K1 b - - 1 36",
+    "move": "b5"
+  },
+  {
+    "fen": "4R3/5rkp/p2b1pp1/1P1q4/3P3P/4QNP1/5P2/6K1 b - - 0 37",
+    "move": "axb5"
+  },
+  {
+    "fen": "3r3r/1k1bb3/3ppp2/pp2q2p/3NP3/2P1Q1P1/PPB4P/1K1R1R2 b - - 0 22",
+    "move": "Rc8"
+  }
+]

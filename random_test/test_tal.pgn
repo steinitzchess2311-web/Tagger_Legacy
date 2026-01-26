@@ -1,0 +1,418 @@
+[Event "Kings Cup"]
+[Site "Bucharest ROM"]
+[Date "2003.5.26"]
+[Round "9"]
+[White "Timoscenko, Gennadij"]
+[Black "Tal, Mikhail"]
+[Result "1/2-1/2"]
+[WhiteElo "2533"]
+[BlackElo "2520"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "D13"]
+[Opening "Slav Defense: Exchange Variation"]
+[StudyName "Test_tal"]
+[ChapterName "Timoscenko, Gennadij - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/Q5TQRXZS"]
+
+1. d4 d5 2. c4 { [%csl Gc4][%cal Gc2c4] } 2... c6 3. Nf3 Nf6 4. cxd5 { [%cal Gc4d5] } 4... cxd5 5. Nc3 Nc6 6. Bf4 a6 7. e3 { [%csl Gd3,Ga6,Gb5][%cal Gf1d3,Gb7b5,Gc8b7] } 7... Bg4 { [%csl Gg4] } 8. Be2 { [%csl Gd3][%cal Gf1e2,Gf1d3] } 8... e6 9. O-O Bd6 10. Bxd6 { 1/2-1/2 The game is a draw. } 1/2-1/2
+
+
+[Event "Porz op27"]
+[Site "Porz"]
+[Date "1992.??.??"]
+[Round "1"]
+[White "Tal, Mikhail"]
+[Black "Saenger, Christian"]
+[Result "1-0"]
+[WhiteElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "A15"]
+[Opening "English Opening: Anglo-Indian Defense, King's Knight Variation"]
+[StudyName "Test_tal"]
+[ChapterName "Tal, Mikhail - Saenger, Christian"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/G070RO1g"]
+
+1. Nf3 Nf6 2. c4 e6 3. g3 c5 4. Bg2 { [%cal Gg2c6] } 4... Nc6 5. O-O Be7 6. d4 cxd4 7. Nxd4 O-O 8. Nc3 a6 9. b3 { [%csl Gb2][%cal Gc1b2] } 9... Qc7 { [%csl Gd5,Gb5] } 10. Bb2 { [%csl Gb2,Gg2] } 10... Re8 11. Rc1 Nxd4 12. Qxd4 e5 { [%cal Gc3d5] } 13. Nd5 { [%cal Gf6d5] } 13... Nxd5 14. Qxd5 { [%cal Gg2b7,Gb2g7] } 14... Qc5 15. Rfd1 Qxd5 { [%cal Gf1d1] } 16. Rxd5 { [%cal Gd7d6] } 16... f6 17. Rcd1 Rd8 18. Bc3 { [%csl Gd7][%cal Gc3a5,Ga5d8] } 18... Rb8 { [%csl Ga5,Gb6][%cal Gc3a5,Gb7b6] } 19. c5 Kf7 20. Ba5 Re8 21. Bc7 Ra8 22. b4 { [%cal Gb3b4,Gc4c5] } 22... Bd8 23. Bd6 g6 24. a4 h5 { [%csl Gc8,Ga8] } 25. a5 (25. b5 axb5 26. axb5 { [%cal Ga8a1] }) 25... Rh8 { [%csl Gh8][%cal Gh5h4] } 26. h4 Re8 27. e4 Rg8 28. f4 exf4 29. gxf4 { [%cal Gg6g5] } 29... Re8 30. Kf2 { [%csl Ge4,Ge5,Gd5,Gd4] } 30... f5 { [%csl Ge5][%cal Ge4e5] } 31. exf5 { [%csl Gh4][%cal Gd8h4] } 31... Bxh4+ 32. Kf1 { [%cal Gg6f5,Gd5f5] } 32... g5 33. Re5 Rxe5 { [%cal Gd6e5] } 34. fxe5 { 1-0 Black resigns. } { [%csl Gd6,Gg2,Gd1,Rh4][%cal Gg2a8] } 34... b6 { [%cal Gg2a8] } (34... Ra7 35. Bb8) 1-0
+
+
+[Event "Sevilla op"]
+[Site "Sevilla"]
+[Date "1992.??.??"]
+[Round "4"]
+[White "Tal, Mikhail"]
+[Black "Romero, Martin"]
+[Result "1-0"]
+[WhiteElo "2525"]
+[BlackElo "2240"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "A17"]
+[Opening "English Opening: Anglo-Indian Defense, Nimzo-English"]
+[StudyName "Test_tal"]
+[ChapterName "Tal, Mikhail - Romero, Martin"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/lJculnYp"]
+
+1. c4 Nf6 2. Nc3 e6 3. Nf3 Bb4 4. Qc2 c5 5. a3 Ba5 6. e3 d5 7. Na4 { [%csl Gc7][%cal Ga5c7,Gb8c6] } 7... b6?? 8. Rb1 b5 { [%csl Gb6,Gb5][%cal Gb7b6,Gb6b5] } 9. cxb5 c4 { [%cal Ga4c5] } 10. b3 cxb3 11. Rxb3 { [%csl Gb5][%cal Gf1b5,Gb3b5,Gc2c8] } 11... O-O 12. Bb2 { [%cal Gb2g7] } 12... Ne4 13. Be2 { [%csl Ge2] } 13... Nd7 14. O-O Bb7 15. Ba1 Rc8 16. Qb2 { [%cal Gc8c1] } 16... Ndf6 17. d3 { [%csl Ge4][%cal Gh4a4] } 17... Nc5 18. Nxc5 Rxc5 { [%csl Gc1,Ge5][%cal Gf1c1,Gf3e5] } 19. Qb1 Bb6 20. Bd4 Rc8 21. Rc1 Qd6 22. Rbc3 Nd7 23. Rxc8 Rxc8 24. Rxc8+ Bxc8 25. Qc2 Bb7 26. Bxb6 axb6 27. d4 { [%csl Gc5,Ge5] } 27... e5 28. Qc3 exd4 29. Nxd4 { [%csl Gc6,Gb5,Gb3,Gc2,Ge2,Gf3,Gf5,Ge6][%cal Gd4c6] } 29... Nf6 30. Nf5 { [%cal Gd4f5] } 30... Qd7 31. Qe5 { [%cal Ge5b8,Gf5e7] } 31... Bc8 { [%csl Gf5] } 32. Bd3 Kf8 33. Qb8 { [%csl Gd6] } 33... g6 34. Nd6 { 1-0 Black resigns. } 1-0
+
+
+[Event "It (open) \\Porz\\"]
+[Site "Cologne (Germany)"]
+[Date "1992.??.??"]
+[Round "7"]
+[White "Tal, Mikhail"]
+[Black "Auer, Martin"]
+[Result "1-0"]
+[WhiteElo "2525"]
+[BlackElo "2310"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "A46"]
+[Opening "Yusupov-Rubinstein System"]
+[StudyName "Test_tal"]
+[ChapterName "Tal, Mikhail - Auer, Martin"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/mADZijkW"]
+
+1. d4 Nf6 2. Nf3 e6 3. e3 b6 { [%csl Gb7][%cal Gc8b7] } 4. Bd3 Bb7 5. O-O Be7 6. c4 c5 7. Nc3 cxd4 8. exd4 d6 { [%csl Gd7][%cal Gb8d7] } 9. d5 e5 { [%csl Ge4][%cal Ge5e4] } (9... exd5 10. cxd5 Nxd5 11. Nxd5 Bxd5 { [%csl Gb5] } 12. Bb5+ Bc6 { [%csl Gf4][%cal Gf1e1,Gc1f4,Gb5c6,Gb5d3] }) 10. Ng5 Nbd7 (10... h6 { [%csl Gf7] } 11. Nf3 (11. Nxf7)) 11. f4 { [%cal Ge5f4,Ge1e8] } 11... Nc5 12. fxe5 { [%csl Gf6] } 12... dxe5 13. Bxh7 Ba6 (13... Nxh7 14. Nxf7) (13... Rxh7 14. Rxf6 { [%csl Gh7][%cal Gf6h7] } 14... gxf6 15. Nxh7) 14. Bd3 Nxd3 15. Qxd3 Qc7 { [%csl Gc4][%cal Gc7c4,Ga6c4,Gb2b3] } 16. Qg3 { [%csl Gg3] } 16... Qxc4 { [%csl Gf1][%cal Gc4f1] } 17. Be3 Bd6 18. Ne6 fxe6 19. Qg6+ Kf8 20. Rxf6+ gxf6 21. Qxf6+ Kg8 22. Qg6+ Kf8 { [%cal Ga1f1,Gc4f1] } 23. Bh6+ Rxh6 24. Qxh6+ Ke8 25. Qg6+ Kf8 26. Qf6+ Ke8 27. dxe6 { [%csl Gf7,Gd7] } 27... Qf4 28. Qg6+ Kd8 29. Rd1 { [%csl Gd6] } 29... e4 { [%csl Gd5] } 30. Qg8+ { [%csl Ge7,Gc7] } 30... Kc7 31. Nd5+ { 1-0 Black resigns. } 1-0
+
+
+[Event "Barcelona"]
+[Site "Barcelona ;CBM 30"]
+[Date "1992.??.??"]
+[Round "1"]
+[White "Tal, Mikhail"]
+[Black "Rivas Pastor, Manuel"]
+[Result "1-0"]
+[WhiteElo "2525"]
+[BlackElo "2505"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "B07"]
+[Opening "Czech Defense"]
+[StudyName "Test_tal"]
+[ChapterName "Tal, Mikhail - Rivas Pastor, Manuel"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/m2xFNEVx"]
+
+1. e4 d6 2. d4 Nf6 { [%cal Gd7d6] } 3. Nc3 c6 4. f4 { [%csl Gd4,Ge4,Gf4] } 4... Qa5 5. Bd2 e5 6. Nf3 exd4 7. Nxd4 Qb6 8. Nb3 a5 9. Rb1 { [%cal Gb3a1,Gb3c1] } (9. a4) (9. Bd3 a4 10. Nc1 Qxb2 11. Rb1 Qa3) 9... a4 10. Nc1 g6 11. Qf3 Bg7 12. Bd3 O-O 13. N1e2 { [%csl Gb8,Gc8] } 13... Bg4 14. Qg3 Bxe2 15. Nxe2 Nbd7 { [%csl Ge3][%cal Gd2e3] } 16. Qf3 Nc5 17. Be3 Nfxe4 { [%csl Ge8][%cal Gf8e8,Ge8e1] } 18. Qxe4 (18. Bxe4 Qb4+ { [%csl Ge4][%cal Gb4e4,Gc5e4] }) 18... Rfe8 (18... Nxe4 19. Bxb6) 19. Bxc5 dxc5 20. Qc4 Qa7 { [%csl Gd8][%cal Ga8d8] } 21. b4 axb3 22. Qxb3 { [%csl Ga2,Gb7][%cal Ga7a2] } 22... b5 23. c4 Qa5+ 24. Kf1 Rad8 25. Rd1 Rb8 26. Qc2 bxc4 { [%csl Gc6,Gc5,Gc4,Ge4] } 27. Bxc4 { [%csl Gc5,Gc6] } 27... Rb2 28. Qc1 Qb4 29. h4 { [%csl Gh3][%cal Gh1h3,Gh3c3] } 29... Re4 { [%csl Gc4] } 30. a3 Qb8 (30... Qxc4 31. Qxb2) (30... Rxc4 31. axb4) 31. Rh3 { [%cal Gh1h3,Gf1g1] } 31... Qe8 { [%cal Ge4e2] } 32. Nc3 Rxc4 33. Qxb2 Rxf4+ 34. Rf3 Rxh4 35. Qe2 Rh1+ 36. Kf2 Bd4+ 37. Rxd4 Qxe2+ 38. Nxe2 cxd4 39. Nxd4 c5 40. Nc6 { [%csl Gh7,Gg6,Gf7,Gc5] } 40... Ra1 41. Rc3 Ra2+ 42. Kf3 f5 43. Na7 Kg7 44. Nb5 h5 45. g3 g5 46. Rxc5 Kf6 47. Rc3 g4+ 48. Kf4 Rf2+ 49. Ke3 Rg2 50. Kd4 f4 51. Rc6+ Kg5 52. Rc5+ Kh6 53. gxf4 h4 54. Ke5 h3 55. Nd6 h2 56. Nf5+ Kg6 57. Rc6+ Kf7 58. Rc7+ Kg8 59. Nh6+ Kf8 60. Kf6 { [%csl Gc8] } 60... Ke8 (60... Re2 61. Rc8+ Re8 62. Rc7 { [%csl Gf7] } 62... Re1) 61. Nf5 { [%csl Gd6,Gf7] } 61... Kd8 { 1-0 Black resigns. } (61... h1=Q { [%cal Gc7c8] } 62. Rc8+ (62. Ng7+ Kd8 63. Ne6+ Ke8 64. Re7#) 62... Kd7) (61... Re2) 1-0
+
+
+[Event "Porz op27"]
+[Site "Porz"]
+[Date "1992.??.??"]
+[Round "4"]
+[White "Niesel, Matthias"]
+[Black "Tal, Mikhail"]
+[Result "0-1"]
+[WhiteElo "2280"]
+[BlackElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "A15"]
+[Opening "English Opening: Anglo-Indian Defense"]
+[StudyName "Test_tal"]
+[ChapterName "Niesel, Matthias - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/6ogSURu6"]
+
+1. c4 Nf6 2. g3 e5 3. Bg2 c6 4. d4 d6 5. dxe5 dxe5 6. Qxd8+ Kxd8 7. Nf3 Nbd7 8. Ng5 { [%csl Yb7,Yc6][%cal Gd8c7] } 8... Ke8 9. Nc3 Nc5 10. b3 a5 11. Nge4 Nfxe4 12. Nxe4 a4 13. Nxc5 Bxc5 14. Bb2 Bb4+ 15. Kd1 Bg4 16. f3 Bf5 17. e4 Be6 18. Kc2 f6 19. Rhd1 Ke7 20. Rd3 b5 21. cxb5 cxb5 22. Rad1 Rhc8+ 23. Kb1 a3 24. Bc1 Bc3 25. Bd2 Bxd2 26. R3xd2 Rc3 27. Rd3 Rac8 28. Bf1 b4 29. Rxc3 Rxc3 30. Rd3 Rxd3 31. Bxd3 Kd6 32. Bc2 Kc5 33. Kc1 Kd4 34. Kd2 Bh3 35. g4 Bg2 36. Bd1 Bf1 37. h4 Bd3 38. Be2 Bb1 39. Bc4 Bxa2 40. Kc2 Ke3 41. Be6 Kxf3 42. Bf5 g5 { 0-1 White resigns. } 0-1
+
+
+[Event "Sevilla op"]
+[Site "Sevilla"]
+[Date "1992.??.??"]
+[Round "5"]
+[White "Gomez Esteban, Juan Mario"]
+[Black "Tal, Mikhail"]
+[Result "0-1"]
+[WhiteElo "2425"]
+[BlackElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "D43"]
+[Opening "Queen's Gambit Declined: Hastings Variation"]
+[StudyName "Test_tal"]
+[ChapterName "Gomez Esteban, Juan Mario - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/02X8U9NN"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 e6 5. Bg5 h6 6. Bxf6 Qxf6 7. Qb3 a5 8. a3 a4 9. Qa2 Nd7 10. e4 dxe4 11. Nxe4 Qf4 12. Bd3 e5 13. O-O exd4 14. Nxd4 Be7 15. Nf5 Ne5 16. Nfd6+ Bxd6 17. Nxd6+ Ke7 18. Nxc8+ Rhxc8 19. Rae1 Kf8 20. Re4 Qf6 21. Be2 Nd7 22. Qb1 Re8 23. Rd1 Nc5 24. Rxe8+ Rxe8 25. Qc2 h5 26. g3 h4 27. Bf1 Qf3 28. Rd4 Ne4 29. Bg2 Ng5 30. Rxh4 Re2 31. Rh8+ Ke7 32. Bxf3 Rxc2 33. Kg2 Rxb2 34. Rb8 Kd6 35. Bd1 Ne4 36. Bxa4 Nc3 37. Ra8 Ne4 38. Kf3 { 0-1 White resigns. } 0-1
+
+
+[Event "Barcelona"]
+[Site "Barcelona ;CBM 30"]
+[Date "1992.??.??"]
+[Round "1"]
+[White "Tal, Mikhail"]
+[Black "Akopian, Vladimir"]
+[Result "1-0"]
+[WhiteElo "2525"]
+[BlackElo "2605"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack"]
+[StudyName "Test_tal"]
+[ChapterName "Tal, Mikhail - Akopian, Vladimir"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/j5ATQpyC"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. O-O Bd7 5. Re1 Nf6 6. c3 a6 7. Ba4 c4 8. d4 cxd3 9. Bg5 e6 10. Qxd3 Be7 11. Bxf6 gxf6 12. Bxc6 Bxc6 13. c4 O-O 14. Nc3 Kh8 15. Rad1 Rg8 16. Qe3 Qf8 17. Nd4 Rc8 18. f4 Bd7 19. b3 Bd8 20. Nf3 b5 21. Qa7 Bc7 22. Qxa6 bxc4 23. b4 Qg7 24. g3 d5 25. exd5 Bxf4 26. Kf2 f5 27. gxf4 Qxc3 28. Qd6 Ba4 29. Rd4 Rg7 30. dxe6 Bc6 31. Ng5 Rxg5 32. Qe5+ Rg7 33. Rd8+ Rxd8 34. Qxc3 f6 35. e7 Ra8 36. Qxf6 Be4 37. Rg1 Rxa2+ 38. Ke1 { 1-0 Black resigns. } 1-0
+
+
+[Event "Barcelona"]
+[Site "Barcelona 54/111"]
+[Date "1992.??.??"]
+[Round "1"]
+[White "Rodriguez Vargas, Orestes"]
+[Black "Tal, Mikhail"]
+[Result "1/2-1/2"]
+[WhiteElo "2465"]
+[BlackElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "B00"]
+[Opening "Pirc Defense"]
+[StudyName "Test_tal"]
+[ChapterName "Rodriguez Vargas, Orestes - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/LaiylQtS"]
+
+1. d4 d6 2. e4 g6 3. c3 Bg7 4. Bg5 Nf6 5. Nd2 O-O 6. Ngf3 Nbd7 7. Bd3 e5 8. O-O Qe8 9. Re1 h6 10. Bh4 Nh5 11. Nc4 Nb6 12. Ne3 Nf4 13. Bf1 Be6 14. dxe5 dxe5 15. a4 a5 16. Nd2 f6 17. Qc2 Qc6 18. f3 Rfd8 19. Bf2 Bf8 20. Bb5 Qd6 21. Red1 Qe7 { 1/2-1/2 The game is a draw. } 1/2-1/2
+
+
+[Event "Barcelona"]
+[Site "Barcelona La Rambla-Ciutat Vella"]
+[Date "1992.??.??"]
+[Round "7"]
+[White "Tal, Mikhail"]
+[Black "Sokolov, Ivan"]
+[Result "1/2-1/2"]
+[WhiteElo "2525"]
+[BlackElo "2630"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "C49"]
+[Opening "Four Knights Game: Spanish Variation, Nimzowitsch Variation"]
+[StudyName "Test_tal"]
+[ChapterName "Tal, Mikhail - Sokolov, Ivan"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/6nbjZa1j"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. O-O O-O 6. Bxc6 dxc6 7. Nxe5 Re8 8. Nd3 Bxc3 9. dxc3 Nxe4 10. Bf4 Bf5 11. Re1 Qd7 12. f3 Nf6 13. Qd2 { 1/2-1/2 The game is a draw. } 1/2-1/2
+
+
+[Event "Porz op27"]
+[Site "Porz"]
+[Date "1992.??.??"]
+[Round "3"]
+[White "Tal, Mikhail"]
+[Black "Reinemer, Frank"]
+[Result "1-0"]
+[WhiteElo "2525"]
+[BlackElo "2265"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "A80"]
+[Opening "Dutch Defense"]
+[StudyName "Test_tal"]
+[ChapterName "Tal, Mikhail - Reinemer, Frank"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/34Wx7GPz"]
+
+1. d4 f5 2. Nf3 Nf6 3. Bg5 Ne4 4. h4 Nxg5 5. hxg5 g6 6. Nc3 d5 7. Qd2 Bg7 8. Qf4 c6 9. O-O-O Qd6 10. g3 Be6 11. e3 Nd7 12. Bd3 Bf7 13. Qxd6 exd6 14. Rh4 Be6 15. Ne2 Kf7 16. Nf4 Rae8 17. Rdh1 Nf8 18. Ng1 Bc8 19. Nge2 Kg8 20. Kd2 Be5 21. g4 Bxf4 22. Nxf4 Re7 23. gxf5 Bxf5 24. Bxf5 gxf5 25. Rh6 Rg7 26. Rxd6 Rxg5 27. Rd8 Kf7 28. Rb8 Rg7 29. Rh6 Kg8 30. Ne6 Rf7 31. f4 a6 32. a3 { 1-0 Black resigns. } 1-0
+
+
+[Event "Bundesliga 9192"]
+[Site "Bundesliga 1991/92, Germany"]
+[Date "1992.??.??"]
+[Round "1"]
+[White "Doncevic, Dario"]
+[Black "Tal, Mikhail"]
+[Result "1/2-1/2"]
+[WhiteElo "2355"]
+[BlackElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "B22"]
+[Opening "Sicilian Defense: Alapin Variation, Smith-Morra Declined"]
+[StudyName "Test_tal"]
+[ChapterName "Doncevic, Dario - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/EhkOggye"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 e6 6. cxd4 b6 7. Nc3 Nxc3 8. bxc3 Be7 9. Bd3 Bb7 10. O-O d6 11. Bf4 Nc6 12. Re1 dxe5 13. Nxe5 Nxe5 14. Bxe5 Bf6 15. Qh5 Bxe5 16. Bb5+ Kf8 17. dxe5 Qd5 18. Bf1 Bc6 19. Rad1 Qa5 20. Rd6 Qxc3 21. Re3 Qc5 22. Qg5 h6 23. Qg3 Bd5 24. Rc3 Qd4 25. Rc7 g5 26. Rdd7 Rh7 27. Qa3+ Kg8 28. Qd6 Rg7 29. Rxa7 Rxa7 30. Rxa7 Kh7 31. Qf8 Qxe5 32. Rxf7 Rxf7 33. Qxf7+ Kh8 34. Qf8+ Kh7 35. Qf7+ Kh8 36. Qf8+ Kh7 { 1/2-1/2 The game is a draw. } 1/2-1/2
+
+
+[Event "Sevilla op"]
+[Site "Sevilla"]
+[Date "1992.??.??"]
+[Round "7"]
+[White "Oll, Lembit"]
+[Black "Tal, Mikhail"]
+[Result "1-0"]
+[WhiteElo "2475"]
+[BlackElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "C10"]
+[Opening "French Defense: Rubinstein Variation, Blackburne Defense"]
+[StudyName "Test_tal"]
+[ChapterName "Oll, Lembit - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/dnCgXady"]
+
+1. e4 e6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nd7 5. Nf3 Be7 6. Bf4 Ngf6 7. Nxf6+ Nxf6 8. Bd3 c5 9. dxc5 Qa5+ 10. c3 Qxc5 11. O-O O-O 12. Ne5 Nd5 13. Bg3 g6 14. Qc2 Rd8 15. Be4 Bd7 16. Rfe1 Be8 17. Qb3 b5 18. Rad1 a5 19. a3 Ra7 20. Bxd5 Rxd5 21. Rxd5 Qxd5 22. Qxd5 exd5 23. Nd3 f6 24. f3 Kf7 25. Bf2 Rb7 26. b4 Rb8 27. bxa5 Ra8 28. Bb6 Bxa3 29. Ra1 Bd6 30. a6 Bc6 31. Bd4 Ke6 32. a7 Rc8 33. Ra6 Kd7 34. Bxf6 Ba8 35. Rb6 Rc7 36. Bd4 Rb7 37. Ra6 b4 38. Bc5 bxc3 39. Rxd6+ Kc7 40. Re6 Rb1+ 41. Re1 { 1-0 Black resigns. } 1-0
+
+
+[Event "Sevilla op"]
+[Site "Sevilla"]
+[Date "1992.??.??"]
+[Round "1"]
+[White "Gonzalez, Renier"]
+[Black "Tal, Mikhail"]
+[Result "0-1"]
+[WhiteElo "2250"]
+[BlackElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "B32"]
+[Opening "Sicilian Defense: Godiva Variation"]
+[StudyName "Test_tal"]
+[ChapterName "Gonzalez, Renier - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/EBir9bUf"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qb6 5. Nb3 Nf6 6. Nc3 e6 7. Be3 Qc7 8. a3 a6 9. Be2 b5 10. O-O Be7 11. Bd3 O-O 12. f4 d6 13. Nd2 Bb7 14. Nf3 Rad8 15. Ng5 h6 16. Nh3 d5 17. e5 Ne4 18. Bxe4 dxe4 19. Qg4 Nd4 20. Bxd4 Rxd4 21. Rad1 Rxd1 22. Rxd1 Bxa3 23. Nxe4 Bxe4 24. bxa3 Qxc2 25. Nf2 Bd5 26. Nd3 h5 { 0-1 White resigns. } 0-1
+
+
+[Event "Barcelona"]
+[Site "Barcelona ;CBM 30"]
+[Date "1992.??.??"]
+[Round "1"]
+[White "Dorfman, IossifD"]
+[Black "Tal, Mikhail"]
+[Result "1-0"]
+[WhiteElo "2605"]
+[BlackElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "E38"]
+[Opening "Nimzo-Indian Defense: Classical Variation, Berlin Variation"]
+[StudyName "Test_tal"]
+[ChapterName "Dorfman, IossifD - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/APm2P8P6"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 Qc7 6. a3 Bxc5 7. b4 Be7 8. Nb5 Qc6 9. Nf3 d6 10. Nfd4 Qd7 11. Bb2 b6 12. Rd1 Bb7 13. Nf3 d5 14. e4 O-O 15. e5 Nh5 16. cxd5 Bxd5 17. Nc3 Qc7 18. Rxd5 exd5 19. Qf5 Rd8 20. Qxh5 d4 21. Nd1 d3 22. e6 fxe6 23. Qg4 Bf8 24. Qxe6+ Kh8 25. Ne5 { 1-0 Black resigns. } 1-0
+
+
+[Event "Sevilla op"]
+[Site "Sevilla"]
+[Date "1992.??.??"]
+[Round "8"]
+[White "Tal, Mikhail"]
+[Black "Jimenez Morales, Francisco"]
+[Result "1-0"]
+[WhiteElo "2525"]
+[BlackElo "2240"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "E18"]
+[Opening "Queen's Indian Defense: Classical Variation, Traditional Variation, Nimzowitsch Line"]
+[StudyName "Test_tal"]
+[ChapterName "Tal, Mikhail - Jimenez Morales, Francisco"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/5Ra5QHmD"]
+
+1. Nf3 Nf6 2. d4 d5 3. c4 e6 4. g3 Be7 5. Bg2 O-O 6. O-O b6 7. Nc3 Bb7 8. Ne5 Nbd7 9. cxd5 Nxe5 10. d6 Nc6 11. dxe7 Qxe7 12. Qa4 Nd8 13. e4 Qe8 14. Qxe8 Rxe8 15. Bf4 Re7 16. Rfd1 Rd7 17. d5 exd5 18. Nxd5 Ne8 19. e5 Kf8 20. Be3 c6 21. Nc3 Re7 22. Bg5 f6 23. exf6 gxf6 24. Bh6+ Kg8 25. Re1 Rxe1+ 26. Rxe1 Nf7 27. Re7 Ned6 28. Ne4 Nxe4 29. Bxe4 Ba6 30. Bxc6 Rd8 31. Bd5 { 1-0 Black resigns. } 1-0
+
+
+[Event "Sevilla op"]
+[Site "Sevilla"]
+[Date "1992.??.??"]
+[Round "2"]
+[White "Tal, Mikhail"]
+[Black "Landero Luna, Vicente"]
+[Result "1-0"]
+[WhiteElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense: Accelerated Panov Attack, Modern Variation"]
+[StudyName "Test_tal"]
+[ChapterName "Tal, Mikhail - Landero Luna, Vicente"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/xaiCEVn3"]
+
+1. c4 c6 2. e4 d5 3. cxd5 cxd5 4. exd5 Nf6 5. Nc3 g6 6. Bb5+ Bd7 7. Bc4 Bg7 8. Nf3 O-O 9. O-O Na6 10. d4 Nc7 11. Bf4 Bf5 12. Qb3 b6 13. Ne5 Nfe8 14. Rfe1 e6 15. dxe6 Bxe6 16. d5 Bd7 17. d6 Bxe5 18. Bxe5 Ne6 19. Nd5 N8g7 20. Nf6+ { 1-0 Black resigns. } 1-0
+
+
+[Event "Sevilla op"]
+[Site "Sevilla"]
+[Date "1992.??.??"]
+[Round "9"]
+[White "Eslon, Jaan"]
+[Black "Tal, Mikhail"]
+[Result "0-1"]
+[WhiteElo "2420"]
+[BlackElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "D37"]
+[Opening "Queen's Gambit Declined: Three Knights, Vienna Variation"]
+[StudyName "Test_tal"]
+[ChapterName "Eslon, Jaan - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/rmkmdNuy"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 dxc4 5. Qa4+ Nbd7 6. e4 c5 7. Bxc4 cxd4 8. Nxd4 Bc5 9. Nb3 Bd6 10. Be2 O-O 11. Be3 Qe7 12. O-O Ne5 13. h3 Bd7 14. Qd4 Nc6 15. Qd1 Rfd8 16. f4 e5 17. f5 Nd4 18. Nxd4 exd4 19. Bxd4 Bc6 20. Nd5 Bxd5 21. exd5 Nxd5 22. Qe1 Ne3 23. f6 Qe4 24. Bxe3 Qxe3+ 25. Kh1 Qe5 26. g3 Re8 27. Bf3 Qxf6 28. Qf2 Re7 29. Rae1 Rxe1 30. Rxe1 Rd8 31. Kg2 b6 32. Re2 Bc5 33. Qe1 g6 34. Re8+ Rxe8 35. Qxe8+ Kg7 36. b3 Qd4 37. Qe1 f5 38. h4 h6 39. Kh2 g5 40. hxg5 hxg5 41. Qd1 Qf2+ 42. Bg2 Kg6 43. b4 Bd4 44. Qf1 Qe3 45. g4 fxg4 46. Qb1+ Kg7 47. Qf1 Be5+ 48. Kh1 Bg3 { 0-1 White resigns. } 0-1
+
+
+[Event "Barcelona"]
+[Site "Barcelona 54/61"]
+[Date "1992.??.??"]
+[Round "1"]
+[White "Gurevich, Mikhail"]
+[Black "Tal, Mikhail"]
+[Result "1-0"]
+[WhiteElo "2635"]
+[BlackElo "2525"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "A41"]
+[Opening "Queen's Pawn Game"]
+[StudyName "Test_tal"]
+[ChapterName "Gurevich, Mikhail - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/QefJvWBM"]
+
+1. d4 d6 2. Bg5 Nd7 3. c4 Ngf6 4. Nc3 h6 5. Bh4 g5 6. Bg3 Nh5 7. e3 Nxg3 8. hxg3 Bg7 9. Bd3 e6 10. Nge2 Qe7 11. g4 Nf6 12. Ng3 Bd7 13. Qe2 c5 14. O-O-O O-O-O 15. Kb1 Kb8 16. Bc2 Rc8 17. d5 exd5 18. Bf5 dxc4 19. Bxd7 Qxd7 20. Nf5 Bf8 21. Qxc4 Qe6 22. Nd5 Nd7 23. f3 h5 24. e4 Ne5 25. Qc1 c4 26. Qxg5 Nd3 27. Rxh5 Rxh5 28. gxh5 Qe5 29. Qd2 Rc5 30. Nc3 d5 31. Qe3 d4 32. Qxd4 Qxd4 33. Nxd4 Rxh5 34. b3 Rh2 35. bxc4 Ne5 36. Nf5 Kc8 37. Ne3 Bc5 38. Ncd5 Nc6 39. Kb2 Nb4 40. Rd2 Nc6 41. Kc3 Rh1 42. Rd1 Rh2 43. f4 Rh4 44. Kd3 { 1-0 Black resigns. } 1-0
+
+
+[Event "Sevilla op"]
+[Site "Sevilla"]
+[Date "1992.??.??"]
+[Round "6"]
+[White "Tal, Mikhail"]
+[Black "Illescas Cordoba, Miguel"]
+[Result "1/2-1/2"]
+[WhiteElo "2525"]
+[BlackElo "2555"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "B46"]
+[Opening "Sicilian Defense: Taimanov Variation"]
+[StudyName "Test_tal"]
+[ChapterName "Tal, Mikhail - Illescas Cordoba, Miguel"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/rmBgMj1r"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 a6 6. Be3 Qc7 7. Bd3 Nf6 8. O-O Bd6 9. h3 Bf4 10. Qf3 Bxe3 11. Qxe3 Qb6 12. Nf5 Qxe3 13. Nxe3 { 1/2-1/2 The game is a draw. } 1/2-1/2
+
+
+[Event "Kings Cup"]
+[Site "Bucharest ROM"]
+[Date "2003.5.26"]
+[Round "9"]
+[White "Timoscenko, Gennadij"]
+[Black "Tal, Mikhail"]
+[Result "1/2-1/2"]
+[WhiteElo "2533"]
+[BlackElo "2520"]
+[Annotator "https://lichess.org/@/fgaguilar"]
+[Variant "Standard"]
+[ECO "D13"]
+[Opening "Slav Defense: Exchange Variation"]
+[StudyName "Test_tal"]
+[ChapterName "Timoscenko, Gennadij - Tal, Mikhail"]
+[ChapterURL "https://lichess.org/study/9ftyCN6V/dQBdbtQo"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. cxd5 cxd5 5. Nc3 Nc6 6. Bf4 a6 7. e3 Bg4 8. Be2 e6 9. O-O Bd6 10. Bxd6 { 1/2-1/2 The game is a draw. } 1/2-1/2
+
+

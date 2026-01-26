@@ -1,0 +1,66 @@
+{
+  "weights": {
+    "soft_success_piece_prophylactic": 0.25,
+    "failed_eval_piece_prophylactic": -0.30,
+    "failed_blocked_piece_prophylactic": -0.10,
+    "strong_structure_reinforcement": 0.35,
+    "strong_threat_neutralization": 0.40,
+    "deferred_initiative.masking_delay": 0.25,
+
+    "latent_active_maneuver": 0.10,
+    "latent_restrictive_maneuver": 0.25,
+    "failed_direction_maneuver": -0.40,
+    "failed_blocked_maneuver": -0.20,
+    "failed_redundant_maneuver": -0.15,
+    "regroup_intentional": 0.15,
+    "regroup_forced": -0.20,
+
+    "intent_defensive": 0.25,
+    "intent_resigned": -0.40,
+    "intent_spatial_restriction": 0.45,
+    "intent_threat_restriction": 0.35,
+    "intent_attack_initiation": 0.35,
+    "intent_spatial_expansion": 0.25,
+
+    "initiative_calculated_attempt": 0.30,
+    "initiative_speculative_attempt": -0.15,
+    "delayed_initiative_preparatory": 0.25,
+    "delayed_initiative_misread": -0.25,
+
+    "tension_creation_positional": 0.20,
+    "tension_creation_tactical": 0.35,
+    "neutral_tension_creation": 0.00,
+    "premature_tension": -0.25,
+
+    "equal_exchange_accuracy": 0.15,
+    "favorable_exchange_accuracy": 0.25,
+    "exchange_misvaluation": -0.25,
+    "exchange_mistiming": -0.20,
+
+    "positional_structure_sacrifice": 0.25,
+    "positional_space_sacrifice": 0.30,
+    "tactical_combination_sacrifice": 0.35,
+    "tactical_initiative_sacrifice": 0.30,
+    "speculative_sacrifice": -0.25,
+    "desperate_sacrifice": -0.40,
+
+    "structural_stability": 0.20,
+    "structural_control": 0.25,
+    "structural_tradeoff_dynamic": 0.10,
+    "structural_collapse_dynamic": -0.30,
+
+    "missed_tactic": -0.35,
+    "conversion_precision": 0.25,
+    "tactical_sensitivity": 0.20
+  },
+  "penalties": {
+    "neutral": 0.05,
+    "redundant": 0.08
+  },
+  "defaults": {
+    "elo_base": 1200.0,
+    "elo_scale": 1600.0,
+    "score_floor": -1.0,
+    "score_ceiling": 1.0
+  }
+}

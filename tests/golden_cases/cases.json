@@ -1,0 +1,204 @@
+[
+  {
+    "id": "accurate_knight_bishop_exchange_001",
+    "fen": "r3r1k1/pp2nppp/1qnb2b1/3p4/3N3B/1NP5/PP2BPPP/R2QR1K1 w - - 1 16",
+    "move": "Bg3",
+    "move_uci": "h4g3",
+    "description": "",
+    "source_file": "accurate_knight_bishop_exchange.txt",
+    "label": "accurate_exchange",
+    "expected_tags": [
+      "neutral_maneuver",
+      "accurate_knight_bishop_exchange",
+      "neutral_tension_creation"
+    ],
+    "current_tags": [
+      "neutral_tension_creation",
+      "accurate_knight_bishop_exchange",
+      "neutral_maneuver"
+    ]
+  },
+  {
+    "id": "accurate_knight_bishop_exchange_002",
+    "fen": "r2q1rk1/4bppp/p1b1pn2/1p1p4/3P1B2/1QN3P1/PP2PPBP/2R2RK1 w - - 0 14",
+    "move": "Ne4",
+    "move_uci": "c3e4",
+    "description": "NOT positional_sacrifice because after a few moves, material is balanced",
+    "source_file": "accurate_knight_bishop_exchange.txt",
+    "label": "Accurate_exchange",
+    "expected_tags": [
+      "constructive_maneuver",
+      "accurate_knight_bishop_exchange",
+      "constructive_maneuver",
+      "control_over_dynamics",
+      "cod_file_seal"
+    ],
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_file_seal",
+      "constructive_maneuver",
+      "accurate_knight_bishop_exchange"
+    ]
+  },
+  {
+    "id": "constructive_maneuver_001",
+    "fen": "r1bq1rk1/1pp2pbn/n2p2p1/p2Pp3/2P1P1P1/2N1B3/PP1NBP2/R2QK2R b KQ - 0 20",
+    "move": "Bf6",
+    "move_uci": "g7f6",
+    "description": "",
+    "source_file": "constructive_maneuver.txt",
+    "label": "constructive",
+    "expected_tags": [
+      "constructive_maneuver"
+    ],
+    "current_tags": [
+      "constructive_maneuver"
+    ]
+  },
+  {
+    "id": "constructive_maneuver_002",
+    "fen": "r1bq1rk1/1pp2p1n/n2p1bp1/p2Pp3/2P1P1P1/2N1B3/PP2BP2/R2QKN1R b KQ - 1 20",
+    "move": "Bg5",
+    "move_uci": "f6g5",
+    "description": "",
+    "source_file": "constructive_maneuver.txt",
+    "label": "constructive",
+    "expected_tags": [
+      "constructive_maneuver",
+      "neutral_tension_creation",
+      "accurate_knight_bishop_exchange"
+    ],
+    "current_tags": [
+      "neutral_tension_creation",
+      "constructive_maneuver",
+      "accurate_knight_bishop_exchange"
+    ]
+  },
+  {
+    "id": "constructive_maneuver_003",
+    "fen": "r4rk1/3bppbp/1q4p1/np1pP3/3P4/1P2BN2/4BPPP/R2Q1RK1 w - - 0 1",
+    "move": "Ne1",
+    "move_uci": "f3e1",
+    "description": "",
+    "source_file": "constructive_maneuver.txt",
+    "label": "constructive",
+    "expected_tags": [
+      "maneuver_opening"
+    ],
+    "current_tags": [
+      "maneuver_opening"
+    ]
+  },
+  {
+    "id": "constructive_maneuver_004",
+    "fen": "r4rk1/3bppbp/1q4p1/n2pP3/1p1P4/1P2B3/4BPPP/R2QNRK1 w - - 1 18",
+    "move": "Nd3",
+    "move_uci": "e1d3",
+    "description": "",
+    "source_file": "constructive_maneuver.txt",
+    "label": "constructive",
+    "expected_tags": [
+      "constructive_maneuver"
+    ],
+    "current_tags": [
+      "constructive_maneuver"
+    ]
+  },
+  {
+    "id": "prophylactic_001",
+    "fen": "2bq1rk1/4bppp/1Pp2n2/2Pp4/1p6/1N3PP1/2Q2P1P/B3KB1R w K - 0 19",
+    "move": "h4",
+    "move_uci": "h2h4",
+    "description": "stops the threat of Bh3",
+    "source_file": "prophylactic.txt",
+    "label": "direct_prophylactic",
+    "expected_tags": [],
+    "current_tags": []
+  },
+  {
+    "id": "prophylactic_002",
+    "fen": "1r5r/p3npk1/2bq2p1/2pp4/3n1PP1/PpNP2B1/1P1Q2B1/4RRK1 b - - 0 19",
+    "move": "Rbe8",
+    "move_uci": "b8e8",
+    "description": "stops f5",
+    "source_file": "prophylactic.txt",
+    "label": "direct_prophylactic",
+    "expected_tags": [
+      "control_over_dynamics",
+      "prophylactic_move",
+      "cod_plan_kill",
+      "neutral_maneuver",
+      "direct_prophylactic",
+      "prophylactic_direct"
+    ],
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "prophylactic_move",
+      "neutral_maneuver",
+      "prophylactic_direct",
+      "direct_prophylactic"
+    ]
+  },
+  {
+    "id": "prophylactic_003",
+    "fen": "r2q1rk1/4bppp/p1b1pn2/1p1p4/3P1B2/1QN3P1/PP2PPBP/2R2RK1 w - - 0 14",
+    "move": "h3",
+    "move_uci": "h2h3",
+    "description": "engine Eva drops",
+    "source_file": "prophylactic.txt",
+    "label": "failed_prophylactic",
+    "expected_tags": [
+      "prophylactic_meaningless"
+    ],
+    "current_tags": [
+      "prophylactic_meaningless"
+    ]
+  },
+  {
+    "id": "prophylactic_004",
+    "fen": "r4rk1/1pq1npbp/4p1p1/1BPpn3/1P3B2/5N1P/2P2PP1/R2Q1RK1 w - - 0 12",
+    "move": "Kh1",
+    "move_uci": "g1h1",
+    "description": "",
+    "source_file": "prophylactic.txt",
+    "label": "direct_prophylactic",
+    "expected_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "prophylactic_move",
+      "prophylactic_direct",
+      "direct_prophylactic"
+    ],
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "prophylactic_move",
+      "prophylactic_direct",
+      "direct_prophylactic"
+    ]
+  },
+  {
+    "id": "prophylactic_005",
+    "fen": "rn3rk1/ppqbbppp/4pn2/8/1PN5/NQ2P1P1/P2B1PBP/R3K2R w KQ - 0 1",
+    "move": "b5",
+    "move_uci": "b4b5",
+    "description": "",
+    "source_file": "prophylactic.txt",
+    "label": "direct_prophylactic",
+    "expected_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "prophylactic_move",
+      "prophylactic_direct",
+      "direct_prophylactic"
+    ],
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "prophylactic_move",
+      "prophylactic_direct",
+      "direct_prophylactic"
+    ]
+  }
+]

@@ -1,0 +1,297 @@
+{
+  "player": "Petrosian",
+  "games_analyzed": 26,
+  "moves_total": 915,
+  "global_tag_distribution": {
+    "neutral_maneuver": {
+      "count": 428,
+      "ratio": 0.4678
+    },
+    "neutral_tension_creation": {
+      "count": 339,
+      "ratio": 0.3705
+    },
+    "control_over_dynamics": {
+      "count": 298,
+      "ratio": 0.3257
+    },
+    "tension_creation": {
+      "count": 188,
+      "ratio": 0.2055
+    },
+    "risk_avoidance": {
+      "count": 177,
+      "ratio": 0.1934
+    },
+    "initiative_attempt": {
+      "count": 162,
+      "ratio": 0.177
+    },
+    "cod_file_seal": {
+      "count": 146,
+      "ratio": 0.1596
+    },
+    "file_pressure_c": {
+      "count": 145,
+      "ratio": 0.1585
+    },
+    "deferred_initiative": {
+      "count": 132,
+      "ratio": 0.1443
+    },
+    "prophylactic_latent": {
+      "count": 112,
+      "ratio": 0.1224
+    },
+    "structural_integrity": {
+      "count": 93,
+      "ratio": 0.1016
+    },
+    "positional_sacrifice": {
+      "count": 77,
+      "ratio": 0.0842
+    },
+    "cod_plan_kill": {
+      "count": 74,
+      "ratio": 0.0809
+    },
+    "positional_space_sacrifice": {
+      "count": 73,
+      "ratio": 0.0798
+    },
+    "first_choice": {
+      "count": 59,
+      "ratio": 0.0645
+    },
+    "structural_compromise_dynamic": {
+      "count": 59,
+      "ratio": 0.0645
+    },
+    "prophylactic_direct": {
+      "count": 58,
+      "ratio": 0.0634
+    },
+    "maneuver_opening": {
+      "count": 49,
+      "ratio": 0.0536
+    },
+    "tactical_sensitivity": {
+      "count": 39,
+      "ratio": 0.0426
+    },
+    "cod_king_safety_shell": {
+      "count": 32,
+      "ratio": 0.035
+    },
+    "cod_regroup_consolidate": {
+      "count": 32,
+      "ratio": 0.035
+    },
+    "failed_maneuver": {
+      "count": 30,
+      "ratio": 0.0328
+    },
+    "structural_compromise_static": {
+      "count": 20,
+      "ratio": 0.0219
+    },
+    "tactical_sacrifice": {
+      "count": 20,
+      "ratio": 0.0219
+    },
+    "conversion_precision": {
+      "count": 19,
+      "ratio": 0.0208
+    },
+    "positional_structure_sacrifice": {
+      "count": 15,
+      "ratio": 0.0164
+    },
+    "premature_attack": {
+      "count": 15,
+      "ratio": 0.0164
+    },
+    "tactical_initiative_sacrifice": {
+      "count": 13,
+      "ratio": 0.0142
+    },
+    "cod_freeze_bind": {
+      "count": 11,
+      "ratio": 0.012
+    },
+    "speculative_sacrifice": {
+      "count": 7,
+      "ratio": 0.0077
+    },
+    "constructive_maneuver": {
+      "count": 6,
+      "ratio": 0.0066
+    },
+    "missed_tactic": {
+      "count": 6,
+      "ratio": 0.0066
+    },
+    "tactical_combination_sacrifice": {
+      "count": 6,
+      "ratio": 0.0066
+    },
+    "desperate_sacrifice": {
+      "count": 5,
+      "ratio": 0.0055
+    },
+    "cod_blockade_passed": {
+      "count": 3,
+      "ratio": 0.0033
+    },
+    "structural_blockage": {
+      "count": 1,
+      "ratio": 0.0011
+    }
+  },
+  "tag_ratios_raw": {
+    "neutral_maneuver": 0.4678,
+    "neutral_tension_creation": 0.3705,
+    "control_over_dynamics": 0.3257,
+    "tension_creation": 0.2055,
+    "risk_avoidance": 0.1934,
+    "initiative_attempt": 0.177,
+    "cod_file_seal": 0.1596,
+    "file_pressure_c": 0.1585,
+    "deferred_initiative": 0.1443,
+    "prophylactic_latent": 0.1224,
+    "structural_integrity": 0.1016,
+    "positional_sacrifice": 0.0842,
+    "cod_plan_kill": 0.0809,
+    "positional_space_sacrifice": 0.0798,
+    "first_choice": 0.0645,
+    "structural_compromise_dynamic": 0.0645,
+    "prophylactic_direct": 0.0634,
+    "maneuver_opening": 0.0536,
+    "tactical_sensitivity": 0.0426,
+    "cod_king_safety_shell": 0.035,
+    "cod_regroup_consolidate": 0.035,
+    "failed_maneuver": 0.0328,
+    "structural_compromise_static": 0.0219,
+    "tactical_sacrifice": 0.0219,
+    "conversion_precision": 0.0208,
+    "positional_structure_sacrifice": 0.0164,
+    "premature_attack": 0.0164,
+    "tactical_initiative_sacrifice": 0.0142,
+    "cod_freeze_bind": 0.012,
+    "speculative_sacrifice": 0.0077,
+    "constructive_maneuver": 0.0066,
+    "missed_tactic": 0.0066,
+    "tactical_combination_sacrifice": 0.0066,
+    "desperate_sacrifice": 0.0055,
+    "cod_blockade_passed": 0.0033,
+    "structural_blockage": 0.0011
+  },
+  "maneuver_failure_true_ratio": 0.0328,
+  "style_performance": {
+    "style_mix": {
+      "AggressiveModel": 0.22747466679978035,
+      "RestrictiveModel": 0.03274596915090102,
+      "CounterAttackerModel": 0.7397793640493187
+    },
+    "raw_score": 0.043281913043478254,
+    "net_score": -0.0012570869565217552,
+    "performance_percent": 49.94,
+    "estimated_fide_elo": 1999.0,
+    "penalties": {
+      "neutral_penalty": 0.04191500000000001,
+      "redundant_penalty": 0.0026240000000000005,
+      "total_penalty": 0.04453900000000001
+    },
+    "top_positive": [
+      {
+        "tag": "positional_space_sacrifice",
+        "category": "sacrifice",
+        "ratio": 0.0798,
+        "base_weight": 0.3,
+        "style_multiplier": 1.0454949333599561,
+        "contribution": 0.02502914870463735
+      },
+      {
+        "tag": "tactical_sensitivity",
+        "category": "meta",
+        "ratio": 0.0426,
+        "base_weight": 0.2,
+        "style_multiplier": 1.0,
+        "contribution": 0.00852
+      },
+      {
+        "tag": "conversion_precision",
+        "category": "meta",
+        "ratio": 0.0208,
+        "base_weight": 0.25,
+        "style_multiplier": 1.0,
+        "contribution": 0.0052
+      }
+    ],
+    "top_negative": [
+      {
+        "tag": "missed_tactic",
+        "category": "meta",
+        "ratio": 0.0066,
+        "base_weight": -0.35,
+        "style_multiplier": 1.0,
+        "contribution": -0.00231
+      },
+      {
+        "tag": "desperate_sacrifice",
+        "category": "sacrifice",
+        "ratio": 0.0055,
+        "base_weight": -0.4,
+        "style_multiplier": 1.0454949333599561,
+        "contribution": -0.0023000888533919036
+      },
+      {
+        "tag": "speculative_sacrifice",
+        "category": "sacrifice",
+        "ratio": 0.0077,
+        "base_weight": -0.25,
+        "style_multiplier": 1.0454949333599561,
+        "contribution": -0.0020125777467179156
+      }
+    ],
+    "ratios_used": {
+      "neutral_maneuver": 0.4678,
+      "neutral_tension_creation": 0.3705,
+      "control_over_dynamics": 0.3257,
+      "tension_creation": 0.2055,
+      "risk_avoidance": 0.1934,
+      "initiative_attempt": 0.177,
+      "cod_file_seal": 0.1596,
+      "file_pressure_c": 0.1585,
+      "deferred_initiative": 0.1443,
+      "prophylactic_latent": 0.1224,
+      "structural_integrity": 0.1016,
+      "positional_sacrifice": 0.0842,
+      "cod_plan_kill": 0.0809,
+      "positional_space_sacrifice": 0.0798,
+      "first_choice": 0.0645,
+      "structural_compromise_dynamic": 0.0645,
+      "prophylactic_direct": 0.0634,
+      "maneuver_opening": 0.0536,
+      "tactical_sensitivity": 0.0426,
+      "cod_king_safety_shell": 0.035,
+      "cod_regroup_consolidate": 0.035,
+      "failed_maneuver": 0.0328,
+      "structural_compromise_static": 0.0219,
+      "tactical_sacrifice": 0.0219,
+      "conversion_precision": 0.0208,
+      "positional_structure_sacrifice": 0.0164,
+      "premature_attack": 0.0164,
+      "tactical_initiative_sacrifice": 0.0142,
+      "cod_freeze_bind": 0.012,
+      "speculative_sacrifice": 0.0077,
+      "constructive_maneuver": 0.0066,
+      "missed_tactic": 0.0066,
+      "tactical_combination_sacrifice": 0.0066,
+      "desperate_sacrifice": 0.0055,
+      "cod_blockade_passed": 0.0033,
+      "structural_blockage": 0.0011
+    }
+  },
+  "estimated_fide_elo": 1999.0
+}

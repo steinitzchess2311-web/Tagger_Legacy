@@ -1,0 +1,54 @@
+{
+  "config": {
+    "detector": "tension",
+    "sample_size": 3,
+    "engine_path": "/usr/local/bin/stockfish"
+  },
+  "trigger_rates": {
+    "legacy": {
+      "total_positions": 3,
+      "triggered": 3,
+      "not_triggered": 0,
+      "trigger_rate_pct": 100.0
+    },
+    "new": {
+      "total_positions": 3,
+      "triggered": 3,
+      "not_triggered": 0,
+      "trigger_rate_pct": 100.0
+    }
+  },
+  "neutral_tension_ratio": {
+    "legacy": {
+      "neutral": 0,
+      "neutral_pct": 0.0,
+      "tension": 1,
+      "tension_pct": 33.33,
+      "other": 2,
+      "other_pct": 66.67,
+      "neutral_to_tension_ratio": 0.0
+    },
+    "new": {
+      "neutral": 0,
+      "neutral_pct": 0.0,
+      "tension": 1,
+      "tension_pct": 33.33,
+      "other": 2,
+      "other_pct": 66.67,
+      "neutral_to_tension_ratio": 0.0
+    }
+  },
+  "tag_type_distribution": {
+    "legacy": {
+      "tension": 1
+    },
+    "new": {
+      "tension": 1
+    }
+  },
+  "statistical_comparison": {
+    "chi_squared": 0.0,
+    "degrees_of_freedom": 2,
+    "interpretation": "No significant difference (\u03c7\u00b2 = 0.00 < 5.99)"
+  }
+}

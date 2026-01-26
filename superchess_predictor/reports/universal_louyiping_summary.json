@@ -1,0 +1,91 @@
+{
+  "player": "Lou",
+  "games_analyzed": 136,
+  "moves_total": 5127,
+  "global_tag_distribution": {
+    "control_over_dynamics": {
+      "count": 2280,
+      "ratio": 0.4447
+    },
+    "neutral_maneuver": {
+      "count": 2023,
+      "ratio": 0.3946
+    },
+    "deferred_initiative": {
+      "count": 1162,
+      "ratio": 0.2266
+    },
+    "prophylactic_strong": {
+      "count": 1010,
+      "ratio": 0.197
+    },
+    "tension_creation": {
+      "count": 954,
+      "ratio": 0.1861
+    },
+    "initiative_attempt": {
+      "count": 833,
+      "ratio": 0.1625
+    },
+    "file_pressure_c": {
+      "count": 807,
+      "ratio": 0.1574
+    },
+    "risk_avoidance": {
+      "count": 726,
+      "ratio": 0.1416
+    },
+    "first_choice": {
+      "count": 711,
+      "ratio": 0.1387
+    },
+    "structural_integrity": {
+      "count": 460,
+      "ratio": 0.0897
+    },
+    "prophylactic_soft": {
+      "count": 358,
+      "ratio": 0.0698
+    },
+    "prophylactic_failed": {
+      "count": 335,
+      "ratio": 0.0653
+    },
+    "conversion_precision": {
+      "count": 311,
+      "ratio": 0.0607
+    },
+    "structural_compromise_dynamic": {
+      "count": 246,
+      "ratio": 0.048
+    },
+    "constructive_maneuver": {
+      "count": 198,
+      "ratio": 0.0386
+    },
+    "structural_compromise_static": {
+      "count": 154,
+      "ratio": 0.03
+    },
+    "tactical_sensitivity": {
+      "count": 153,
+      "ratio": 0.0298
+    },
+    "missed_tactic": {
+      "count": 100,
+      "ratio": 0.0195
+    },
+    "premature_attack": {
+      "count": 72,
+      "ratio": 0.014
+    },
+    "structural_blockage": {
+      "count": 14,
+      "ratio": 0.0027
+    },
+    "initiative_exploitation": {
+      "count": 1,
+      "ratio": 0.0002
+    }
+  }
+}

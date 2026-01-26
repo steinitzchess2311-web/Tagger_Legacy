@@ -1,0 +1,82 @@
+Prophylaxis Evaluation Pipeline (v9)
+===================================
+
+Terminology
+-----------
+- preventive_score: primary signal measuring how much the move reduces opponent threats and activity.
+- cp_loss: centipawn loss from the move (eval_before - eval_played, positive means we worsened the position).
+- king_safety_gain: change in our king-safety metric after the move.
+- blockage_penalty: structure/mobility penalty caused by blocking our own pieces.
+
+Phase 1 – Base Detection (rule_tagger2/legacy/core.py)
+-----------------------------------------
+1. Examine threat_delta, opponent mobility/tactics change, trend signals and our own structure/king-safety gains.
+2. Compute preventive_score (0.5 * threat_delta + ...)
+3. If preventive_score ≥ threshold (≈0.15) → mark `prophylactic_move = True`.
+   - If only slightly below threshold but a known pattern trigger exists (e.g. knight retreat) → also mark prophylactic_move via pattern_override.
+4. Record self_safety_bonus (structure/king-safety boost) and explanatory notes.
+5. Compute effective_delta (eval delta scaled by tau) and tactical_weight.
+   - Use classify_prophylaxis_quality() to assign:
+     * strong_piece/pawn_move_prophylactic if eval loss is tiny and tactical weight low.
+     * soft_* if conditions are modest.
+     * prophylactic_meaningless if preventive_score is low or eval loss is large.
+
+Phase 2 – Defensive Gate (rule_tagger2/legacy/core.py)
+-------------------------------------------
+- Gather cp_loss, king_safety_gain, threat_delta, blockage_penalty/details, contact_delta (tension).
+- Determine whether the move was detected as a piece or pawn prophylaxis (presence of soft/strong tags).
+
+Success condition for piece prophylaxis:
+  cp_loss ≤ CONTROL_EVAL_DROP (~30cp) AND threat_delta ≥ PROPHYLAXIS_THREAT_DROP (~0.3)
+  AND king_safety_gain ≥ KING_SAFETY_GAIN (~0.3).
+  ⇒ keep `strong/soft_piece_move_prophylactic`, add `piece_control_over_dynamics`, clear failure flags.
+
+Failure conditions:
+  1. Eval failure (cp_loss > RISK_SMALL_LOSS ~50cp).
+  2. Blockage failure (blockage_penalty ≥ threshold [phase-adjusted] OR blockage details ≥ 2).
+  These are evaluated for both piece and pawn prophylaxis.
+
+When failure is detected we call _apply_failure():
+  - Remove prophylactic_move / COD tags (piece or pawn flavour).
+  - Set `failed_piece_move_prophylactic` and `failed_maneuver`.
+  - Add subtype flags:
+      * `failed_eval_piece_prophylactic` or `failed_eval_pawn_prophylactic` if eval failure.
+      * `failed_blocked_piece_prophylactic` or `failed_blocked_pawn_prophylactic` if blockage failure.
+  - Override intent to `intent_passive`.
+  - If both fail types happen simultaneously both subtype tags are set.
+
+Blockage veto:
+  Independently re-check blockage_penalty / details. If triggered, apply block-failure to the relevant prophylaxis type(s) even if eval loss is small.
+
+Tension/initiative interaction:
+  When contact_delta exceeds TENSION_CONTACT_DELAY (~0.03), mark tension tags; if cp_loss is large this also sets `premature_attack` and `lost_initiative`.
+
+Structural sanity check:
+  If structure gain is positive but eval/mobility worsen, convert `structural_integrity` into `structural_compromise_*` to avoid false positives.
+
+Intent resolver hierarchy:
+  restriction > expansion > passive > neutral
+  - restriction: king_safety gain + threat drop + no blockage + small cp loss.
+  - expansion: contact spike with acceptable eval loss.
+  - passive: blockage or eval loss.
+  - neutral: otherwise.
+  Subtype failure overrides intent to passive.
+
+Phase 3 – Final clean-up
+------------------------
+- If `failed_piece_move_prophylactic` remains set at the end, ensure matching subtype tags exist by recomputing eval/block flags.
+- Remove any success labels that conflict with failure (e.g., strong_* vs failed_*).
+
+New output fields
+-----------------
+- `failed_eval_piece_prophylactic` / `failed_eval_pawn_prophylactic` : defensive move loses evaluation beyond threshold.
+- `failed_blocked_piece_prophylactic` / `failed_blocked_pawn_prophylactic` : defensive move self-blocks structure/mobility.
+- These sit alongside the aggregate `failed_piece_move_prophylactic` tag for backward compatibility.
+
+Attribution logic summary
+-------------------------
+1. Detect prophylactic intent and assign strong/soft tiers based on preventive_score and effective_delta.
+2. Re-evaluate with concrete eval/blockage signals:
+   - Success → keep tags and mark COD.
+   - Failure (eval/block) → remove success tags, add failure subtype(s), set passive intent.
+3. Record notes in `analysis_meta['prophylaxis']['reasons']` and `notes['prophylactic_move']` for interpretation.

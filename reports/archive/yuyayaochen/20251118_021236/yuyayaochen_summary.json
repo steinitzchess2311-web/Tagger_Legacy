@@ -1,0 +1,125 @@
+[
+  {
+    "game_index": 1,
+    "player": "Kasparov",
+    "moves_analyzed": 33,
+    "tag_distribution": {
+      "initiative_attempt": {
+        "count": 11,
+        "ratio": 0.3333
+      },
+      "winning_position_handling": {
+        "count": 11,
+        "ratio": 0.3333
+      },
+      "control_over_dynamics": {
+        "count": 7,
+        "ratio": 0.2121
+      },
+      "deferred_initiative": {
+        "count": 7,
+        "ratio": 0.2121
+      },
+      "neutral_maneuver": {
+        "count": 6,
+        "ratio": 0.1818
+      },
+      "prophylactic_move": {
+        "count": 6,
+        "ratio": 0.1818
+      },
+      "direct_prophylactic": {
+        "count": 5,
+        "ratio": 0.1515
+      },
+      "prophylactic_direct": {
+        "count": 5,
+        "ratio": 0.1515
+      },
+      "risk_avoidance": {
+        "count": 5,
+        "ratio": 0.1515
+      },
+      "constructive_maneuver": {
+        "count": 4,
+        "ratio": 0.1212
+      },
+      "file_pressure_c": {
+        "count": 4,
+        "ratio": 0.1212
+      },
+      "neutral_tension_creation": {
+        "count": 4,
+        "ratio": 0.1212
+      },
+      "structural_compromise_dynamic": {
+        "count": 4,
+        "ratio": 0.1212
+      },
+      "cod_file_seal": {
+        "count": 3,
+        "ratio": 0.0909
+      },
+      "cod_plan_kill": {
+        "count": 3,
+        "ratio": 0.0909
+      },
+      "failed_maneuver": {
+        "count": 3,
+        "ratio": 0.0909
+      },
+      "maneuver_opening": {
+        "count": 3,
+        "ratio": 0.0909
+      },
+      "misplaced_maneuver": {
+        "count": 3,
+        "ratio": 0.0909
+      },
+      "structural_compromise_static": {
+        "count": 3,
+        "ratio": 0.0909
+      },
+      "structural_integrity": {
+        "count": 3,
+        "ratio": 0.0909
+      },
+      "tension_creation": {
+        "count": 3,
+        "ratio": 0.0909
+      },
+      "accurate_knight_bishop_exchange": {
+        "count": 2,
+        "ratio": 0.0606
+      },
+      "positional_sacrifice": {
+        "count": 2,
+        "ratio": 0.0606
+      },
+      "positional_space_sacrifice": {
+        "count": 2,
+        "ratio": 0.0606
+      },
+      "tactical_sensitivity": {
+        "count": 2,
+        "ratio": 0.0606
+      },
+      "cod_king_safety_shell": {
+        "count": 1,
+        "ratio": 0.0303
+      },
+      "missed_tactic": {
+        "count": 1,
+        "ratio": 0.0303
+      },
+      "premature_attack": {
+        "count": 1,
+        "ratio": 0.0303
+      },
+      "prophylactic_failed": {
+        "count": 1,
+        "ratio": 0.0303
+      }
+    }
+  }
+]

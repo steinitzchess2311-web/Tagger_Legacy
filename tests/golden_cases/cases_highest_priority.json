@@ -1,0 +1,142 @@
+[
+  {
+    "id": "case_highest_1",
+    "fen": "r1b1kb1r/pppnqp1p/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 b kq - 1 7",
+    "move": "h7h6",
+    "description": "High priority case matching the recent log where Petrosian profile picked h6.",
+    "expected_tags": [
+      "structural_integrity",
+      "prophylactic_meaningless",
+      "prophylactic_failed"
+    ],
+    "current_tags": [
+      "initiative_attempt",
+      "tension_creation",
+      "structural_integrity"
+    ]
+  },
+  {
+    "id": "case_highest_2",
+    "fen": "r1b1kb1r/pppnqp2/3p1npp/2P1p3/3PP3/2N2N2/PP2BPPP/R1BQ1RK1 b kq - 0 8",
+    "move": "a7a6",
+    "description": "Next high priority example; ensure Petrosian profile keeps the tactical pulse on a6.",
+    "expected_tags": [
+      "initiative_attempt",
+      "tension_creation",
+      "prophylactic_latent"
+    ],
+    "current_tags": [
+      "initiative_attempt",
+      "tension_creation"
+    ]
+  },
+  {
+    "id": "case_highest_3",
+    "fen": "rnbqkbnr/ppp1pppp/3p4/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2",
+    "move": "a2a3",
+    "move_uci": "a2a3",
+    "description": "KasparovTestV1 log (ts=1763595912.0976021) where the picker chose a3 and labeled it deferred_initiative + structural_integrity.",
+    "source_file": "kasparovTestV1_log",
+    "label": "",
+    "expected_tags": [
+      "deferred_initiative",
+      "structural_integrity",
+      "prophylactic_meaningless"
+    ],
+    "current_tags": [
+      "deferred_initiative",
+      "structural_integrity"
+    ]
+  },
+  {
+    "id": "case_highest_4",
+    "fen": "rnbqkbnr/p1p1pppp/1p1p4/8/8/P4N2/1PPPPPPP/RNBQKB1R w KQkq - 0 3",
+    "move": "h2h3",
+    "move_uci": "h2h3",
+    "description": "KasparovTestV1 log (ts=1763596005.072438) where the picker chose h3 with initiative_attempt + tension_creation + structural_integrity.",
+    "source_file": "kasparovTestV1_log",
+    "label": "",
+    "expected_tags": [
+      "initiative_attempt",
+      "prophylactic_meaningless",
+      "structural_integrity"
+    ],
+    "current_tags": [
+      "initiative_attempt",
+      "tension_creation",
+      "structural_integrity"
+    ]
+  },
+  {
+    "id": "case_highest_5",
+    "fen": "rnbqkbnr/p3pppp/1ppp4/8/8/P4N1P/1PPPPPP1/RNBQKB1R w KQkq - 0 4",
+    "move": "d2d3",
+    "move_uci": "d2d3",
+    "description": "KasparovTestV1 log (ts=1763596060.2735848) where the picker chose d3 with initiative_attempt + tension_creation + structural_integrity.",
+    "source_file": "kasparovTestV1_log",
+    "label": "",
+    "expected_tags": [
+      "structural_integrity"
+    ],
+    "current_tags": [
+      "initiative_attempt",
+      "tension_creation",
+      "structural_integrity"
+    ]
+  },
+  {
+    "id": "case_highest_6",
+    "fen": "r1bqkb1r/ppppnppp/8/3Pp3/4n3/P3PN2/1PP2PPP/RNBQKB1R w KQkq - 1 6",
+    "move": "f3e5",
+    "move_uci": "f3e5",
+    "description": "KasparovTestV1 sample where white captures on e5; current tagging run shows only structural integrity.",
+    "source_file": "kasparovTestV1_log",
+    "label": "",
+    "expected_tags": [
+      "structural_integrity",
+      "dynamic_over_control"
+    ],
+    "current_tags": [
+      "structural_integrity"
+    ]
+  },
+  {
+    "id": "case_highest_7",
+    "fen": "r1bqkb1r/pp1pnppp/2p5/2nP4/4p3/P1P1PN2/1P2BPPP/RNBQK2R w KQkq - 0 9",
+    "move": "d5d6",
+    "move_uci": "d5d6",
+    "description": "KasparovTestV1 sample: white pushes the d-pawn to d6; current tags show tension and early aggression control markers.",
+    "source_file": "kasparovTestV1_log",
+    "label": "",
+    "expected_tags": [
+      "tension_creation",
+      "premature_attack",
+      "cod_file_seal",
+      "dynamic_over_control"
+    ],
+    "current_tags": [
+      "tension_creation",
+      "premature_attack",
+      "control_over_dynamics",
+      "cod_file_seal"
+    ]
+  },
+  {
+    "id": "case_highest_8",
+    "fen": "r1bqkb1r/pp3ppp/2pPp3/3n4/4p3/P1P1P3/1P2BPPP/RNBQK2R w KQkq - 0 12",
+    "move": "c3c4",
+    "move_uci": "c3c4",
+    "description": "KasparovTestV1 sample: white advances the c-pawn; current tags flag it as a direct prophylactic move.",
+    "source_file": "kasparovTestV1_log",
+    "label": "",
+    "expected_tags": [
+      "initiative_attempt",
+      "tension_creation"
+    ],
+    "current_tags": [
+      "prophylactic_move",
+      "prophylactic_direct",
+      "direct_prophylactic"
+    ]
+  }
+]

@@ -1,0 +1,683 @@
+[Event "random_tests: pawn_push_control #1"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "pawn_push_control #1"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/k29aEDKy"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r1bq1rk1/3n1pbp/p2p1np1/2pPp3/1pP1P3/3BBP2/PP1QN1PP/2RNK2R w K - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "01:11:55"]
+
+1. g4 { *** This is an effective pawn push control. Pushing the pawn to g4 is not forming any kind of direct threat, but it is expanding squares on the
+*** This is also an effective pawn push prophylactic, for preventing the idea of Nh5 } *
+
+
+[Event "random_tests: accurate_exchange #1"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "accurate_exchange #1"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/WDGqwNEZ"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "4rrk1/pp1b2bp/nq1p2p1/2pP1p2/2P2Pn1/P1NB1R2/1PQBN1PP/1R4K1 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "03:14:54"]
+
+1... Nb4! { ***This is an accurate_exchange. Although it seems that after axb4 black will be down material, cxb4 is with check can immediately gain the material back.
+This is active exchange because: if axb4 cxb4+ Kh1 bc bc (or Nf2) Qc7, white has to endure passive pawn structure.
+If Qd1 Nxd3 Rd3, white's light square pawn chain will be weak. } *
+
+
+[Event "random_tests: constructive manuever"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "constructive manuever"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/JogQMnms"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r1bq1rk1/1pp2pbn/n2p2p1/p2Pp3/2P1P1P1/2N1B3/PP1NBP2/R2QK2R b KQ - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "03:27:17"]
+
+1... Bf6! { *** This is a constructive manuver . The bishop is passive here on g7. However, white's e3 bishop is strong. He is trying to do the manuver of Bg7-f6-g5 to trade the active e3 bishop. if this is the first choice it should also be classified as constructive manuver rather than latent manuver automatically. } *
+
+
+[Event "random_tests: constructive manuever"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "constructive manuever"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/ZEgiuoTs"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r1bq1rk1/1pp2p1n/n2p1bp1/p2Pp3/2P1P1P1/2N1B3/PP2BP2/R2QKN1R b KQ - 1 2"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "03:32:34"]
+
+2... Bg5! { *** This is an constructive manuever for trading the passive bishop with the strong e3 bishop.
+***This is also an accurate piece exchange for the eva does not drop. } *
+
+
+[Event "random_tests: temporally_regroup"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "temporally_regroup"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/fC8Ux19w"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r4rk1/3bppbp/1q4p1/np1pP3/3P4/1P2BN2/4BPPP/R2Q1RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "03:45:33"]
+
+1. Ne1! { ** This is a temporal regroup. Although the knight is going into a rather passive location and blocks. On the next move, the knight is going to c5 via d3. The knight is rerouted from a rather passive f3 square to the active c5 square. } *
+
+
+[Event "random_tests: latent_improved"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "latent_improved"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/iB9rQq8P"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r2q1rk1/1p3pbp/p1n1pnp1/3p4/3P1B2/2NQPN1P/PP3PP1/R1R3K1 w - - 0 13"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "03:55:48"]
+
+13. Na4! { This is a ***latent improve (or temporally regroup/or constructive manuever )
+The knight is going to the active c5 square via a4. On c5, the knight will be active. } *
+
+
+[Event "random_tests: latent_improved"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "latent_improved"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/gZQOdFfk"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "2k5/p2r3p/2p1b1n1/2p2p1N/2P2P2/2R4P/P2B1KP1/8 w - - 1 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:00:01"]
+
+1. Be3 { *** This is another case of latent improved. White bishop is going from d2 square to active e3 square that is attacknig a weakness on c5 } *
+
+
+[Event "random_tests: accurate_exchange"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "accurate_exchange"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/tDDxitg6"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r4nk1/pp3pb1/2pR2p1/2n5/2P1pN1p/1PN1P2P/PB3PP1/6K1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:01:26"]
+
+1. Na4!? { ***** This is an accurate exchange, and structural compromise dynamic
+Although structure is weakened, the eva does not drop, meaning there is strong counter-play } *
+
+
+[Event "random_tests: positional sacrifice"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "positional sacrifice"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/fLUVFIxs"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r3k1nr/1pp3pp/p2bbp2/2p5/4P3/2N1BN2/PPP2PPP/2KR3R w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:02:39"]
+
+1. e5! { This is a positional sacrifice. It sacifice a pawn, but the knight on c3 gains higher mobility for being able to go to e4. And the engine eva does not drop. } *
+
+
+[Event "random_tests: latent_improved"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "latent_improved"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/YXFqk2LE"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "rn1qk2r/pp3pp1/2p1pnp1/8/Pb1P2P1/2N1P2P/1P3P2/R1BQKB1R b KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:04:09"]
+
+1... Qd5! { *** This is a latent improved. The queen is going to an active square.
+*** This is a disappearing move. Comparing this with Qa5 directly , black forces the move 2.f3, weakening the structure. } *
+
+
+[Event "random_tests: disappearing move"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "disappearing move"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/DAX0a6wJ"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "rn2k2r/pp3pp1/2p1pnp1/3q4/Pb1P2P1/2N1P2P/1P3P2/R1BQKB1R w KQkq - 1 2"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:06:46"]
+
+{ *** This is a disappearing move. Comparing this with Qa5 directly , black forces the move 2.f3, weakening the structure. }
+ *
+
+
+[Event "random_tests: disappearing move"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "disappearing move"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/xfblL4RG"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:07:22"]
+
+4... Bb4+ { *** This can be classified as disappearing move. This induces white to play the move Bc1-d2 and then retreat to e7. White does not want the bishop on d2, for blockading the queen's control on d2, and white in some cases wants the b1 knight on d2. } 5. Bd2 Be7 *
+
+
+[Event "random_tests: unforcing tactical sacrifice"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "unforcing tactical sacrifice"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/fiS4rp6D"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "2b3k1/2q4p/p2p2p1/P1p2n2/2Pb2Q1/8/R2BrNPP/5RK1 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:09:12"]
+
+1... Qc6 { ** This is an unforcing tactical sacrifice. Black hangs the rook on e2, and if Qxe2 and after Nh4 black cannot prevent the checkmate.
+However, this is not a forcing move forcing white to react. White can have at least 5 more choices rather than taking the rooks } *
+
+
+[Event "random_tests: unforcing tactical sacrifice"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "unforcing tactical sacrifice"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/YjVEZz7q"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "1rbqr1k1/R4p2/3p1bp1/1p1Pp3/2p1B3/2P2N1P/1P1Q1PP1/R5K1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:15:05"]
+
+1. h4! { *** This is an unforcing tactical sacrifice. Although white hangs a pawn, black can have several choices other than taking it. Black will lose directly after 1...Bxh4?! due to 2.Bxg6 } 1... Bxh4 2. Bxg6 *
+
+
+[Event "random_tests: forcing tactical sacrifice"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "forcing tactical sacrifice"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/NyQbwXah"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "1rbqr1k1/R4p2/3p2p1/1p1Pp3/2p1B2b/2P2N2/1P1Q1PP1/R5K1 w - - 0 2"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:16:49"]
+
+2. Bxg6! { ** This is a forcing tactical sacrifice. It is forcing because it is capturing a piece. For all sacrifice that is capturing a piece that worse less material than it (and itself can be captured back) or making a check, it should be classified as forcing tactical sacrifice. It is a tactical sacrifice because black's king safety drops dramatically. } *
+
+
+[Event "random_tests: accurate_tension_creation"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "accurate_tension_creation"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/vgU2l0hv"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "6k1/5pp1/1rrppn1p/pN4P1/Pp2P2P/1P1R1Pq1/2PQ4/1KR5 b - - 0 6"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:18:47"]
+
+{ The last move for white is g4-g5, which is a strong tension-creation and intention of expansion. }
+ *
+
+
+[Event "random_tests: forcing tactical sacrifice"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "forcing tactical sacrifice"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/lJHtfFB4"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r4rk1/1b2bppp/ppq1p3/2ppB2n/5P2/1P1BP3/P1PPQ1PP/R4RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:21:08"]
+
+1. Bxh7+!! { *** This is a forcing tactical sacrifice. } *
+
+
+[Event "random_tests: positional sacrifice"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "positional sacrifice"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/vNp4uiPM"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "3rq1k1/4rppp/2n3b1/pp2P3/2pP1QB1/P1P1R3/1B4PP/4R1K1 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:21:38"]
+
+1... Re6! { ****This is a strong positional sacrifice. Material loss but eva does not drop a lot
+***This is a prophylactic move. It stops white from pushing e5-e6 breaking the structure. This also allows black's c6 knight to go via e7 to d5 } *
+
+
+[Event "random_tests: positional sacrifice"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "positional sacrifice"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/k6nRqAez"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "3q1rk1/3n1ppp/p2b1r2/P1pPp2P/1pP1P1Q1/1N2B3/1P4P1/R4RK1 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:23:12"]
+
+1... Rf4! { ** This is a positional sacrifice. Although black gives up materia, the evaluation does not drop a lot. The idea is to spare the e5 square for the bishop. For instance: } 2. Bxf4 exf4 { [%csl Gd4][%cal Gd6e5,Ge5d4] } 3. Nd2 Be5! { *** This is a latent improving move for the bishop is going into more active square of d4. } *
+
+
+[Event "random_tests: accurate piece prophylactic move"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "accurate piece prophylactic move"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/TeFs16R2"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "1r5r/p3npk1/2bq2p1/2pp4/3n1PP1/PpNP2B1/1P1Q2B1/4RRK1 b - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:24:53"]
+
+1... Rbe8! { ****This is an extremely strong piece prophylactic move. White has the idea of Qe3 attacking the e7 knight with a tempo and prepraing f4-f5 push. Now Qe3 is no longer gaining a tempo attacking the knight on e7, so black can easily play f7-f5 to stop the threat of f4-f5. } *
+
+
+[Event "random_tests: prophylactic move"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "prophylactic move"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/WqlQUCLg"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "3r2k1/p4pbp/b3p3/npqpP1pP/8/2P3P1/P3QPBN/R3R1K1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:28:10"]
+
+1. h6!! { *** This is a (you can decide if it is tactical or positional sacrifice based on delta king safety, does not matter) sacrifice.
+*** This is also a prophylactic move for preventing black to play h7-h6 consolidating the position. } *
+
+
+[Event "random_tests: disappearing move"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "disappearing move"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/3rWbEkx4"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r6k/2R3pp/8/p1pR4/2r5/P5P1/5P1P/6K1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:29:57"]
+
+1. Rg5!! { *** This is a disappearing move. it forces black to play either Rg8 or g6.
+- if black plays Rg8 Rxc5 Rxc5 Rxc5. Compared with the direct 1.Rxc5, black has to spend another tempo to protect the pawn on a5.
+- if black plays g6, it weakens the 7th rank. White is planning to directly attack h7 and reroute the g5 knight via d5 to e7. } *
+
+
+[Event "random_tests: forcing tactical sacrifice"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "forcing tactical sacrifice"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/PpUvhQUj"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "2r3k1/1q3p1p/pp1Qp1p1/8/P2P4/4P2P/2r2PP1/RR4K1 b - - 1 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:31:52"]
+
+1... Rxf2!! { ***This is a forcing tactical sacrifice. For it is taking a piece that has lower static value than him. White has no more choice other than taking it. } *
+
+
+[Event "random_tests: neutrual manuver"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "neutrual manuver"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/0EqQgI5d"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r3r1k1/pp2nppp/1qnb2b1/3p4/3N3B/1NP5/PP2BPPP/R2QR1K1 w - - 1 16"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:33:32"]
+
+16. Bf1 { This is a neutrual manuever } *
+
+
+[Event "random_tests: accurate_exchange"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "accurate_exchange"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/dWiaM4xq"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r3r1k1/pp2nppp/1qnb2b1/3p4/3N3B/1NP5/PP2BPPP/R2QR1K1 w - - 1 16"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:34:30"]
+
+16. Bg3! { ** This is an active exchange because it is changing a passive bishop with a strong bishop.
+** This is also a latent improving manuever. } *
+
+
+[Event "random_tests: failed prophylactic"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "failed prophylactic"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/fITqQRGO"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r2q1rk1/4bppp/p1b1pn2/1p1p4/3P1B2/1QN3P1/PP2PPBP/2R2RK1 w - - 0 14"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:36:03"]
+
+14. h3? { This is a failed prophylactic. It is not actually preventing anything and eva drops. } *
+
+
+[Event "random_tests: accurate_exchange"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "accurate_exchange"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/TqegQsPV"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r2q1rk1/4bppp/p1b1pn2/1p1p4/3P1B2/1QN3P1/PP2PPBP/2R2RK1 w - - 0 14"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:37:08"]
+
+14. Ne4!! { This is an accurate exchange. Although this is giving the piece to black in this position, if black chooses to take on e4, c6 bishop will be taken.
+This is a positional sacrifice. This literally sacrifices a pawn after 14...de 15.Rc6 Qxd4. Black's king safety value does not change a lot and , the eva does not drop. } *
+
+
+[Event "random_tests: constructive manuever"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "constructive manuever"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/sBGSUmIO"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "3k2rr/ppp5/3b1p1p/4pP1P/3pP2N/3P3P/PPP5/2KR2R1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:41:49"]
+
+1. Rg6!! { This is a constructive manuever } *
+
+
+[Event "random_tests: constructive manuever"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "constructive manuever"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/6V9Tw906"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r2rq1k1/pp3ppp/1np1n3/4P3/5P2/1N4P1/PP4BP/2QRR1K1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:43:24"]
+
+1. Na5! { This is a constructive manuever. The knight is more active and threatening the eva does not drop a lot. all move putting the piece to an Outpost should be classified as constructive manuever. } *
+
+
+[Event "random_tests: accurate_tension_release"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "accurate_tension_release"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/Bma9KWkB"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "rn1qkb1r/pb1ppp1p/1p3np1/2p5/2PP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 0 6"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:44:57"]
+
+6... cxd4! { This is accurate tension release. When facing pawn tension, this tension releasing move is the top engine choice and has significant higher eva than second choice. } *
+
+
+[Event "random_tests: neutural manuver"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "neutural manuver"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/KwovBs9T"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "rn1q1rk1/ppp1nppp/6b1/3p4/1b1P1N2/2NB1P2/PPP3PP/R1BQ1RK1 w - - 3 10"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:46:16"]
+
+10. Nce2!? { This is a neutral manuvour. engine does not drop a lot, yet the knight is not better.
+This is also structural integrity. This prevents black taking on c3 forming double pawn. } *
+
+
+[Event "random_tests: neutral manuver"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "neutral manuver"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/vclflvHl"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r4rk1/1bp1qppp/pp1b1n2/1P1p4/P2P4/2Q1PN2/4BPPP/1RB2RK1 b - - 0 15"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:47:48"]
+
+15... Rfc8 { *** This is neutral manuver. Single piece’s mobility or related scores does not improve, while delta Eva does not drop. However, this has intention of expansion, he is reading for pawn break. } *
+
+
+[Event "random_tests: constructive manuever"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "constructive manuever"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/Vb5ADJsF"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r4rk1/1bp1qppp/pp1b1n2/1P1p4/P2P4/2Q1PN2/4BPPP/1RB2RK1 b - - 0 15"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:49:06"]
+
+15... Ne4! { This is a constructive manuever for moving the knight to the outpost that is quite strong. } *
+
+
+[Event "random_tests: temporally_regroup"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "temporally_regroup"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/0l3wcwGN"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r1b2r1k/1pq3pp/p1nb4/5p2/2Bp1P2/3P1QN1/PP1BR1PP/5RK1 w - - 0 18"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:50:28"]
+
+18. Nh1!! { This is a temporally regroup. Mobility drops, delta eva does not drop, and the knight is about to go via f2-h3-g5 to the active g5 square. } *
+
+
+[Event "random_tests: accurate_exchange"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "accurate_exchange"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/wT8Bjdxe"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "3q1rk1/r2nbpp1/3np2p/p2p4/Pp1P1B2/1N1QPN2/1P3PPP/R1R3K1 w - - 4 19"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:53:15"]
+
+19. Bxd6!! { This is an accurate exchange for the knight on d6 has higher mobility than f5 bishop. And f4 bishop is passive so it is also fine if it is classified as latent improvement. } *
+
+
+[Event "random_tests: constructive manuever"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "constructive manuever"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/8PgXc1Al"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r1n4r/p1k2pp1/2p1p2p/1pP1P2P/6P1/1P2B3/P1K2P2/3R3R w - - 1 27"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:55:41"]
+
+27. Rh3! { *** This is a constructive manuever. Engine does not drop. The rook is going to f3 to attack f7. When it has a clear weakness to attack, it can be classified as constructive manuever. } *
+
+
+[Event "random_tests: constructive manuever"]
+[Date "2025.10.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "random_tests"]
+[ChapterName "constructive manuever"]
+[ChapterURL "https://lichess.org/study/OO0N7MhX/tvGVWmKx"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+[FEN "r4r2/p1k1npp1/2p1p2p/1pP1P2P/6P1/1P2BR2/P1KR1P2/8 w - - 6 29"]
+[SetUp "1"]
+[UTCDate "2025.10.20"]
+[UTCTime "04:58:26"]
+
+29. Rd6 { This is a contructive manuever. Rook going to an outpost and eva does not drop, so it is constructive manuever. } *
+
+

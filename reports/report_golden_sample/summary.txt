@@ -1,0 +1,170 @@
+Golden evaluation (cases1 + cases2)
+labeled_cases        : 92
+perfect_cases        : 51
+total_missing_tags   : 39
+total_extra_tags     : 54
+
+Per-tag hit rates:
+  accurate_knight_bishop_exchange   6/  6 (100.0%)
+  cod_file_seal                    3/  3 (100.0%)
+  cod_freeze_bind                  1/  1 (100.0%)
+  cod_king_safety_shell            0/  1 (0.0%)
+  cod_plan_kill                    0/  1 (0.0%)
+  cod_regroup_consolidate          1/  2 (50.0%)
+  constructive_maneuver            6/  7 (85.7%)
+  constructive_maneuver_prepare    3/  3 (100.0%)
+  control_over_dynamics            9/ 11 (81.8%)
+  deferred_initiative              8/  9 (88.9%)
+  direct_prophylactic              1/  3 (33.3%)
+  initiative_attempt               1/  6 (16.7%)
+  latent_prophylactic              0/  1 (0.0%)
+  maneuver_opening                 8/  8 (100.0%)
+  misplaced_maneuver               3/  3 (100.0%)
+  missed_tactic                    1/  1 (100.0%)
+  neutral_maneuver                15/ 17 (88.2%)
+  neutral_tension_creation         5/  5 (100.0%)
+  positional_sacrifice             0/  2 (0.0%)
+  positional_structure_sacrifice   0/  1 (0.0%)
+  prophylactic_direct              1/  3 (33.3%)
+  prophylactic_meaningless         1/  1 (100.0%)
+  prophylactic_move                1/  4 (25.0%)
+  risk_avoidance                   1/  2 (50.0%)
+  structural_blockage              1/  1 (100.0%)
+  structural_compromise_dynamic    1/  2 (50.0%)
+  structural_integrity             2/  2 (100.0%)
+  tactical_sensitivity             0/  1 (0.0%)
+  tension_creation                 2/  4 (50.0%)
+  winning_position_handling       36/ 45 (80.0%)
+
+Most common extra tags:
+  control_over_dynamics            7
+  prophylactic_move                7
+  deferred_initiative              6
+  cod_file_seal                    4
+  neutral_tension_creation         4
+  constructive_maneuver            3
+  constructive_maneuver_prepare    3
+  initiative_attempt               2
+  structural_integrity             2
+  cod_freeze_bind                  1
+
+Sample mismatches (first 20):
+- log_moves_log_0003 move c6d4
+  expected: ['maneuver_opening', 'initiative_attempt', 'accurate_knight_bishop_exchange', 'prophylactic_move', 'prophylactic_direct', 'direct_prophylactic']
+  current : ['maneuver_opening', 'deferred_initiative', 'risk_avoidance', 'accurate_knight_bishop_exchange']
+  missing : ['direct_prophylactic', 'initiative_attempt', 'prophylactic_direct', 'prophylactic_move']
+  extra   : ['deferred_initiative', 'risk_avoidance']
+
+- log_moves_log_0004 move c8g4
+  expected: ['maneuver_opening', 'prophylactic_move', 'prophylactic_direct', 'direct_prophylactic']
+  current : ['maneuver_opening']
+  missing : ['direct_prophylactic', 'prophylactic_direct', 'prophylactic_move']
+  extra   : []
+
+- log_moves_log_0006 move g7g5
+  expected: ['neutral_tension_creation', 'prophylactic_move', 'prophylactic_direct', 'direct_prophylactic', 'initiative_attempt', 'tension_creation', 'structural_compromise_dynamic']
+  current : ['neutral_tension_creation', 'prophylactic_move', 'prophylactic_direct', 'control_over_dynamics', 'cod_plan_kill', 'direct_prophylactic']
+  missing : ['initiative_attempt', 'structural_compromise_dynamic', 'tension_creation']
+  extra   : ['cod_plan_kill', 'control_over_dynamics']
+
+- log_moves_log_0007 move g4f3
+  expected: ['accurate_knight_bishop_exchange']
+  current : ['control_over_dynamics', 'cod_freeze_bind', 'accurate_knight_bishop_exchange']
+  missing : []
+  extra   : ['cod_freeze_bind', 'control_over_dynamics']
+
+- log_moves_log_0008 move d4e6
+  expected: ['maneuver_opening']
+  current : ['maneuver_opening', 'positional_sacrifice', 'control_over_dynamics', 'cod_file_seal', 'deferred_initiative', 'positional_structure_sacrifice', 'structural_integrity', 'inaccurate_knight_bishop_exchange']
+  missing : []
+  extra   : ['cod_file_seal', 'control_over_dynamics', 'deferred_initiative', 'inaccurate_knight_bishop_exchange', 'positional_sacrifice', 'positional_structure_sacrifice', 'structural_integrity']
+
+- log_moves_log_0009 move f8e7
+  expected: ['maneuver_opening']
+  current : ['tension_creation', 'maneuver_opening', 'structural_compromise_static']
+  missing : []
+  extra   : ['structural_compromise_static', 'tension_creation']
+
+- log_moves_log_0010 move e6c5
+  expected: ['neutral_maneuver']
+  current : ['neutral_maneuver', 'prophylactic_move', 'control_over_dynamics', 'deferred_initiative']
+  missing : []
+  extra   : ['control_over_dynamics', 'deferred_initiative', 'prophylactic_move']
+
+- log_moves_log_0011 move c5d7
+  expected: ['control_over_dynamics', 'cod_regroup_consolidate', 'constructive_maneuver_prepare']
+  current : ['neutral_tension_creation', 'constructive_maneuver', 'control_over_dynamics', 'cod_file_seal', 'constructive_maneuver_prepare']
+  missing : ['cod_regroup_consolidate']
+  extra   : ['cod_file_seal', 'constructive_maneuver', 'neutral_tension_creation']
+
+- log_moves_log_0013 move e7f6
+  expected: ['accurate_knight_bishop_exchange', 'constructive_maneuver', 'constructive_maneuver_prepare']
+  current : ['constructive_maneuver', 'control_over_dynamics', 'accurate_knight_bishop_exchange', 'constructive_maneuver_prepare']
+  missing : []
+  extra   : ['control_over_dynamics']
+
+- log_moves_log_0014 move d7e5
+  expected: ['neutral_maneuver']
+  current : ['neutral_maneuver', 'structural_compromise_dynamic']
+  missing : []
+  extra   : ['structural_compromise_dynamic']
+
+- log_moves_log_0015 move d8d7
+  expected: ['tension_creation', 'neutral_maneuver']
+  current : ['initiative_attempt', 'tension_creation', 'neutral_maneuver']
+  missing : []
+  extra   : ['initiative_attempt']
+
+- log_moves_log_0016 move h7h5
+  expected: ['initiative_attempt']
+  current : ['prophylactic_move', 'prophylactic_direct', 'direct_prophylactic']
+  missing : ['initiative_attempt']
+  extra   : ['direct_prophylactic', 'prophylactic_direct', 'prophylactic_move']
+
+- log_moves_log_0017 move c8a8
+  expected: ['neutral_tension_creation', 'control_over_dynamics', 'cod_plan_kill']
+  current : ['neutral_tension_creation', 'constructive_maneuver', 'prophylactic_move', 'control_over_dynamics', 'constructive_maneuver_prepare']
+  missing : ['cod_plan_kill']
+  extra   : ['constructive_maneuver', 'constructive_maneuver_prepare', 'prophylactic_move']
+
+- log_moves_log_0018 move g8h6
+  expected: ['deferred_initiative', 'neutral_maneuver', 'control_over_dynamics']
+  current : ['neutral_maneuver', 'deferred_initiative']
+  missing : ['control_over_dynamics']
+  extra   : []
+
+- log_moves_log_0020 move e7d8
+  expected: ['deferred_initiative', 'misplaced_maneuver']
+  current : ['misplaced_maneuver']
+  missing : ['deferred_initiative']
+  extra   : []
+
+- log_moves_log_0022 move b8c6
+  expected: ['positional_sacrifice', 'positional_structure_sacrifice']
+  current : ['maneuver_opening', 'prophylactic_move', 'prophylactic_latent', 'latent_prophylactic']
+  missing : ['positional_sacrifice', 'positional_structure_sacrifice']
+  extra   : ['latent_prophylactic', 'maneuver_opening', 'prophylactic_latent', 'prophylactic_move']
+
+- log_moves_log_0023 move f8d6
+  expected: ['control_over_dynamics']
+  current : ['control_over_dynamics', 'cod_file_seal']
+  missing : []
+  extra   : ['cod_file_seal']
+
+- log_moves_log_0026 move g8f6
+  expected: ['maneuver_opening']
+  current : ['maneuver_opening', 'prophylactic_move']
+  missing : []
+  extra   : ['prophylactic_move']
+
+- log_moves_log_0028 move g4f3
+  expected: ['accurate_knight_bishop_exchange']
+  current : ['neutral_tension_creation', 'accurate_knight_bishop_exchange']
+  missing : []
+  extra   : ['neutral_tension_creation']
+
+- log_moves_log_0030 move c8b8
+  expected: ['prophylactic_move', 'latent_prophylactic', 'control_over_dynamics', 'cod_king_safety_shell']
+  current : ['control_over_dynamics', 'cod_file_seal', 'deferred_initiative']
+  missing : ['cod_king_safety_shell', 'latent_prophylactic', 'prophylactic_move']
+  extra   : ['cod_file_seal', 'deferred_initiative']

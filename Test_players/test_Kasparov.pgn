@@ -1,0 +1,1212 @@
+[Event "Chess Olympiad"]
+[Site "La Valletta, Malta"]
+[Date "1980.??.??"]
+[White "Garry Kasparov"]
+[Black "Slavoljub Marjanovic"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "E17"]
+[Opening "Queen's Indian Defense: Classical Variation, Polugaevsky Gambit"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Slavoljub Marjanovic"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/nwzGEC0P"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. d5 exd5 8. Nh4 c6 9. cxd5 Nxd5 10. Nf5 Nc7 11. Nc3 d5 12. e4 Bf6 13. exd5 cxd5 14. Bf4 Nba6 15. Re1 Qd7 16. Bh3 Kh8 17. Ne4 Bxb2 18. Ng5 Qc6 19. Ne7 Qf6 20. Nxh7 Qd4 21. Qh5 g6 22. Qh4 Bxa1 23. Nf6+ { 1-0 Black resigns. } 1-0
+
+
+[Event "test_kasparov: Garry Kasparov - Anatoly Karpov"]
+[Site "Moscow, Russia"]
+[Date "1981.??.??"]
+[White "Garry Kasparov"]
+[Black "Anatoly Karpov"]
+[Result "1/2-1/2"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Petrov's Defense: Classical Attack, Chigorin Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anatoly Karpov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/sly30ZqV"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 Be7 6. Bd3 d5 7. O-O Nc6 8. Re1 Bf5 9. Nbd2 Nxd2 10. Qxd2 Bxd3 11. Qxd3 O-O 12. c3 Qd7 13. Bf4 a6 14. Re3 Rae8 15. Rae1 Bd8 16. h3 Rxe3 17. Rxe3 f6 18. Re2 Rf7 19. Nd2 Be7 20. Nf1 Bf8 21. Qf3 Re7 22. Ne3 Nd8 23. Bxc7 Qxc7 24. Nxd5 Qd6 25. Nxe7+ Bxe7 26. Qe4 Bf8 27. Qe8 g6 28. a4 Kg7 29. b4 Qc7 30. Re3 Nf7 31. Qe6 Qd8 32. a5 h5 33. Qe4 Qd7 34. Qe6 Qd8 35. Kf1 Nh6 36. g4 hxg4 37. hxg4 Nf7 38. Ke2 Ng5 39. Qb6 Qd7 40. Kd3 Bd6 41. Kc2 { 1/2-1/2 The game is a draw. } 1/2-1/2
+
+
+[Event "Soviet Chess Championship"]
+[Site "Frunze, Russia"]
+[Date "1981.??.??"]
+[Round "17"]
+[White "Vladimir Tukmakov"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2480"]
+[BlackElo "2630"]
+[Variant "Standard"]
+[ECO "E74"]
+[Opening "King's Indian Defense: Averbakh Variation, Benoni Defense, Advance Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Vladimir Tukmakov - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/IqHt3XI7"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5 c5 7. d5 b5 8. cxb5 a6 9. a4 h6 10. Bd2 e6 11. dxe6 Bxe6 12. Nf3 axb5 13. Bxb5 Na6 14. O-O Nc7 15. Re1 Nxb5 16. Nxb5 d5 17. exd5 Nxd5 18. Ne5 Re8 19. Rc1 Bf5 20. Nc6 Qd7 21. Rxc5 Rxe1+ 22. Qxe1 Re8 23. Qc1 Nb6 24. b3 Re2 25. Ba5 Be4 26. Ne5 Qe7 27. Nd4 Ra2 28. Bxb6 Bxe5 29. Qe3 Qxc5 { 0-1 White resigns. } 0-1
+
+
+[Event "World Chess Championship"]
+[Site "Moscow, Russia"]
+[Date "1984.??.??"]
+[Round "32"]
+[White "Garry Kasparov"]
+[Black "Anatoly Karpov"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "E12"]
+[Opening "Queen's Indian Defense: Kasparov-Petrosian Variation, Kasparov Attack"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anatoly Karpov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/6xfeOcJQ"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb7 5. a3 d5 6. cxd5 Nxd5 7. Qc2 Nd7 8. Nxd5 exd5 9. Bg5 f6 10. Bf4 c5 11. g3 g6 12. h4 Qe7 13. Bg2 Bg7 14. h5 f5 15. Qd2 Bf6 16. Rc1 Rc8 17. Rc3 Rc6 18. Re3 Re6 19. Rxe6 Qxe6 20. Ng5 Qe7 21. dxc5 Nxc5 22. hxg6 d4 23. g7 Bxg7 24. Bxb7 Qxb7 25. f3 Qd5 26. Rxh7 Rxh7 27. Nxh7 Qb3 28. Bd6 Ne6 29. Ng5 Bh6 30. Bf4 Bxg5 31. Bxg5 Nxg5 32. Qxg5 Qxb2 33. Qxf5 Qc1+ 34. Kf2 Qe3+ 35. Kf1 Qc1+ 36. Kg2 Qxa3 37. Qh5+ Kd7 38. Qg4+ Kc6 39. Qxd4 b5 40. g4 b4 41. g5 b3 42. g6 b2 43. g7 Qa2 44. Qe4+ Kd6 45. Qg6+ Kc7 46. g8=Q Qxg8 47. Qxg8 b1=Q 48. Qf7+ { 1-0 Black resigns. } 1-0
+
+
+[Event "World Chess Championship"]
+[Site "Moscow, Russia"]
+[Date "1984.??.??"]
+[Round "48"]
+[White "Garry Kasparov"]
+[Black "Anatoly Karpov"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "C42"]
+[Opening "Petrov's Defense: Classical Attack, Jaenisch Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anatoly Karpov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/e3ZAOTeq"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Be7 8. c4 Nf6 9. Nc3 O-O 10. h3 dxc4 11. Bxc4 Na5 12. Bd3 Be6 13. Re1 Nc6 14. a3 a6 15. Bf4 Qd7 16. Ne5 Nxe5 17. dxe5 Nd5 18. Nxd5 Bxd5 19. Qc2 g6 20. Rad1 c6 21. Bh6 Rfd8 22. e6 fxe6 23. Bxg6 Bf8 24. Bxf8 Rxf8 25. Be4 Rf7 26. Re3 Rg7 27. Rdd3 Rf8 28. Rg3 Kh8 29. Qc3 Rf7 30. Rde3 Kg8 31. Qe5 Qc7 32. Rxg7+ Rxg7 33. Bxd5 Qxe5 34. Bxe6+ Qxe6 35. Rxe6 Rd7 36. b4 Kf7 37. Re3 Rd1+ 38. Kh2 Rc1 39. g4 b5 40. f4 c5 41. bxc5 Rxc5 42. Rd3 Ke7 43. Kg3 a5 44. Kf3 b4 45. axb4 axb4 46. Ke4 Rb5 47. Rb3 Rb8 48. Kd5 Kf6 49. Kc5 Re8 50. Rxb4 Re3 51. h4 Rh3 52. h5 Rh4 53. f5 Rh1 54. Kd5 Rd1+ 55. Rd4 Re1 56. Kd6 Re8 57. Kd7 Rg8 58. h6 Kf7 59. Rc4 Kf6 60. Re4 Kf7 61. Kd6 Kf6 62. Re6+ Kf7 63. Re7+ Kf6 64. Rg7 Rd8+ 65. Kc5 Rd5+ 66. Kc4 Rd4+ 67. Kc3 { 1-0 Black resigns. } 1-0
+
+
+[Event "test_kasparov: Robert Huebner - Garry Kasparov"]
+[Site "Hamburg, Germany"]
+[Date "1985.??.??"]
+[White "Robert Huebner"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[Variant "Standard"]
+[ECO "A21"]
+[Opening "English Opening: King's English Variation, Reversed Sicilian"]
+[StudyName "test_kasparov"]
+[ChapterName "Robert Huebner - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/1hpT2TS7"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. c4 e5 2. Nc3 d6 3. d4 exd4 4. Qxd4 Nf6 5. g3 Nc6 6. Qd2 Be6 7. Nd5 Ne5 8. b3 Ne4 9. Qe3 Nc5 10. Bb2 c6 11. Nf4 Ng4 12. Qd4 Ne4 13. Bh3 Qa5+ 14. Kf1 Ngxf2 15. Bxe6 fxe6 16. Nxe6 Kd7 17. Nh3 Nxh3 18. Qxe4 Re8 19. Nc5+ Qxc5 20. Qg4+ Kc7 21. Qxh3 Be7 22. Bxg7 Rhf8+ 23. Bxf8 Rxf8+ 24. Ke1 Qf2+ 25. Kd1 Qd4+ 26. Kc2 Qe4+ 27. Kd2 Bg5+ 28. Kc3 Qe5+ { 0-1 White resigns. } 0-1
+
+
+[Event "test_kasparov: Garry Kasparov - Jan Timman"]
+[Site "Hilversum, Netherlands"]
+[Date "1985.??.??"]
+[Round "2"]
+[White "Garry Kasparov"]
+[Black "Jan Timman"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "E12"]
+[Opening "Queen's Indian Defense: Kasparov Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Jan Timman"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/mUebEGqY"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb4 5. Bg5 Bb7 6. e3 h6 7. Bh4 g5 8. Bg3 Ne4 9. Nd2 Nxc3 10. bxc3 Bxc3 11. Rc1 Bb4 12. h4 gxh4 13. Rxh4 Bd6 14. Qg4 Bxg3 15. Qxg3 Nc6 16. d5 Ne7 17. Bd3 d6 18. Qg7 Rg8 19. Qh7 Rf8 20. Ne4 Nf5 21. Rh3 Qe7 22. g4 Nh4 23. Qg7 O-O-O 24. Nf6 exd5 25. cxd5 Kb8 26. Rxh4 Bxd5 27. g5 Bxa2 28. gxh6 d5 29. h7 Qa3 30. Rd1 Rh8 31. Ng8 Bb3 32. Ra1 Qc5 33. Qxh8 d4 34. Rxd4 Qc3+ 35. Ke2 { 1-0 Black resigns. } 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Dubai, United Arab Emirates"]
+[Date "1986.??.??"]
+[White "Wlodzimierz Schmidt"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2445"]
+[BlackElo "2740"]
+[Variant "Standard"]
+[ECO "A57"]
+[Opening "Benko Gambit Declined: Sosonko Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Wlodzimierz Schmidt - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/5BCdttlH"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. a4 b4 5. Nd2 g6 6. e4 d6 7. Ngf3 Bg7 8. g3 e6 9. Bh3 exd5 10. Bxc8 Qxc8 11. cxd5 O-O 12. O-O c4 13. Qc2 c3 14. bxc3 bxc3 15. Nb3 Qg4 16. Nfd4 Qxe4 17. Qxc3 Nxd5 18. Qd2 Nb6 19. Re1 Qd5 20. Qd1 N8d7 21. Ra2 Bxd4 22. Rd2 Ne5 23. Nxd4 Nbc4 24. Rc2 Rac8 25. Rc3 Nb6 26. Bb2 Rxc3 27. Bxc3 Rc8 28. Ba1 Rc4 29. Nb5 Rxa4 30. Qxd5 Nxd5 31. Bxe5 dxe5 32. Rxe5 Nf6 33. Re7 a5 34. Nd6 Rd4 35. Nxf7 Kf8 36. Ra7 Rd7 37. Rxd7 Nxd7 38. Nd6 Ke7 39. Nc4 a4 40. Kf1 Ke6 41. Ke2 Kd5 42. Ne3+ Kd4 43. Kd2 Ne5 44. Kc2 Nd3 45. Nd1 Ne1+ 46. Kb2 Nf3 47. h4 Ne5 48. Ka3 Ke4 49. h5 gxh5 50. Ne3 Kf3 51. Nd5 Ng4 52. Ne7 Nxf2 53. Nf5 Ne4 54. Kxa4 Nxg3 55. Nh4+ Ke4 56. Kb4 Nf5 { 0-1 White resigns. } 0-1
+
+
+[Event "World Cup"]
+[Site "Barcelona, Spain"]
+[Date "1989.??.??"]
+[White "Garry Kasparov"]
+[Black "Boris Spassky"]
+[Result "1-0"]
+[WhiteElo "2775"]
+[BlackElo "2580"]
+[Variant "Standard"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Exchange Variation, Positional Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Boris Spassky"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/uenKUz2Z"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 c6 6. e3 Be7 7. Bd3 Nbd7 8. Nge2 Nh5 9. Bxe7 Qxe7 10. g4 Nhf6 11. Ng3 h6 12. h3 Nb6 13. Qd2 Bd7 14. b3 g6 15. a4 a5 16. f3 h5 17. g5 Qd6 18. Nge2 Ng8 19. e4 Ne7 20. Qf4 Qxf4 21. Nxf4 O-O 22. Nce2 h4 23. Ng2 Kg7 24. Kd2 dxe4 25. fxe4 Rad8 26. Raf1 Rh8 27. Ne3 Rh5 28. Rfg1 Bc8 29. Kc3 Rhh8 30. Nf4 Rd6 31. Bc2 Na8 32. Nc4 Rdd8 33. Nxa5 Nc7 34. Rf1 b5 35. Rf3 Rhf8 36. Rhf1 bxa4 37. bxa4 f6 38. Nxg6 Nxg6 39. gxf6+ Kh6 40. Nxc6 Rd6 41. d5 Rxc6+ 42. dxc6 Ne6 43. e5 Nxe5 44. Re3 Ng6 45. f7 Ngf4 46. Bb3 Kg7 47. Re4 Rxf7 48. Bxe6 Nxe6 49. Rxf7+ Kxf7 50. Rxh4 Ke7 51. Rh8 Ba6 52. h4 { 1-0 Black resigns. } 1-0
+
+
+[Event "Linares International Chess Tournament"]
+[Site "Linares, Spain"]
+[Date "1990.??.??"]
+[Round "7"]
+[White "Vassily Ivanchuk"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2665"]
+[BlackElo "2800"]
+[Variant "Standard"]
+[ECO "B97"]
+[Opening "Sicilian Defense: Najdorf Variation, Poisoned Pawn Accepted"]
+[StudyName "test_kasparov"]
+[ChapterName "Vassily Ivanchuk - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/9xBSZInH"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Qd2 Qxb2 9. Rb1 Qa3 10. f5 Nc6 11. fxe6 fxe6 12. Nxc6 bxc6 13. Be2 Be7 14. O-O O-O 15. Rb3 Qc5+ 16. Be3 Qe5 17. Bf4 Qc5+ 18. Kh1 Ng4 19. h3 e5 20. Na4 Qa7 21. Bc4+ Kh8 22. hxg4 exf4 23. Nb6 d5 24. exd5 cxd5 25. Bxd5 Rb8 26. Nxc8 Rbxc8 27. Rh3 Qb6 28. Re1 Bg5 29. Re6 Qd8 30. c4 Rb8 31. Qd3 Bh4 32. Be4 Qg5 33. Bxh7 Rfd8 34. Qc2 f3 35. Rxf3 Rd2 36. Qe4 Rd1+ 37. Kh2 Re1 38. Qf5 Rxe6 39. Qxe6 Kxh7 40. Qe4+ g6 41. Rh3 Kg7 42. Qd4+ Kg8 43. Qe4 Qf6 { 0-1 White resigns. } 0-1
+
+
+[Event "Tilburg Chess Tournament"]
+[Site "Tilburg, Netherlands"]
+[Date "1991.??.??"]
+[White "Garry Kasparov"]
+[Black "Viswanathan Anand"]
+[Result "1-0"]
+[WhiteElo "2770"]
+[BlackElo "2650"]
+[Variant "Standard"]
+[ECO "B48"]
+[Opening "Sicilian Defense: Taimanov Variation, Bastrikov Variation, English Attack"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Viswanathan Anand"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/8tayjlsI"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Qc7 5. Nc3 e6 6. Be3 a6 7. Bd3 Nf6 8. O-O Ne5 9. h3 Bc5 10. Kh1 d6 11. f4 Nc6 12. e5 Nxe5 13. fxe5 dxe5 14. Bb5+ axb5 15. Ndxb5 Qc6 16. Bxc5 Qxc5 17. Nd6+ Ke7 18. Rxf6 gxf6 19. Nce4 Qd4 20. Qh5 Rf8 21. Rd1 Qe3 22. Qh4 Qf4 23. Qe1 Ra4 24. Qc3 Rd4 25. Rxd4 Qf1+ 26. Kh2 exd4 27. Qc5 Kd7 28. Nb5 Qf4+ 29. g3 { 1-0 Black resigns. } 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Manila, Philippines"]
+[Date "1992.??.??"]
+[White "Garry Kasparov"]
+[Black "Predrag Nikolic"]
+[Result "1-0"]
+[WhiteElo "2780"]
+[BlackElo "2635"]
+[Variant "Standard"]
+[ECO "D10"]
+[Opening "Slav Defense: Winawer Countergambit"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Predrag Nikolic"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/Xu3AYoke"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e5 4. dxe5 d4 5. Ne4 Qa5+ 6. Bd2 Qxe5 7. Ng3 Qd6 8. Nf3 Nf6 9. Qc2 Be7 10. O-O-O O-O 11. e3 dxe3 12. fxe3 Qc7 13. Bc3 Bg4 14. Bd3 Nbd7 15. Bf5 Bxf5 16. Nxf5 Rfe8 17. Nxg7 Kxg7 18. Qf5 Nf8 19. h4 h6 20. g4 Qc8 21. Qxc8 Raxc8 22. g5 Nh7 23. e4 Rcd8 24. Rdf1 Kf8 25. gxf6 Bxf6 26. e5 Bg7 27. Rhg1 c5 28. Kc2 Re6 29. Rg4 Bh8 30. b4 b6 31. bxc5 bxc5 32. Rb1 Ra6 33. Rb2 Bg7 34. Rb7 Rxa2+ 35. Kb3 Ra6 36. e6 Rxe6 37. Rxg7 { 1-0 Black resigns. } 1-0
+
+
+[Event "Linares International Chess Tournament"]
+[Site "Linares, Spain"]
+[Date "1993.??.??"]
+[Round "11"]
+[White "Garry Kasparov"]
+[Black "Boris Gelfand"]
+[Result "1-0"]
+[WhiteElo "2805"]
+[BlackElo "2690"]
+[Variant "Standard"]
+[ECO "B87"]
+[Opening "Sicilian Defense: Sozin Attack, Flank Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Boris Gelfand"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/gLeP84yQ"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 e6 7. Bb3 b5 8. O-O Be7 9. Qf3 Qc7 10. Qg3 O-O 11. Bh6 Ne8 12. Rad1 Bd7 13. Nf3 b4 14. Ne2 a5 15. Nf4 Kh8 16. Bg5 Nf6 17. Qh4 Bb5 18. Nd4 Be8 19. Ndxe6 fxe6 20. Nxe6 Qa7 21. e5 dxe5 22. Nxf8 Bxf8 23. Bxf6 gxf6 24. Rd8 Nd7 25. Qg4 { 1-0 Black resigns. } 1-0
+
+
+[Event "Linares International Chess Tournament"]
+[Site "Linares, Spain"]
+[Date "1993.??.??"]
+[Round "10"]
+[White "Anatoly Karpov"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2725"]
+[BlackElo "2805"]
+[Variant "Standard"]
+[ECO "E85"]
+[Opening "King's Indian Defense: Sämisch Variation, Orthodox Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Anatoly Karpov - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/Z344yLre"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 e5 7. Nge2 Nbd7 8. Qd2 c6 9. Rd1 a6 10. dxe5 Nxe5 11. b3 b5 12. cxb5 axb5 13. Qxd6 Nfd7 14. f4 b4 15. Nb1 Ng4 16. Bd4 Bxd4 17. Qxd4 Rxa2 18. h3 c5 19. Qg1 Ngf6 20. e5 Ne4 21. h4 c4 22. Nc1 c3 23. Nxa2 c2 24. Qd4 cxd1=Q+ 25. Kxd1 Ndc5 26. Qxd8 Rxd8+ 27. Kc2 Nf2 { 0-1 White resigns. } 0-1
+
+
+[Event "PCA World Chess Championship"]
+[Site "London, England"]
+[Date "1993.??.??"]
+[Round "4"]
+[White "Nigel Short"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2655"]
+[BlackElo "2805"]
+[Variant "Standard"]
+[ECO "B97"]
+[Opening "Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Nigel Short - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/HNg5cAxQ"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qb6 8. Qd2 Qxb2 9. Nb3 Qa3 10. Bxf6 gxf6 11. Be2 Nc6 12. O-O Bd7 13. Kh1 h5 14. Nd1 Rc8 15. Ne3 Qb4 16. c3 Qxe4 17. Bd3 Qa4 18. Nc4 Rc7 19. Nb6 Qa3 20. Rae1 Ne7 21. Nc4 Rxc4 22. Bxc4 h4 23. Bd3 f5 24. Be2 Bg7 25. c4 h3 26. g3 d5 27. Bf3 dxc4 28. Re3 c3 29. Rxc3 Bxc3 30. Qxc3 O-O 31. Rg1 Rc8 32. Qf6 Bc6 33. Bxc6 Rxc6 34. g4 Ng6 35. gxf5 exf5 36. Qxf5 Qxa2 37. Qxh3 Qc2 38. f5 Rc3 39. Qg4 Rxb3 40. fxg6 Qc6+ { 0-1 White resigns. } 0-1
+
+
+[Event "Mikhail Tal Memorial Tournament"]
+[Site "Riga, Latvia"]
+[Date "1995.??.??"]
+[White "Garry Kasparov"]
+[Black "Viswanathan Anand"]
+[Result "1-0"]
+[WhiteElo "2805"]
+[BlackElo "2715"]
+[Variant "Standard"]
+[ECO "C51"]
+[Opening "Italian Game: Evans Gambit, Anderssen Variation, Cordel Line"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Viswanathan Anand"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/MafZdtYJ"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Be7 6. d4 Na5 7. Be2 exd4 8. Qxd4 Nf6 9. e5 Nc6 10. Qh4 Nd5 11. Qg3 g6 12. O-O Nb6 13. c4 d6 14. Rd1 Nd7 15. Bh6 Ncxe5 16. Nxe5 Nxe5 17. Nc3 f6 18. c5 Nf7 19. cxd6 cxd6 20. Qe3 Nxh6 21. Qxh6 Bf8 22. Qe3+ Kf7 23. Nd5 Be6 24. Nf4 Qe7 25. Re1 { 1-0 Black resigns. } 1-0
+
+
+[Event "Linares Super Tournament"]
+[Site "Linares, Spain"]
+[Date "1999.??.??"]
+[Round "10"]
+[White "Viswanathan Anand"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2780"]
+[BlackElo "2810"]
+[Variant "Standard"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Scheveningen Variation, English Attack, with f3"]
+[StudyName "test_kasparov"]
+[ChapterName "Viswanathan Anand - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/XKFwrBP9"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. f3 e6 7. Be3 b5 8. g4 h6 9. Qd2 Nbd7 10. O-O-O Bb7 11. h4 b4 12. Nb1 d5 13. Bh3 g5 14. hxg5 hxg5 15. exd5 Nxd5 16. Bxg5 Qb6 17. Bg2 Rxh1 18. Bxh1 Rc8 19. Re1 Qa5 20. f4 Qxa2 21. f5 Nc5 22. fxe6 Bg7 23. exf7+ Kxf7 24. Bxd5+ Qxd5 25. Re7+ Kg8 26. Rxg7+ Kxg7 27. Nc3 bxc3 28. Nf5+ Kf7 29. Qxd5+ Bxd5 30. Nd6+ Kg6 31. Nxc8 Kxg5 32. Nb6 Be6 33. bxc3 Kxg4 34. Kb2 Kf4 35. Ka3 a5 36. Na4 Ne4 37. Nb2 Nxc3 38. Nd3+ Ke3 39. Nc5 Bf5 40. Kb2 Nd5 41. Nb7 a4 42. c4 Nb6 43. Nd6 Bd3 44. c5 Nd5 45. Ka3 Bc2 46. Nb5 Ne7 47. Na7 Kd4 48. c6 Nd5 49. Nb5+ Kc5 50. c7 Bf5 { 0-1 White resigns. } 0-1
+
+
+[Event "test_kasparov: Garry Kasparov - Vladimir Kramnik"]
+[Site "Astana, Kazakhstan"]
+[Date "2001.??.??"]
+[Round "10"]
+[White "Garry Kasparov"]
+[Black "Vladimir Kramnik"]
+[Result "1-0"]
+[WhiteElo "2835"]
+[BlackElo "2797"]
+[Variant "Standard"]
+[ECO "C67"]
+[Opening "Ruy Lopez: Berlin Defense, l'Hermet Variation, Berlin Wall Defense"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Vladimir Kramnik"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/elJdbaj6"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d4 Nd6 6. Bxc6 dxc6 7. dxe5 Nf5 8. Qxd8+ Kxd8 9. Nc3 h6 10. h3 Bd7 11. b3 Ke8 12. Bb2 Rd8 13. Rad1 Ne7 14. Rfe1 Ng6 15. Ne4 Nf4 16. e6 Nxe6 17. Nd4 c5 18. Nf5 Rh7 19. Bf6 Rc8 20. Bxg7 Bxg7 21. Nxg7+ Rxg7 22. Nf6+ Ke7 23. Nxd7 Rd8 24. Ne5 Rxd1 25. Rxd1 Nf4 26. Kh1 Rg5 27. Ng4 Rd5 28. Re1+ Kf8 29. Nxh6 Rd2 30. Re5 Rxf2 31. Rf5 Kg7 32. Ng4 Rxg2 33. Rxf4 Rxc2 34. Rf2 Rc3 35. Kg2 b5 36. h4 c4 37. h5 cxb3 38. axb3 Rc5 39. h6+ Kf8 40. Nf6 Rg5+ 41. Kh1 { 1-0 Black resigns. } 1-0
+
+
+[Event "World Junior Chess Championship"]
+[Site "Dortmund, Germany"]
+[Date "1980.??.??"]
+[White "Garry Kasparov"]
+[Black "Ralf Akesson"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "E12"]
+[Opening "Queen's Indian Defense: Kasparov-Petrosian Variation, Petrosian Attack"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Ralf Akesson"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/PJMJwQis"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 d5 6. cxd5 Nxd5 7. e3 Be7 8. Bb5+ c6 9. Bd3 Nxc3 10. bxc3 Nd7 11. e4 c5 12. O-O cxd4 13. cxd4 O-O 14. Qe2 Rc8 15. Bb2 Qc7 16. Qe3 Nf6 17. Ne5 b5 18. f4 Qb6 19. Kh1 b4 20. axb4 Bxb4 21. Rab1 a5 22. Qe2 Qa7 23. f5 Qa8 24. d5 exd5 25. Ng4 Nxg4 26. Qxg4 f6 27. Bxf6 Rxf6 28. e5 Rh6 29. f6 Rc7 30. e6 Qd8 31. e7 Rxe7 32. fxe7 Qxe7 33. Rbc1 Qd8 34. Qf5 Qb8 35. Qf7+ Kh8 36. Rc7 { 1-0 Black resigns. } 1-0
+
+
+[Event "test_kasparov: Anatoly Karpov - Garry Kasparov"]
+[Site "Moscow, Russia"]
+[Date "1981.??.??"]
+[White "Anatoly Karpov"]
+[Black "Garry Kasparov"]
+[Result "1/2-1/2"]
+[Variant "Standard"]
+[ECO "A30"]
+[Opening "English Opening: Symmetrical Variation, Hedgehog Defense"]
+[StudyName "test_kasparov"]
+[ChapterName "Anatoly Karpov - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/CP6WOalO"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. c4 Nf6 2. Nc3 c5 3. Nf3 e6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. d4 cxd4 8. Qxd4 d6 9. Bg5 a6 10. Bxf6 Bxf6 11. Qf4 O-O 12. Rfd1 Be7 13. Ne4 Bxe4 14. Qxe4 Ra7 15. Nd4 Qc8 16. b3 Re8 17. a4 Qc5 18. Ra2 Bf6 19. Rad2 Rc7 20. Qb1 Be7 21. b4 Qh5 22. Rc2 Rec8 23. b5 axb5 24. axb5 Rxc4 25. Rxc4 Rxc4 26. Qa2 Qc5 27. Qa8 Rxd4 28. Qxb8+ Bf8 29. Ra1 d5 30. Bf1 Rc4 31. Ra8 Rc1 32. Qe8 d4 33. Ra7 Qf5 34. Ra8 Qc5 35. g4 Qd6 36. Rd8 Qb4 37. Rd7 h6 38. Qxf7+ Kh7 39. g5 Qb1 40. g6+ Qxg6+ 41. Qxg6+ Kxg6 { 1/2-1/2 The game is a draw. } 1/2-1/2
+
+
+[Event "Tilburg Chess Tournament"]
+[Site "Tilburg, Netherlands"]
+[Date "1981.??.??"]
+[Round "8"]
+[White "Garry Kasparov"]
+[Black "Ulf Andersson"]
+[Result "1-0"]
+[WhiteElo "2630"]
+[BlackElo "2600"]
+[Variant "Standard"]
+[ECO "E12"]
+[Opening "Queen's Indian Defense: Kasparov-Petrosian Variation, Andersson Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Ulf Andersson"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/JKhWn61w"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 Ne4 6. Nxe4 Bxe4 7. Nd2 Bg6 8. g3 Nc6 9. e3 a6 10. b4 b5 11. cxb5 axb5 12. Bb2 Na7 13. h4 h6 14. d5 exd5 15. Bg2 c6 16. O-O f6 17. Re1 Be7 18. Qg4 Kf7 19. h5 Bh7 20. e4 dxe4 21. Bxe4 Bxe4 22. Nxe4 Nc8 23. Rad1 Ra7 24. Nxf6 gxf6 25. Qg6+ Kf8 26. Bc1 d5 27. Rd4 Nd6 28. Rg4 Nf7 29. Bxh6+ Ke8 30. Bg7 { 1-0 Black resigns. } 1-0
+
+
+[Event "Moscow Interzonal"]
+[Site "Moscow, Russia"]
+[Date "1982.??.??"]
+[Round "1"]
+[White "Garry Kasparov"]
+[Black "Gyula Sax"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "D86"]
+[Opening "Grünfeld Defense: Exchange Variation, Classical Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Gyula Sax"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/4Ry3weZQ"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bc4 O-O 8. Be3 b6 9. h4 Bb7 10. Qf3 Qd7 11. Ne2 h5 12. Bg5 Nc6 13. Nf4 e6 14. Rd1 Na5 15. Bd3 e5 16. dxe5 Bxe5 17. O-O Qg4 18. Qe3 Rfe8 19. Be2 Bxf4 20. Bxf4 Nc4 21. Bxc4 Rxe4 22. f3 Qxf4 23. Bxf7+ Kg7 24. Qd3 Qe3+ 25. Qxe3 Rxe3 26. Rd7 Kh6 27. Rxc7 Ba6 28. Rd1 Bd3 29. Rd2 Bf5 30. Kf2 Re5 31. Rd5 Rxd5 32. Bxd5 Rd8 33. c4 b5 34. Ke3 a5 35. Kf4 Bb1 36. g4 hxg4 37. fxg4 Rf8+ 38. Kg3 { 1-0 Black resigns. } 1-0
+
+
+[Event "World Chess Championship"]
+[Site "London, England & Leningrad, Russia"]
+[Date "1986.??.??"]
+[Round "22"]
+[White "Garry Kasparov"]
+[Black "Anatoly Karpov"]
+[Result "1-0"]
+[WhiteElo "2740"]
+[BlackElo "2705"]
+[Variant "Standard"]
+[ECO "D55"]
+[Opening "Queen's Gambit Declined: Anti-Tartakower Variation, Petrosian Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anatoly Karpov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/LtgatiFf"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bxf6 Bxf6 7. e3 O-O 8. Rc1 c6 9. Bd3 Nd7 10. O-O dxc4 11. Bxc4 e5 12. h3 exd4 13. exd4 Nb6 14. Bb3 Bf5 15. Re1 a5 16. a3 Re8 17. Rxe8+ Qxe8 18. Qd2 Nd7 19. Qf4 Bg6 20. h4 Qd8 21. Na4 h5 22. Re1 b5 23. Nc3 Qb8 24. Qe3 b4 25. Ne4 bxa3 26. Nxf6+ Nxf6 27. bxa3 Nd5 28. Bxd5 cxd5 29. Ne5 Qd8 30. Qf3 Ra6 31. Rc1 Kh7 32. Qh3 Rb6 33. Rc8 Qd6 34. Qg3 a4 35. Ra8 Qe6 36. Rxa4 Qf5 37. Ra7 Rb1+ 38. Kh2 Rc1 39. Rb7 Rc2 40. f3 Rd2 41. Nd7 Rxd4 42. Nf8+ Kh6 43. Rb4 Rc4 44. Rxc4 dxc4 45. Qd6 c3 46. Qd4 { 1-0 Black resigns. } 1-0
+
+
+[Event "World Cup"]
+[Site "Barcelona, Spain"]
+[Date "1989.??.??"]
+[White "Garry Kasparov"]
+[Black "Valery Salov"]
+[Result "1-0"]
+[WhiteElo "2775"]
+[BlackElo "2630"]
+[Variant "Standard"]
+[ECO "A15"]
+[Opening "English Opening: Anglo-Indian Defense, Queen's Indian Formation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Valery Salov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/IsU0hpGv"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. Nf3 Nf6 2. c4 b6 3. Nc3 c5 4. e4 d6 5. d4 cxd4 6. Nxd4 Bb7 7. Qe2 Nbd7 8. g3 Rc8 9. Bg2 a6 10. O-O Qc7 11. b3 e6 12. Nd5 Qb8 13. Rd1 g6 14. Bg5 Bg7 15. Bxf6 Nxf6 16. Nxb6 Rd8 17. e5 Bxg2 18. exf6 Bxf6 19. Nxe6 fxe6 20. Qxe6+ Be7 21. c5 Bb7 22. Re1 Qc7 23. c6 Bxc6 24. Rac1 Rd7 25. Nxd7 Qxd7 26. Qc4 Bb7 27. Qc7 Rf8 28. Qb8+ Kf7 29. Rc7 { 1-0 Black resigns. } 1-0
+
+
+[Event "The Novgorod Chess Tournament"]
+[Site "Veliky Novgorod, Russia"]
+[Date "1994.??.??"]
+[Round "4"]
+[White "Garry Kasparov"]
+[Black "Vladimir Kramnik"]
+[Result "1-0"]
+[WhiteElo "2805"]
+[BlackElo "2725"]
+[Variant "Standard"]
+[ECO "B33"]
+[Opening "Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Vladimir Kramnik"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/9SyUm2xi"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Ndb5 d6 7. Bg5 a6 8. Na3 b5 9. Nd5 Be7 10. Bxf6 Bxf6 11. c3 O-O 12. Nc2 Rb8 13. h4 Ne7 14. Nxf6+ gxf6 15. Qd2 Bb7 16. Bd3 d5 17. exd5 Qxd5 18. O-O-O e4 19. Be2 Qxa2 20. Qh6 Qe6 21. Nd4 Qb6 22. Rh3 Kh8 23. Bg4 Rg8 24. Ne6 Rg6 25. Qf4 Re8 26. Rd6 Nd5 27. h5 Nxf4 28. hxg6 Qxd6 29. Rxh7+ Kg8 30. gxf7+ Kxh7 31. fxe8=Q Nxe6 32. Bf5+ Kg7 33. Qg6+ Kf8 34. Qxf6+ Ke8 35. Bxe6 Qf8 36. Bd7+ { 1-0 Black resigns. } 1-0
+
+
+[Event "ISR-Kasparov Handicap"]
+[Site "Tel Aviv, Israel"]
+[Date "1998.??.??"]
+[White "Ilya Smirin"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2590"]
+[BlackElo "2825"]
+[Variant "Standard"]
+[ECO "D12"]
+[Opening "Slav Defense: Quiet Variation, Schallopp Defense"]
+[StudyName "test_kasparov"]
+[ChapterName "Ilya Smirin - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/p7XI6P5n"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 e6 6. Nh4 Bg4 7. Qb3 Qb6 8. h3 Bh5 9. Bd2 Nbd7 10. g4 Bg6 11. g5 Ng8 12. Nxg6 hxg6 13. c5 Qc7 14. e4 Ne7 15. exd5 exd5 16. Bd3 Rh4 17. Ne2 b6 18. cxb6 axb6 19. O-O-O b5 20. Kb1 Nb6 21. f4 Nc4 22. Be1 Rh8 23. Bb4 Nf5 24. Rhe1 Bxb4 25. Qxb4 Qd6 26. Qc3 Kf8 27. Bxf5 gxf5 28. Nc1 g6 29. b3 b4 30. Qf3 Na3+ 31. Kb2 c5 32. Re5 c4 33. Rxd5 c3+ 34. Ka1 Nc2+ 35. Kb1 Na3+ 36. Ka1 Qa6 37. Rd7 Nc2+ 38. Kb1 Na3+ 39. Ka1 Ra7 40. Rd8+ Kg7 41. Rxh8 Nc2+ 42. Kb1 Na3+ 43. Ka1 Kxh8 44. d5 Nc2+ 45. Kb1 Na3+ 46. Ka1 Re7 47. Qd3 Qd6 48. Qd4+ Kg8 49. Qf6 Nc2+ 50. Kb1 Na3+ 51. Ka1 Qc5 52. Nd3 Qe3 53. Qa6 Qd4 54. Rc1 Re3 { 0-1 White resigns. } 0-1
+
+
+[Event "Soviet Chess Championship"]
+[Site "Wijk Aan Zee, Netherlands"]
+[Date "1999.??.??"]
+[Round "4"]
+[White "Garry Kasparov"]
+[Black "Veselin Topalov"]
+[Result "1-0"]
+[WhiteElo "2812"]
+[BlackElo "2700"]
+[Variant "Standard"]
+[ECO "B07"]
+[Opening "Pirc Defense"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Veselin Topalov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/rQwUNJev"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 Bg7 5. Qd2 c6 6. f3 b5 7. Nge2 Nbd7 8. Bh6 Bxh6 9. Qxh6 Bb7 10. a3 e5 11. O-O-O Qe7 12. Kb1 a6 13. Nc1 O-O-O 14. Nb3 exd4 15. Rxd4 c5 16. Rd1 Nb6 17. g3 Kb8 18. Na5 Ba8 19. Bh3 d5 20. Qf4+ Ka7 21. Rhe1 d4 22. Nd5 Nbxd5 23. exd5 Qd6 24. Rxd4 cxd4 25. Re7+ Kb6 26. Qxd4+ Kxa5 27. b4+ Ka4 28. Qc3 Qxd5 29. Ra7 Bb7 30. Rxb7 Qc4 31. Qxf6 Kxa3 32. Qxa6+ Kxb4 33. c3+ Kxc3 34. Qa1+ Kd2 35. Qb2+ Kd1 36. Bf1 Rd2 37. Rd7 Rxd7 38. Bxc4 bxc4 39. Qxh8 Rd3 40. Qa8 c3 41. Qa4+ Ke1 42. f4 f5 43. Kc1 Rd2 44. Qa7 { 1-0 Black resigns. } 1-0
+
+
+[Event "FIDE Man vs. Machine Chess Championship"]
+[Site "New York City, USA"]
+[Date "2003.??.??"]
+[Round "1"]
+[White "Garry Kasparov"]
+[Black "Deep Junior"]
+[Result "1-0"]
+[WhiteElo "2847"]
+[Variant "Standard"]
+[ECO "D45"]
+[Opening "Semi-Slav Defense: Stoltz Variation, Shabalov Attack"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Deep Junior"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/YEM7tNzc"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 e6 5. Nf3 Nbd7 6. Qc2 Bd6 7. g4 dxc4 8. Bxc4 b6 9. e4 e5 10. g5 Nh5 11. Be3 O-O 12. O-O-O Qc7 13. d5 b5 14. dxc6 bxc4 15. Nb5 Qxc6 16. Nxd6 Bb7 17. Qc3 Rae8 18. Nxe8 Rxe8 19. Rhe1 Qb5 20. Nd2 Rc8 21. Kb1 Nf8 22. Ka1 Ng6 23. Rc1 Ba6 24. b3 cxb3 25. Qxb3 Ra8 26. Qxb5 Bxb5 27. Rc7 { 1-0 Black resigns. } 1-0
+
+
+[Event "test_kasparov: Garry Kasparov - Semon Palatnik"]
+[Site "Daugavpils, Latvia"]
+[Date "1978.??.??"]
+[White "Garry Kasparov"]
+[Black "Semon Palatnik"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "B04"]
+[Opening "Alekhine Defense: Modern Variation, Alburt Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Semon Palatnik"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/4V66cTlp"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 g6 5. Bc4 Nb6 6. Bb3 a5 7. a4 Bg7 8. Ng5 e6 9. f4 dxe5 10. fxe5 c5 11. O-O O-O 12. c3 Nc6 13. Ne4 Nd7 14. Be3 Ne7 15. Bg5 cxd4 16. cxd4 h6 17. Bh4 g5 18. Bf2 Ng6 19. Nbc3 Qe7 20. Bc2 b6 21. Be3 Ba6 22. Rf2 Nh8 23. Bxg5 hxg5 24. Qh5 f5 25. Nxg5 Rf7 26. Bxf5 Rxf5 27. Rxf5 exf5 28. Nd5 Qe8 29. Qh7+ Kf8 30. Qxf5+ Kg8 31. Qh7+ Kf8 32. Ra3 Rc8 33. Rf3+ Nf6 34. h3 Qg6 35. Rxf6+ Bxf6 36. Ne6+ Ke8 37. Nxf6+ { 1-0 Black resigns. } 1-0
+
+
+[Event "Sokolsky Memorial Tournament"]
+[Site "Minsk, Belarus"]
+[Date "1978.??.??"]
+[White "Garry Kasparov"]
+[Black "Anatoly Lutikov"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "A46"]
+[Opening "Indian Defense: Wade-Tartakower Defense"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anatoly Lutikov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/ePFolnrb"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. Nf3 d6 3. Nc3 Bg4 4. e4 Nbd7 5. e5 Ng8 6. h3 Bxf3 7. Qxf3 c6 8. Bf4 d5 9. e6 fxe6 10. Bd3 Ngf6 11. Qe2 g6 12. Qxe6 Bg7 13. O-O Nh5 14. Bg5 Nf8 15. Qg4 Nf6 16. Qe2 Qd6 17. Rae1 e6 18. Na4 Kf7 19. b4 b6 20. Qd2 Re8 21. Bf4 Qe7 22. b5 Qa3 23. Nc3 c5 24. Nb1 Qa4 25. dxc5 bxc5 26. c4 N8d7 27. Nc3 Qa5 28. Qc2 Qd8 29. Bg5 Nb6 30. a4 dxc4 31. Be4 Re7 32. a5 Nbd7 33. Bc6 Nb8 34. Rd1 Qxa5 35. Ne4 Rf8 36. Bf4 Nxc6 37. bxc6 Ne8 38. Rd7 Rxd7 39. cxd7 Nf6 40. Nd6+ Ke7 41. Nxc4 Qa6 42. Bd6+ Kxd7 43. Bxf8 Bxf8 44. Qd3+ Ke7 45. Rd1 Nd5 46. Qe4 Kf7 47. Ne5+ Kg8 48. Nd7 c4 49. Rb1 Qd6 50. Rb7 c3 51. Nxf8 Kxf8 52. Rxh7 Qf4 53. Qxf4+ Nxf4 54. Kf1 a5 55. Ra7 Nd5 56. Rxa5 Kf7 { 1-0 Black resigns. } 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Lucerne, Switzerland"]
+[Date "1982.??.??"]
+[White "Viktor Korchnoi"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[Variant "Standard"]
+[ECO "A64"]
+[Opening "Benoni Defense: Fianchetto Variation, Hastings Defense, Main Line"]
+[StudyName "test_kasparov"]
+[ChapterName "Viktor Korchnoi - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/kAIQ23jF"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 c5 5. d5 d6 6. Nc3 O-O 7. Nf3 e6 8. O-O exd5 9. cxd5 a6 10. a4 Re8 11. Nd2 Nbd7 12. h3 Rb8 13. Nc4 Ne5 14. Na3 Nh5 15. e4 Rf8 16. Kh2 f5 17. f4 b5 18. axb5 axb5 19. Naxb5 fxe4 20. Bxe4 Bd7 21. Qe2 Qb6 22. Na3 Rbe8 23. Bd2 Qxb2 24. fxe5 Bxe5 25. Nc4 Nxg3 26. Rxf8+ Rxf8 27. Qe1 Nxe4+ 28. Kg2 Qc2 29. Nxe5 Rf2+ 30. Qxf2 Nxf2 31. Ra2 Qf5 32. Nxd7 Nd3 33. Bh6 Qxd7 34. Ra8+ Kf7 35. Rh8 Kf6 36. Kf3 Qxh3+ { 0-1 White resigns. } 0-1
+
+
+[Event "test_kasparov: Garry Kasparov - Viktor Korchnoi"]
+[Site "London, England"]
+[Date "1983.??.??"]
+[Round "7"]
+[White "Garry Kasparov"]
+[Black "Viktor Korchnoi"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "E04"]
+[Opening "Catalan Opening: Open Defense"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Viktor Korchnoi"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/7NOC84HA"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Nf3 Bd7 6. Qc2 c5 7. O-O Bc6 8. Qxc4 Nbd7 9. Bg5 Rc8 10. Bxf6 Nxf6 11. dxc5 Bxf3 12. Bxf3 Bxc5 13. Qb5+ Qd7 14. Nc3 Qxb5 15. Nxb5 Ke7 16. b4 Bxb4 17. Nxa7 Rc7 18. Rfc1 Rd7 19. Rab1 Bd2 20. Rc2 Rhd8 21. Bxb7 Kf8 22. Nc6 Rc7 23. Rbb2 Rd6 24. a4 Be1 25. Rb1 Nd5 26. Ba8 Rc8 27. Bb7 Rc7 28. Rc4 Ne7 29. Ne5 Ba5 30. Rb5 Ng6 31. Nc6 Rd1+ 32. Kg2 Be1 33. a5 Ne7 34. a6 Nxc6 35. Rxc6 Rxc6 36. Bxc6 Ra1 37. Rb8+ Ke7 38. Rb7+ Kd6 39. Bb5 Bc3 40. Rxf7 Bf6 41. Rd7+ Kc5 42. Bd3 h6 43. Rb7 Ra3 44. a7 Kd5 45. f3 Kd6 46. Rb6+ { 1-0 Black resigns. } 1-0
+
+
+[Event "World Chess Championship"]
+[Site "Moscow, Russia"]
+[Date "1985.??.??"]
+[Round "16"]
+[White "Anatoly Karpov"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[Variant "Standard"]
+[ECO "B44"]
+[Opening "Sicilian Defense: Taimanov Variation, Gary Gambit"]
+[StudyName "test_kasparov"]
+[ChapterName "Anatoly Karpov - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/oDcldm7N"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nb5 d6 6. c4 Nf6 7. N1c3 a6 8. Na3 d5 9. cxd5 exd5 10. exd5 Nb4 11. Be2 Bc5 12. O-O O-O 13. Bf3 Bf5 14. Bg5 Re8 15. Qd2 b5 16. Rad1 Nd3 17. Nab1 h6 18. Bh4 b4 19. Na4 Bd6 20. Bg3 Rc8 21. b3 g5 22. Bxd6 Qxd6 23. g3 Nd7 24. Bg2 Qf6 25. a3 a5 26. axb4 axb4 27. Qa2 Bg6 28. d6 g4 29. Qd2 Kg7 30. f3 Qxd6 31. fxg4 Qd4+ 32. Kh1 Nf6 33. Rf4 Ne4 34. Qxd3 Nf2+ 35. Rxf2 Bxd3 36. Rfd2 Qe3 37. Rxd3 Rc1 38. Nb2 Qf2 39. Nd2 Rxd1+ 40. Nxd1 Re1+ { 0-1 White resigns. } 0-1
+
+
+[Event "World Chess Championship"]
+[Site "Moscow, Russia"]
+[Date "1985.??.??"]
+[Round "24"]
+[White "Anatoly Karpov"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[Variant "Standard"]
+[ECO "B84"]
+[Opening "Sicilian Defense: Scheveningen Variation, Classical Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Anatoly Karpov - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/FXgdSUCm"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e6 7. O-O Be7 8. f4 O-O 9. Kh1 Qc7 10. a4 Nc6 11. Be3 Re8 12. Bf3 Rb8 13. Qd2 Bd7 14. Nb3 b6 15. g4 Bc8 16. g5 Nd7 17. Qf2 Bf8 18. Bg2 Bb7 19. Rad1 g6 20. Bc1 Rbc8 21. Rd3 Nb4 22. Rh3 Bg7 23. Be3 Re7 24. Kg1 Rce8 25. Rd1 f5 26. gxf6 Nxf6 27. Rg3 Rf7 28. Bxb6 Qb8 29. Be3 Nh5 30. Rg4 Nf6 31. Rh4 g5 32. fxg5 Ng4 33. Qd2 Nxe3 34. Qxe3 Nxc2 35. Qb6 Ba8 36. Rxd6 Rb7 37. Qxa6 Rxb3 38. Rxe6 Rxb2 39. Qc4 Kh8 40. e5 Qa7+ 41. Kh1 Bxg2+ 42. Kxg2 Nd4+ { 0-1 White resigns. } 0-1
+
+
+[Event "test_kasparov: Garry Kasparov - Anthony Miles"]
+[Site "Basel, Switzerland"]
+[Date "1986.??.??"]
+[Round "1"]
+[White "Garry Kasparov"]
+[Black "Anthony Miles"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "A56"]
+[Opening "Benoni Defense: Czech Benoni Defense"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anthony Miles"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/wIOwc3Bb"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 c5 3. d5 e5 4. Nc3 d6 5. e4 Be7 6. Nf3 O-O 7. h3 Nbd7 8. g4 Ne8 9. Bd3 a6 10. a4 Rb8 11. Rg1 Nc7 12. b3 Re8 13. h4 b5 14. g5 Nf8 15. h5 Bd7 16. Nh2 bxc4 17. Bxc4 f5 18. exf5 Bxf5 19. Nf1 Qd7 20. Ne3 e4 21. Bb2 Bd8 22. Ne2 Qf7 23. Nf4 Bc8 24. Rg4 Qe7 25. Rg3 Qf7 26. Nfg2 Na8 27. a5 Nc7 28. Nh4 Nb5 29. g6 hxg6 30. Nxg6 Bf6 31. Bxb5 Rxb5 32. Qc2 Bxb2 33. Qxb2 Nxg6 34. Rxg6 Re5 35. O-O-O Rxh5 36. Rdg1 Rh7 37. Nc4 Qf4+ 38. Kb1 Rb7 39. Nxd6 Bf5 40. Rf6 Qh2 41. Rg3 Qh1+ 42. Ka2 { 1-0 Black resigns. } 1-0
+
+
+[Event "World Chess Championship"]
+[Site "London, England & Leningrad, Russia"]
+[Date "1986.??.??"]
+[Round "16"]
+[White "Garry Kasparov"]
+[Black "Anatoly Karpov"]
+[Result "1-0"]
+[WhiteElo "2740"]
+[BlackElo "2705"]
+[Variant "Standard"]
+[ECO "C92"]
+[Opening "Ruy Lopez: Closed, Flohr System"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anatoly Karpov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/OYmFaPib"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Bb7 10. d4 Re8 11. Nbd2 Bf8 12. a4 h6 13. Bc2 exd4 14. cxd4 Nb4 15. Bb1 c5 16. d5 Nd7 17. Ra3 c4 18. Nd4 Qf6 19. N2f3 Nc5 20. axb5 axb5 21. Nxb5 Rxa3 22. Nxa3 Ba6 23. Re3 Rb8 24. e5 dxe5 25. Nxe5 Nbd3 26. Ng4 Qb6 27. Rg3 g6 28. Bxh6 Qxb2 29. Qf3 Nd7 30. Bxf8 Kxf8 31. Kh2 Rb3 32. Bxd3 cxd3 33. Qf4 Qxa3 34. Nh6 Qe7 35. Rxg6 Qe5 36. Rg8+ Ke7 37. d6+ Ke6 38. Re8+ Kd5 39. Rxe5+ Nxe5 40. d7 Rb8 41. Nxf7 { 1-0 Black resigns. } 1-0
+
+
+[Event "World Chess Championship"]
+[Site "Seville, Spain"]
+[Date "1987.??.??"]
+[Round "24"]
+[White "Garry Kasparov"]
+[Black "Anatoly Karpov"]
+[Result "1-0"]
+[WhiteElo "2740"]
+[BlackElo "2700"]
+[Variant "Standard"]
+[ECO "A13"]
+[Opening "English Opening: Neo-Catalan"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anatoly Karpov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/ZeNYMVmq"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. c4 e6 2. Nf3 Nf6 3. g3 d5 4. b3 Be7 5. Bg2 O-O 6. O-O b6 7. Bb2 Bb7 8. e3 Nbd7 9. Nc3 Ne4 10. Ne2 a5 11. d3 Bf6 12. Qc2 Bxb2 13. Qxb2 Nd6 14. cxd5 Bxd5 15. d4 c5 16. Rfd1 Rc8 17. Nf4 Bxf3 18. Bxf3 Qe7 19. Rac1 Rfd8 20. dxc5 Nxc5 21. b4 axb4 22. Qxb4 Qa7 23. a3 Nf5 24. Rb1 Rxd1+ 25. Rxd1 Qc7 26. Nd3 h6 27. Rc1 Ne7 28. Qb5 Nf5 29. a4 Nd6 30. Qb1 Qa7 31. Ne5 Nxa4 32. Rxc8+ Nxc8 33. Qd1 Ne7 34. Qd8+ Kh7 35. Nxf7 Ng6 36. Qe8 Qe7 37. Qxa4 Qxf7 38. Be4 Kg8 39. Qb5 Nf8 40. Qxb6 Qf6 41. Qb5 Qe7 42. Kg2 g6 43. Qa5 Qg7 44. Qc5 Qf7 45. h4 h5 46. Qc6 Qe7 47. Bd3 Qf7 48. Qd6 Kg7 49. e4 Kg8 50. Bc4 Kg7 51. Qe5+ Kg8 52. Qd6 Kg7 53. Bb5 Kg8 54. Bc6 Qa7 55. Qb4 Qc7 56. Qb7 Qd8 57. e5 Qa5 58. Be8 Qc5 59. Qf7+ Kh8 60. Ba4 Qd5+ 61. Kh2 Qc5 62. Bb3 Qc8 63. Bd1 Qc5 64. Kg2 { 1-0 Black resigns. } 1-0
+
+
+[Event "test_kasparov: Garry Kasparov - Anatoly Karpov"]
+[Site "Amsterdam, Netherlands"]
+[Date "1988.??.??"]
+[White "Garry Kasparov"]
+[Black "Anatoly Karpov"]
+[Result "1-0"]
+[WhiteElo "2750"]
+[BlackElo "2715"]
+[Variant "Standard"]
+[ECO "B17"]
+[Opening "Caro-Kann Defense: Karpov Variation, Modern Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anatoly Karpov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/uBoOruhq"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nd7 5. Ng5 Ngf6 6. Bd3 e6 7. N1f3 Bd6 8. O-O h6 9. Ne4 Nxe4 10. Bxe4 O-O 11. c3 e5 12. Bc2 Re8 13. Re1 exd4 14. Rxe8+ Qxe8 15. Qxd4 Qe7 16. Bf4 Bxf4 17. Qxf4 Nf8 18. Re1 Be6 19. Nd4 Rd8 20. h4 Qc5 21. Re3 Qd6 22. Nxe6 fxe6 23. Qg4 Qd2 24. Bb3 Kh8 25. Re2 Qd6 26. g3 a6 27. Kg2 Re8 28. Re3 Re7 29. Rf3 Rd7 30. Qh5 Qe7 31. Qe5 Rd8 32. a4 b5 33. Qe4 Qc7 34. Rf4 c5 35. Qf3 Qd6 36. axb5 axb5 37. Rf7 Rb8 38. Ra7 b4 39. Bc2 bxc3 40. bxc3 Qe5 41. Rf7 Nh7 42. Qg4 Kg8 43. Re7 Nf8 44. Qf3 c4 45. Be4 Kh8 46. Bc6 Nh7 47. Qf7 Nf8 48. Re8 Rxe8 49. Bxe8 Nh7 50. Bd7 Nf6 51. Bxe6 h5 52. Bxc4 Qe4+ 53. Kh2 Kh7 54. Qe6 Qf3 55. Qe1 Ng4+ 56. Kg1 Qc6 57. Bd3+ g6 58. Qe7+ Kh6 59. Be4 Qb6 60. Qf8+ Kh7 61. Qf7+ Kh6 62. c4 Qa6 63. c5 { 1-0 Black resigns. } 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "Thessaloniki, Greece"]
+[Date "1988.??.??"]
+[White "Garry Kasparov"]
+[Black "Nigel Short"]
+[Result "1-0"]
+[WhiteElo "2760"]
+[BlackElo "2665"]
+[Variant "Standard"]
+[ECO "D31"]
+[Opening "Queen's Gambit Declined: Charousek Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Nigel Short"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/cAphJV75"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. c4 e6 2. Nc3 d5 3. d4 Be7 4. cxd5 exd5 5. Bf4 c6 6. Qc2 g6 7. e3 Bf5 8. Qd2 Nf6 9. f3 c5 10. Bh6 cxd4 11. exd4 a6 12. g4 Be6 13. Nge2 Nbd7 14. Bg2 Nb6 15. b3 Rc8 16. O-O Rc6 17. h3 Nfd7 18. Nd1 Rg8 19. Nf2 f5 20. Rae1 g5 21. gxf5 Bf7 22. Ng4 Bh5 23. Ng3 { 1-0 Black resigns. } 1-0
+
+
+[Event "Tilburg Chess Tournament"]
+[Site "Tilburg, Netherlands"]
+[Date "1989.??.??"]
+[Round "8"]
+[White "Jeroen Piket"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2540"]
+[BlackElo "2775"]
+[Variant "Standard"]
+[ECO "E98"]
+[Opening "King's Indian Defense: Orthodox Variation, Classical System, Neo-Classical Line"]
+[StudyName "test_kasparov"]
+[ChapterName "Jeroen Piket - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/MfaypxIi"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. Nc3 O-O 5. e4 d6 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1 Nd7 10. Be3 f5 11. f3 f4 12. Bf2 g5 13. b4 Nf6 14. c5 Ng6 15. cxd6 cxd6 16. Rc1 Rf7 17. a4 Bf8 18. a5 Bd7 19. Nb5 g4 20. Nc7 g3 21. Nxa8 Nh5 22. Kh1 gxf2 23. Rxf2 Ng3+ 24. Kg1 Qxa8 25. Bc4 a6 26. Qd3 Qa7 27. b5 axb5 28. Bxb5 Nh1 { 0-1 White resigns. } 0-1
+
+
+[Event "World Chess Championship"]
+[Site "Lyons, France"]
+[Date "1990.??.??"]
+[Round "20"]
+[White "Garry Kasparov"]
+[Black "Anatoly Karpov"]
+[Result "1-0"]
+[WhiteElo "2800"]
+[BlackElo "2730"]
+[Variant "Standard"]
+[ECO "C92"]
+[Opening "Ruy Lopez: Closed, Flohr System"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anatoly Karpov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/w9AHUY1J"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Bb7 10. d4 Re8 11. Nbd2 Bf8 12. a4 h6 13. Bc2 exd4 14. cxd4 Nb4 15. Bb1 c5 16. d5 Nd7 17. Ra3 f5 18. Rae3 Nf6 19. Nh2 Kh8 20. b3 bxa4 21. bxa4 c4 22. Bb2 fxe4 23. Nxe4 Nfxd5 24. Rg3 Re6 25. Ng4 Qe8 26. Nxh6 c3 27. Nf5 cxb2 28. Qg4 Bc8 29. Qh4+ Rh6 30. Nxh6 gxh6 31. Kh2 Qe5 32. Ng5 Qf6 33. Re8 Bf5 34. Qxh6+ Qxh6 35. Nf7+ Kh7 36. Bxf5+ Qg6 37. Bxg6+ Kg7 38. Rxa8 Be7 39. Rb8 a5 40. Be4+ Kxf7 41. Bxd5+ { 1-0 Black resigns. } 1-0
+
+
+[Event "Deep Blue vs. Garry Kasparov"]
+[Site "New York City, USA"]
+[Date "1997.??.??"]
+[Round "1"]
+[White "Garry Kasparov"]
+[Black "Deep Blue"]
+[Result "1-0"]
+[WhiteElo "2795"]
+[Variant "Standard"]
+[ECO "A07"]
+[Opening "King's Indian Attack: Keres Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Deep Blue"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/JswWgBgn"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. Nf3 d5 2. g3 Bg4 3. b3 Nd7 4. Bb2 e6 5. Bg2 Ngf6 6. O-O c6 7. d3 Bd6 8. Nbd2 O-O 9. h3 Bh5 10. e3 h6 11. Qe1 Qa5 12. a3 Bc7 13. Nh4 g5 14. Nhf3 e5 15. e4 Rfe8 16. Nh2 Qb6 17. Qc1 a5 18. Re1 Bd6 19. Ndf1 dxe4 20. dxe4 Bc5 21. Ne3 Rad8 22. Nhf1 g4 23. hxg4 Nxg4 24. f3 Nxe3 25. Nxe3 Be7 26. Kh1 Bg5 27. Re2 a4 28. b4 f5 29. exf5 e4 30. f4 Bxe2 31. fxg5 Ne5 32. g6 Bf3 33. Bc3 Qb5 34. Qf1 Qxf1+ 35. Rxf1 h5 36. Kg1 Kf8 37. Bh3 b5 38. Kf2 Kg7 39. g4 Kh6 40. Rg1 hxg4 41. Bxg4 Bxg4 42. Nxg4+ Nxg4+ 43. Rxg4 Rd5 44. f6 Rd1 45. g7 { 1-0 Black resigns. } 1-0
+
+
+[Event "Linares International Chess Tournament"]
+[Site "Linares, Spain"]
+[Date "1997.??.??"]
+[Round "11"]
+[White "Garry Kasparov"]
+[Black "Vladimir Kramnik"]
+[Result "1-0"]
+[WhiteElo "2795"]
+[BlackElo "2740"]
+[Variant "Standard"]
+[ECO "E59"]
+[Opening "Nimzo-Indian Defense: Normal Variation, Bernstein Defense"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Vladimir Kramnik"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/FYTPtGIO"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 c5 6. Nf3 d5 7. O-O Nc6 8. a3 Bxc3 9. bxc3 dxc4 10. Bxc4 Qc7 11. Ba2 b6 12. Re1 e5 13. e4 Bg4 14. dxc5 bxc5 15. h3 Rad8 16. Qe2 Bxf3 17. Qxf3 Rd6 18. Bg5 h6 19. Bh4 Rfd8 20. Rab1 Ne7 21. Bc4 Nc8 22. Bg3 Nb6 23. Bb5 Re6 24. a4 c4 25. Qe2 Rd3 26. a5 Nc8 27. Rb4 Rxc3 28. Rxc4 Rxc4 29. Qxc4 Qb8 30. Qc5 Nd6 31. Bd3 Nd7 32. Qa3 Nf8 33. Rb1 Qc7 34. Rc1 Qd8 35. a6 Ng6 36. Qc5 Re7 37. f3 Ne8 38. Bf1 Rc7 39. Qe3 Rd7 40. Kh2 Re7 41. Rc6 Kh7 42. Qc1 Nc7 43. Qc3 Qd7 44. Rc5 Qd6 45. Bf2 Ne6 46. Rd5 Qb8 47. Rb5 Qd6 48. Rb7 Nd4 49. Qb4 Qf6 50. Qc5 Nc6 51. Be3 Re6 52. Bc4 Re7 53. Bd5 Nd4 54. Rxa7 Rxa7 55. Qxa7 Ne7 56. Bc4 h5 57. Qc5 { 1-0 Black resigns. } 1-0
+
+
+[Event "Linares International Chess Tournament"]
+[Site "Linares, Spain"]
+[Date "2002.??.??"]
+[Round "13"]
+[White "Garry Kasparov"]
+[Black "Ruslan Ponomariov"]
+[Result "1-0"]
+[WhiteElo "2838"]
+[BlackElo "2727"]
+[Variant "Standard"]
+[ECO "C10"]
+[Opening "French Defense: Rubinstein Variation, Kasparov Attack"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Ruslan Ponomariov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/3g6ey60h"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Nxf6+ Nxf6 7. c3 c5 8. Ne5 Nd7 9. Bb5 Bd6 10. Qg4 Kf8 11. O-O Nxe5 12. dxe5 Bxe5 13. Bg5 Bf6 14. Rad1 Qc7 15. Qh4 Bxg5 16. Qxg5 f6 17. Qh5 g6 18. Qh6+ Kf7 19. Rd3 a6 20. Rh3 Qe7 21. Bd3 f5 22. g4 Qf6 23. Rd1 b5 24. Be2 e5 25. Rhd3 Ra7 26. Rd6 Qg7 27. Qe3 Rc7 28. a4 e4 29. axb5 axb5 30. Bxb5 Qe5 31. Qg5 Qe7 32. Qh6 Be6 33. Qf4 Bc8 34. Qh6 Be6 35. gxf5 gxf5 36. Be2 Qf6 37. Bh5+ Ke7 38. Rxe6+ { 1-0 Black resigns. } 1-0
+
+
+[Event "Sokolsky Memorial Tournament"]
+[Site "Minsk, Belarus"]
+[Date "1978.??.??"]
+[White "Garry Kasparov"]
+[Black "Abram Roizman"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "C61"]
+[Opening "Ruy Lopez: Bird Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Abram Roizman"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/ijC3MPiq"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 exd4 5. O-O Bc5 6. d3 c6 7. Bc4 d6 8. f4 Nf6 9. e5 dxe5 10. Bxf7+ Kxf7 11. fxe5 Qd5 12. exf6 gxf6 13. Nd2 Rg8 14. Ne4 Be7 15. Bf4 Rg6 16. Qe2 Bg4 17. Qf2 Rag8 18. Rae1 h5 19. Bg5 Qd8 20. Qf4 Be6 21. h4 Bd5 22. g4 Kg7 23. gxh5 fxg5 24. Qe5+ Kh6 25. hxg6 gxh4 26. Rf5 Kxg6 27. Kh2 { 1-0 Black resigns. } 1-0
+
+
+[Event "Grandmaster Chess Tournament Banja Luka"]
+[Site "Banja Luka, Bosnia & Herzegovina"]
+[Date "1979.??.??"]
+[Round "5"]
+[White "Garry Kasparov"]
+[Black "Drazen Marovic"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "D61"]
+[Opening "Queen's Gambit Declined: Orthodox Defense, Rubinstein Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Drazen Marovic"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/l8ahdLDV"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. c4 e6 2. Nf3 d5 3. d4 Nf6 4. Nc3 Be7 5. Bg5 O-O 6. e3 Nbd7 7. Qc2 c5 8. O-O-O Qa5 9. Kb1 h6 10. h4 dxc4 11. Bxc4 Nb6 12. Bxf6 gxf6 13. Be2 cxd4 14. exd4 Bd7 15. Rh3 Na4 16. Rg3+ Kh8 17. Qd2 Nxc3+ 18. bxc3 Kh7 19. Bd3+ f5 20. Ne5 Bb5 21. Rf3 f6 22. Nc4 Qc7 23. Qe2 Bxc4 24. Bxc4 e5 25. Rxf5 Ba3 26. Qe4 Kh8 27. Rh5 Qh7 28. Qxh7+ Kxh7 29. dxe5 Kg6 30. g4 fxe5 31. Rd7 Rae8 32. Rxb7 Rxf2 33. Rxa7 Bf8 34. Ra6+ Kh7 35. Rf5 { 1-0 Black resigns. } 1-0
+
+
+[Event "Baku Chess Tournament"]
+[Site "Baku, Azerbaijan"]
+[Date "1980.??.??"]
+[Round "13"]
+[White "Garry Kasparov"]
+[Black "Vladimir Antoshin"]
+[Result "1-0"]
+[WhiteElo "2595"]
+[BlackElo "2480"]
+[Variant "Standard"]
+[ECO "E12"]
+[Opening "Queen's Indian Defense: Kasparov-Petrosian Variation, Classical Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Vladimir Antoshin"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/4lXwkl9k"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 d5 6. cxd5 exd5 7. g3 Nbd7 8. Bg2 a6 9. Bf4 Nh5 10. Bg5 Be7 11. Bxe7 Qxe7 12. Nh4 Nhf6 13. Nf5 Qf8 14. Qb3 O-O-O 15. O-O Nb8 16. Rac1 Nc6 17. Nxd5 Nxd5 18. Bxd5 Nxd4 19. Qc4 Nxe2+ 20. Qxe2 Bxd5 21. Qxa6+ Kb8 22. Rxc7 Kxc7 23. Qa7+ Kc6 24. Rc1+ Qc5 25. Rxc5+ bxc5 26. b4 cxb4 27. axb4 Rhe8 28. Ne7+ Kd6 29. Qc5+ Ke6 30. Nxd5 { 1-0 Black resigns. } 1-0
+
+
+[Event "Chess Olympiad"]
+[Site "La Valletta, Malta"]
+[Date "1980.??.??"]
+[White "Garry Kasparov"]
+[Black "Gert Ligterink"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "E17"]
+[Opening "Queen's Indian Defense: Opocensky Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Gert Ligterink"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/HjBeT4lo"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. Nc3 Ne4 7. Bd2 Bf6 8. O-O O-O 9. Rc1 c5 10. d5 exd5 11. cxd5 Nxd2 12. Nxd2 d6 13. Nde4 Re8 14. Qd2 a6 15. b4 Be7 16. bxc5 bxc5 17. Qf4 Qc7 18. Na4 Qa5 19. Rb1 Bxd5 20. Nb6 Bxe4 21. Bxe4 Ra7 22. Nc8 Nc6 23. Nxa7 Nxa7 24. Bd5 { 1-0 Black resigns. } 1-0
+
+
+[Event "European Team Chess Championship"]
+[Site "Skara, Sweden"]
+[Date "1980.??.??"]
+[White "Garry Kasparov"]
+[Black "Josef Pribyl"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "D85"]
+[Opening "Grünfeld Defense: Exchange Variation, Modern Exchange Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Josef Pribyl"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/GFFzdhVe"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 b6 8. Bb5+ c6 9. Bc4 O-O 10. O-O Ba6 11. Bxa6 Nxa6 12. Qa4 Qc8 13. Bg5 Qb7 14. Rfe1 e6 15. Rab1 c5 16. d5 Bxc3 17. Red1 exd5 18. exd5 Bg7 19. d6 f6 20. d7 fxg5 21. Qc4+ Kh8 22. Nxg5 Bf6 23. Ne6 Nc7 24. Nxf8 Rxf8 25. Rd6 Be7 26. d8=Q Bxd8 27. Qc3+ Kg8 28. Rd7 Bf6 29. Qc4+ Kh8 30. Qf4 Qa6 31. Qh6 { 1-0 Black resigns. } 1-0
+
+
+[Event "Bugojno Chess Tournament"]
+[Site "Bugojno, Bosnia & Herzegovina"]
+[Date "1982.??.??"]
+[Round "6"]
+[White "Garry Kasparov"]
+[Black "Tigran Petrosian"]
+[Result "1-0"]
+[WhiteElo "2640"]
+[BlackElo "2605"]
+[Variant "Standard"]
+[ECO "E11"]
+[Opening "Bogo-Indian Defense: Nimzowitsch Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Tigran Petrosian"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/kpVU5y7T"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. g3 Bxd2+ 6. Qxd2 O-O 7. Bg2 d5 8. O-O dxc4 9. Na3 c5 10. dxc5 Qxc5 11. Rac1 Nc6 12. Nxc4 Qe7 13. Nfe5 Nxe5 14. Nxe5 Nd5 15. Rfd1 Nb6 16. Qa5 g6 17. Rd3 Nd5 18. e4 Nb6 19. Bf1 Re8 20. Rdd1 Rf8 21. a3 Kg7 22. b3 Kg8 23. a4 Rd8 24. Qc5 { 1-0 Black resigns. } 1-0
+
+
+[Event "test_kasparov: Garry Kasparov - Lajos Portisch"]
+[Site "Niksic, Yugoslavia"]
+[Date "1983.??.??"]
+[Round "4"]
+[White "Garry Kasparov"]
+[Black "Lajos Portisch"]
+[Result "1-0"]
+[WhiteElo "2690"]
+[BlackElo "2600"]
+[Variant "Standard"]
+[ECO "E12"]
+[Opening "Queen's Indian Defense: Kasparov-Petrosian Variation, Petrosian Attack"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Lajos Portisch"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/KkZfvtsi"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3 Bb7 5. a3 d5 6. cxd5 Nxd5 7. e3 Nxc3 8. bxc3 Be7 9. Bb5+ c6 10. Bd3 c5 11. O-O Nc6 12. Bb2 Rc8 13. Qe2 O-O 14. Rad1 Qc7 15. c4 cxd4 16. exd4 Na5 17. d5 exd5 18. cxd5 Bxd5 19. Bxh7+ Kxh7 20. Rxd5 Kg8 21. Bxg7 Kxg7 22. Ne5 Rfd8 23. Qg4+ Kf8 24. Qf5 f6 25. Nd7+ Rxd7 26. Rxd7 Qc5 27. Qh7 Rc7 28. Qh8+ Kf7 29. Rd3 Nc4 30. Rfd1 Ne5 31. Qh7+ Ke6 32. Qg8+ Kf5 33. g4+ Kf4 34. Rd4+ Kf3 35. Qb3+ { 1-0 Black resigns. } 1-0
+
+
+[Event "Candidates Tournament"]
+[Site "Moscow"]
+[Date "1983.??.??"]
+[Round "5"]
+[White "Garry Kasparov"]
+[Black "Alexander Beliavsky"]
+[Result "1-0"]
+[Variant "Standard"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Exchange Variation, Positional Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Alexander Beliavsky"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/zQ3PfvH8"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. e3 h6 7. Bh4 O-O 8. Bd3 b6 9. Nf3 Bb7 10. O-O c5 11. Ne5 Nbd7 12. Bf5 Nxe5 13. dxe5 Ne8 14. Bg3 Nc7 15. Qg4 Qe8 16. Bd7 Qd8 17. Rad1 h5 18. Qh3 h4 19. Bf4 Bg5 20. Bf5 g6 21. Ne4 Bxf4 22. exf4 gxf5 23. Qxf5 dxe4 24. Qg4+ Kh7 25. Rxd8 Rfxd8 26. Qxh4+ Kg8 27. Qe7 e3 28. Re1 exf2+ 29. Kxf2 Rd2+ 30. Re2 Rxe2+ 31. Kxe2 Ba6+ 32. Kf2 Ne6 33. f5 Nd4 34. e6 Rf8 35. Qg5+ Kh7 36. e7 Re8 37. f6 Ne6 38. Qh5+ Kg8 { 1-0 Black resigns. } 1-0
+
+
+[Event "test_kasparov: Vasily Smyslov - Garry Kasparov"]
+[Site "Vilnius, Lithuania"]
+[Date "1984.??.??"]
+[Round "12"]
+[White "Vasily Smyslov"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[Variant "Standard"]
+[ECO "D34"]
+[Opening "Tarrasch Defense: Classical Variation, Main Line"]
+[StudyName "test_kasparov"]
+[ChapterName "Vasily Smyslov - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/HPwxf5Z2"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 d5 2. Nf3 c5 3. c4 e6 4. cxd5 exd5 5. g3 Nf6 6. Bg2 Be7 7. O-O O-O 8. Nc3 Nc6 9. Bg5 cxd4 10. Nxd4 h6 11. Be3 Re8 12. a3 Be6 13. Nxe6 fxe6 14. Qa4 Rc8 15. Rad1 Kh8 16. Kh1 a6 17. f4 Na5 18. f5 b5 19. Qh4 Ng8 20. Qh3 Nc4 21. Bc1 Bg5 22. fxe6 Bxc1 23. Rxc1 Ne3 24. Nxd5 Nxf1 25. Rxf1 Rf8 26. Nf4 Ne7 27. Qg4 g5 28. Qh3 Rf6 29. Nd3 Rxf1+ 30. Bxf1 Kg7 31. Qg4 Qd5+ 32. e4 Qd4 33. h4 Rf8 34. Be2 Qe3 35. Kg2 Ng6 36. h5 Ne7 37. b4 Kh7 38. Kh2 Rd8 39. e5 Rxd3 40. Bxd3+ Qxd3 { 0-1 White resigns. } 0-1
+
+
+[Event "S.W.I.F.T. Super Tournament"]
+[Site "Brussels, Belgium"]
+[Date "1987.??.??"]
+[Round "11"]
+[White "Garry Kasparov"]
+[Black "Mikhail Tal"]
+[Result "1-0"]
+[WhiteElo "2735"]
+[BlackElo "2605"]
+[Variant "Standard"]
+[ECO "E48"]
+[Opening "Nimzo-Indian Defense: Normal Variation, Classical Defense"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Mikhail Tal"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/KnAPnHlT"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. cxd5 exd5 7. Ne2 c5 8. O-O Nc6 9. a3 cxd4 10. exd4 Bxc3 11. bxc3 Ne7 12. Qc2 Bd7 13. Bg5 Ng6 14. f4 h6 15. Bxf6 Qxf6 16. f5 Ne7 17. Ng3 Nc8 18. Rf4 Nd6 19. Qf2 Rfe8 20. Nh5 Qd8 21. Nxg7 Ne4 22. Bxe4 Rxe4 23. f6 Kh7 24. Rxe4 dxe4 25. Qf4 Bc6 26. Re1 Qf8 27. c4 Qxa3 28. Nf5 Qf8 29. Re3 Bd7 30. Rg3 Bxf5 31. Qxf5+ { 1-0 Black resigns. } 1-0
+
+
+[Event "World Cup"]
+[Site "Belfort, France"]
+[Date "1988.??.??"]
+[Round "11"]
+[White "Alexander Beliavsky"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2645"]
+[BlackElo "2750"]
+[Variant "Standard"]
+[ECO "D97"]
+[Opening "Grünfeld Defense: Russian Variation, Prins Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Alexander Beliavsky - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/iMj3YWcJ"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Na6 8. Be2 c5 9. d5 e6 10. Bg5 exd5 11. Nxd5 Be6 12. O-O-O Bxd5 13. Rxd5 Qb6 14. Bxf6 Qxf6 15. e5 Qf5 16. Bd3 Qc8 17. Rd1 b5 18. Qh4 Nb4 19. Bxg6 fxg6 20. Rd7 Qe8 21. Re7 Bh6+ 22. Kb1 Rd8 23. Rd6 Qc6 24. a3 Rxd6 25. exd6 Qxd6 26. axb4 cxb4 27. Qe4 b3 { 0-1 White resigns. } 0-1
+
+
+[Event "Belgrade GMA"]
+[Site "Belgrade, Serbia"]
+[Date "1989.??.??"]
+[White "Ljubomir Ljubojevi?"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2635"]
+[BlackElo "2775"]
+[Variant "Standard"]
+[ECO "B96"]
+[Opening "Sicilian Defense: Najdorf Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Ljubomir Ljubojevi? - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/r5miFt1n"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Qc7 8. Qe2 Nc6 9. O-O-O Nxd4 10. Rxd4 Be7 11. g3 Bd7 12. Bg2 h6 13. Bh4 Bc6 14. f5 O-O 15. Rhd1 b5 16. g4 e5 17. R4d3 b4 18. Bxf6 bxc3 19. Bxe7 cxb2+ 20. Kb1 Qxe7 21. Rxd6 Rfc8 22. R1d2 Bb5 23. Qe3 Rab8 24. Rb6 Bc4 25. Rd1 Rxb6 26. Qxb6 Qa3 27. Qxb2 Bxa2+ 28. Ka1 Qa4 29. Qxa2 Qxa2+ 30. Kxa2 Rxc2+ 31. Kb3 Rxg2 32. Kc4 Rxh2 33. Kd5 f6 34. g5 hxg5 35. Ke6 g4 36. Rd8+ Kh7 37. Kf7 Rh5 { 0-1 White resigns. } 0-1
+
+
+[Event "Tilburg Chess Tournament"]
+[Site "Tilburg, Netherlands"]
+[Date "1991.??.??"]
+[Round "14"]
+[White "Garry Kasparov"]
+[Black "Anatoly Karpov"]
+[Result "1-0"]
+[WhiteElo "2770"]
+[BlackElo "2730"]
+[Variant "Standard"]
+[ECO "C45"]
+[Opening "Scotch Game: Mieses Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Anatoly Karpov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/lZCvEze2"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8. c4 Ba6 9. b3 g6 10. f4 f6 11. Ba3 Qf7 12. Qd2 Nb6 13. c5 Bxf1 14. cxb6 axb6 15. e6 dxe6 16. Bxf8 Rd8 17. Qb2 Bxg2 18. Qxg2 Kxf8 19. Qxc6 Rd6 20. Qc3 Kg7 21. Nd2 Rhd8 22. O-O-O Qe8 23. Qxc7+ R8d7 24. Qc2 Qb8 25. Nc4 Rd5 26. Qf2 Qc7 27. Qxb6 Qxf4+ 28. Qe3 Qg4 29. Rdg1 Qh4 30. Rg3 e5 31. Rh3 Qg4 32. Rg1 Rd1+ 33. Rxd1 Qxd1+ 34. Kb2 h5 35. Rg3 Qh1 36. Qf2 h4 37. Qg2 Qxg2+ 38. Rxg2 g5 39. a4 Kg6 40. a5 e4 41. b4 h3 42. Rg3 Rh7 43. a6 f5 44. Ra3 { 1-0 Black resigns. } 1-0
+
+
+[Event "The Credit Suisse Masters"]
+[Site "Horgen, Switzerland"]
+[Date "1994.??.??"]
+[Round "9"]
+[White "Garry Kasparov"]
+[Black "Alexey Shirov"]
+[Result "1-0"]
+[WhiteElo "2805"]
+[BlackElo "2740"]
+[Variant "Standard"]
+[ECO "B33"]
+[Opening "Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Alexey Shirov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/A9nTy8Np"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Ndb5 d6 7. Bf4 e5 8. Bg5 a6 9. Na3 b5 10. Nd5 Be7 11. Bxf6 Bxf6 12. c3 Bb7 13. Nc2 Nb8 14. a4 bxa4 15. Rxa4 Nd7 16. Rb4 Nc5 17. Rxb7 Nxb7 18. b4 Bg5 19. Na3 O-O 20. Nc4 a5 21. Bd3 axb4 22. cxb4 Qb8 23. h4 Bh6 24. Ncb6 Ra2 25. O-O Rd2 26. Qf3 Qa7 27. Nd7 Nd8 28. Nxf8 Kxf8 29. b5 Qa3 30. Qf5 Ke8 31. Bc4 Rc2 32. Qxh7 Rxc4 33. Qg8+ Kd7 34. Nb6+ Ke7 35. Nxc4 Qc5 36. Ra1 Qd4 37. Ra3 Bc1 38. Ne3 { 1-0 Black resigns. } 1-0
+
+
+[Event "PCA World Chess Championship"]
+[Site "New York City, USA"]
+[Date "1995.??.??"]
+[Round "10"]
+[White "Garry Kasparov"]
+[Black "Viswanathan Anand"]
+[Result "1-0"]
+[WhiteElo "2795"]
+[BlackElo "2725"]
+[Variant "Standard"]
+[ECO "C80"]
+[Opening "Ruy Lopez: Open, Karpov Gambit"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Viswanathan Anand"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/q5BH4k0n"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. d4 b5 7. Bb3 d5 8. dxe5 Be6 9. Nbd2 Nc5 10. c3 d4 11. Ng5 dxc3 12. Nxe6 fxe6 13. bxc3 Qd3 14. Bc2 Qxc3 15. Nb3 Nxb3 16. Bxb3 Nd4 17. Qg4 Qxa1 18. Bxe6 Rd8 19. Bh6 Qc3 20. Bxg7 Qd3 21. Bxh8 Qg6 22. Bf6 Be7 23. Bxe7 Qxg4 24. Bxg4 Kxe7 25. Rc1 c6 26. f4 a5 27. Kf2 a4 28. Ke3 b4 29. Bd1 a3 30. g4 Rd5 31. Rc4 c5 32. Ke4 Rd8 33. Rxc5 Ne6 34. Rd5 Rc8 35. f5 Rc4+ 36. Ke3 Nc5 37. g5 Rc1 38. Rd6 { 1-0 Black resigns. } 1-0
+
+
+[Event "PCA World Chess Championship"]
+[Site "New York City, USA"]
+[Date "1995.??.??"]
+[Round "13"]
+[White "Viswanathan Anand"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[WhiteElo "2725"]
+[BlackElo "2795"]
+[Variant "Standard"]
+[ECO "B77"]
+[Opening "Sicilian Defense: Dragon Variation, Yugoslav Attack"]
+[StudyName "test_kasparov"]
+[ChapterName "Viswanathan Anand - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/WLH0AAZq"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. Qd2 Nc6 8. f3 O-O 9. Bc4 Bd7 10. h4 h5 11. Bb3 Rc8 12. Nxc6 bxc6 13. Bh6 c5 14. Bc4 Qb6 15. Bxg7 Kxg7 16. b3 Be6 17. Nd5 Bxd5 18. exd5 e5 19. dxe6 d5 20. Be2 c4 21. c3 Rce8 22. bxc4 Rxe6 23. Kf1 Rfe8 24. Bd3 dxc4 25. Bxc4 Ne4 { 0-1 White resigns. } 0-1
+
+
+[Event "Deep Blue vs. Garry Kasparov"]
+[Site "Philadelphia, USA"]
+[Date "1996.??.??"]
+[Round "5"]
+[White "Deep Blue"]
+[Black "Garry Kasparov"]
+[Result "0-1"]
+[BlackElo "2795"]
+[Variant "Standard"]
+[ECO "C47"]
+[Opening "Four Knights Game: Scotch Variation Accepted"]
+[StudyName "test_kasparov"]
+[ChapterName "Deep Blue - Garry Kasparov"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/Hzgnr4f3"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. d4 exd4 5. Nxd4 Bb4 6. Nxc6 bxc6 7. Bd3 d5 8. exd5 cxd5 9. O-O O-O 10. Bg5 c6 11. Qf3 Be7 12. Rae1 Re8 13. Ne2 h6 14. Bf4 Bd6 15. Nd4 Bg4 16. Qg3 Bxf4 17. Qxf4 Qb6 18. c4 Bd7 19. cxd5 cxd5 20. Rxe8+ Rxe8 21. Qd2 Ne4 22. Bxe4 dxe4 23. b3 Rd8 24. Qc3 f5 25. Rd1 Be6 26. Qe3 Bf7 27. Qc3 f4 28. Rd2 Qf6 29. g3 Rd5 30. a3 Kh7 31. Kg2 Qe5 32. f3 e3 33. Rd3 e2 34. gxf4 e1=Q 35. fxe5 Qxc3 36. Rxc3 Rxd4 37. b4 Bc4 38. Kf2 g5 39. Re3 Rd2+ 40. Ke1 Rd3 41. Kf2 Kg6 42. Rxd3 Bxd3 43. Ke3 Bc2 44. Kd4 Kf5 45. Kd5 h5 { 0-1 White resigns. } 0-1
+
+
+[Event "Max Euwe Memorial Chess Tournament"]
+[Site "Amsterdam, Netherlands"]
+[Date "1996.??.??"]
+[Round "5"]
+[White "Garry Kasparov"]
+[Black "Yasser Seirawan"]
+[Result "1-0"]
+[WhiteElo "2775"]
+[BlackElo "2630"]
+[Variant "Standard"]
+[ECO "D37"]
+[Opening "Queen's Gambit Declined: Barmen Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Yasser Seirawan"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/dEmn4aef"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. Qc2 dxc4 6. e4 c5 7. dxc5 Bxc5 8. Bxc4 a6 9. a4 Qc7 10. O-O Ng4 11. h3 Nxf2 12. Rxf2 Bxf2+ 13. Qxf2 Qxc4 14. Qg3 f6 15. Qxg7 Qc5+ 16. Kh1 Qf8 17. Qg4 Qf7 18. e5 Rg8 19. Qc4 f5 20. Bg5 h6 21. Bh4 Qg6 22. Rg1 Nf8 23. Qb4 Rg7 24. Ne2 b5 25. axb5 Rd7 26. Nf4 Qf7 27. Rc1 Bb7 28. bxa6 Bxf3 29. gxf3 Rda7 30. Rg1 Rxa6 31. Nh5 Qc7 32. Rg7 Ra1+ 33. Kg2 Qc2+ 34. Bf2 { 1-0 Black resigns. } 1-0
+
+
+[Event "The Supertorneo Las Palmas"]
+[Site "Las Palmas, Spain"]
+[Date "1996.??.??"]
+[Round "7"]
+[White "Garry Kasparov"]
+[Black "Vassily Ivanchuk"]
+[Result "1-0"]
+[WhiteElo "2785"]
+[BlackElo "2730"]
+[Variant "Standard"]
+[ECO "B04"]
+[Opening "Alekhine Defense: Modern Variation, Alburt Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Vassily Ivanchuk"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/3ElZ8uDm"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 g6 5. Bc4 c6 6. O-O Bg7 7. h3 O-O 8. exd6 exd6 9. Re1 Nc7 10. Bg5 Bf6 11. Bh6 Re8 12. Rxe8+ Nxe8 13. Bb3 d5 14. c4 dxc4 15. Bxc4 Nd6 16. Bb3 Nf5 17. Qd2 Nd7 18. Nc3 Nxh6 19. Qxh6 Nf8 20. Rd1 Be6 21. d5 cxd5 22. Nxd5 Rc8 23. Qe3 b6 24. Ne5 Rc5 25. Ng4 Bxg4 26. hxg4 Kg7 27. f4 h6 28. f5 g5 29. Qe2 Nh7 30. Nxf6 Qxf6 31. Rd7 Re5 32. Rxf7+ Qxf7 33. Qxe5+ Qf6 34. Qc7+ Kh8 35. Kh1 a5 36. Be6 { 1-0 Black resigns. } 1-0
+
+
+[Event "Sarajevo 1999"]
+[Site "Sarajevo, Bosnia & Herzegovina"]
+[Date "1999.??.??"]
+[Round "9"]
+[White "Garry Kasparov"]
+[Black "Michael Adams"]
+[Result "1-0"]
+[WhiteElo "2810"]
+[BlackElo "2715"]
+[Variant "Standard"]
+[ECO "C45"]
+[Opening "Scotch Game: Mieses Variation"]
+[StudyName "test_kasparov"]
+[ChapterName "Garry Kasparov - Michael Adams"]
+[ChapterURL "https://lichess.org/study/mdGH4e2o/683qOzj2"]
+[Annotator "https://lichess.org/@/SteinitzChessSMCA"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8. c4 Nb6 9. Nc3 Qe6 10. Qe4 Ba6 11. b3 Bb4 12. Bd2 Bxc3 13. Bxc3 d5 14. Qh4 dxc4 15. Be2 Nd5 16. Bd4 c5 17. Bxc5 Nc3 18. Bxc4 Qxe5+ 19. Be3 Ne4 20. O-O Bxc4 21. bxc4 O-O 22. Rfe1 Rfe8 23. f3 Nd6 24. Bf2 Qf5 25. c5 Nb5 26. Qb4 Qd3 27. Red1 a5 28. Qa4 Qe2 29. Re1 Qd3 30. Rxe8+ Rxe8 31. Rd1 Qe2 32. Re1 { 1-0 Black resigns. } 1-0
+
+

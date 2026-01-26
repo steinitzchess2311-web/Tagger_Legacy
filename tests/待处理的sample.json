@@ -1,0 +1,500 @@
+[
+  {
+    "id": "case_002",
+    "fen": "8/pp3rkp/1b3pp1/3q4/P2PRQ2/5NP1/5PKP/8 w - - 3 33",
+    "move": "h4",
+    "expected_tags": ["initiative_attempt"],
+    "description": "Kingside pawn push - initiative/attack",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "risk_avoidance",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_006",
+    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+    "move": "d3",
+    "expected_tags": [],
+    "description": "Quiet move preventing ...d5 - prophylaxis candidate",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "structural_compromise_dynamic",
+      "tension_creation",
+      "prophylactic_strong"
+    ]
+  },
+  {
+    "id": "case_007",
+    "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "move": "exd5",
+    "expected_tags": [],
+    "description": "Central capture - control dynamics",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_008",
+    "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 0 5",
+    "move": "O-O",
+    "expected_tags": [],
+    "description": "Castling - king safety improvement",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "deferred_initiative",
+      "prophylactic_strong"
+    ]
+  },
+  {
+    "id": "case_009",
+    "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/1PB1P3/5N2/P1PP1PPP/RNBQK2R b KQkq - 0 5",
+    "move": "Bxf2+",
+    "expected_tags": [],
+    "description": "Greek gift sacrifice - speculative sacrifice",
+    "current_tags": [
+      "missed_tactic"
+    ]
+  },
+  {
+    "id": "case_010",
+    "fen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+    "move": "Nxe5",
+    "expected_tags": [],
+    "description": "Knight takes - material exchange (note: this is actually illegal, but for testing)",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_king_safety_shell",
+      "risk_avoidance",
+      "maneuver_opening"
+    ]
+  },
+  {
+    "id": "case_011",
+    "fen": "r1bq1rk1/pp1nbppp/2p1pn2/8/2BP4/2N2N2/PP3PPP/R1BQ1RK1 w - - 0 10",
+    "move": "Bxe6",
+    "expected_tags": [],
+    "description": "Bishop capture Bxe6 (simplify) - reduces central tension, dampens dynamics",
+    "current_tags": [
+      "missed_tactic"
+    ]
+  },
+  {
+    "id": "case_012",
+    "fen": "3r2k1/5ppp/p7/3Pp3/8/2P2P2/r5PP/3R2K1 w - - 0 25",
+    "move": "d6",
+    "expected_tags": [],
+    "description": "Pawn advance (blockade_passed) - blockades opponent's passed e-pawn",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_space_clamp",
+      "file_pressure_c"
+    ]
+  },
+  {
+    "id": "case_013",
+    "fen": "r2qkb1r/pp2pppp/2p2n2/3p1b2/3P4/2N1PN2/PP3PPP/R1BQKB1R w KQkq - 0 7",
+    "move": "h3",
+    "expected_tags": [],
+    "description": "h3 pawn move (king_safety_shell) - prevents Bg4 pin, improves king safety",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "structural_integrity",
+      "tension_creation",
+      "prophylactic_strong"
+    ]
+  },
+  {
+    "id": "case_014",
+    "fen": "r1bq1rk1/pp2bppp/2n1p3/2ppP3/3P4/2PB4/PP3PPP/RNBQ1RK1 w - - 0 10",
+    "move": "c4",
+    "expected_tags": [],
+    "description": "Pawn advance (freeze_bind) - locks center, restricts opponent mobility",
+    "current_tags": [
+      "missed_tactic"
+    ]
+  },
+  {
+    "id": "case_015",
+    "fen": "2rq1rk1/pp2bppp/2n1p3/3pP3/3P4/2PB1N2/PP3PPP/R1BQ1RK1 w - - 0 13",
+    "move": "Bd2",
+    "expected_tags": [],
+    "description": "Bishop regroup Bd2 (regroup_consolidate) - consolidates king shell, improves coordination",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "neutral_maneuver",
+      "prophylactic_strong"
+    ]
+  },
+  {
+    "id": "case_016",
+    "fen": "",
+    "move": "g4",
+    "expected_tags": [],
+    "description": "*** This is an effective pawn push control. Pushing the pawn to g4 is not forming any kind of direct threat, but it is expanding squares on the\n*** This is also an effective pawn push prophylactic, for preventing the idea of Nh5",
+    "current_tags": []
+  },
+  {
+    "id": "case_017",
+    "fen": "",
+    "move": "Nb4!",
+    "expected_tags": [],
+    "description": "***This is an accurate_exchange. Although it seems that after axb4 black will be down material, cxb4 is with check can immediately gain the material back.\nThis is active exchange because: if axb4 cxb4+ Kh1 bc bc (or Nf2) Qc7, white has to endure passive pawn structure.\nIf Qd1 Nxd3 Rd3, white's light square pawn chain will be weak.",
+    "current_tags": []
+  },
+  {
+    "id": "case_018",
+    "fen": "",
+    "move": "Bf6!",
+    "expected_tags": [],
+    "description": "*** This is a constructive_maneuver. The bishop is passive here on g7. However, white's e3 bishop is strong. He is trying to do the maneuver of Bg7-f6-g5 to trade the active e3 bishop. if this is the first choice it should also be classified as constructive_maneuver rather than latent maneuver automatically.",
+    "current_tags": []
+  },
+  {
+    "id": "case_019",
+    "fen": "",
+    "move": "Qg4!",
+    "expected_tags": [],
+    "description": "*** this is a prophylaxis. the idea of prophylaxis is to prevent opponent's idea. although it's also kind of active, it also stops opponent's Qf4 idea that attacks c1 rook and h4 pawn.",
+    "current_tags": []
+  },
+  {
+    "id": "case_020",
+    "fen": "",
+    "move": "h4",
+    "expected_tags": [],
+    "description": "*** This is a pawn push tension_creation, at the same time prophylactic, because it prevents the idea of ...g5.",
+    "current_tags": []
+  },
+  {
+    "id": "case_021",
+    "fen": "",
+    "move": "Qf3",
+    "expected_tags": [],
+    "description": "*** A latent constructive_maneuver: The queen comes to f3 to support possible h5 push, meanwhile coordinate with bishop on c2 for potential Bxh6, or the Bf5 trade.\n*** It can also be regarded as prophylactic because it prevents some counter play along diagonal after g5 from black.",
+    "current_tags": []
+  },
+  {
+    "id": "case_022",
+    "fen": "",
+    "move": "a4!",
+    "expected_tags": [],
+    "description": "*** This is a pawn push creating tension on queenside. Typical space expansion.",
+    "current_tags": []
+  },
+  {
+    "id": "case_023",
+    "fen": "",
+    "move": "Bd2",
+    "expected_tags": [],
+    "description": "*** regroup_consolidate: bishop retreats to d2, aiming for Be3 later. Improving coordination.",
+    "current_tags": []
+  },
+  {
+    "id": "case_024",
+    "fen": "",
+    "move": "h3",
+    "expected_tags": [],
+    "description": "*** prophylactic_strong: preventing Bg4 pin, and improving king shell safety.",
+    "current_tags": []
+  },
+  {
+    "id": "case_025",
+    "fen": "",
+    "move": "Rc1",
+    "expected_tags": [],
+    "description": "*** rook move to c1 builds file_pressure_c, constructive_maneuver for future c-file control.",
+    "current_tags": []
+  },
+  {
+    "id": "case_026",
+    "fen": "",
+    "move": "b3",
+    "expected_tags": [],
+    "description": "*** solid prophylactic pawn move b3. aims to control c4 and keep structural integrity.",
+    "current_tags": []
+  },
+  {
+    "id": "case_027",
+    "fen": "",
+    "move": "c4",
+    "expected_tags": [],
+    "description": "*** this is a freeze_bind structure change. locks the center and blocks d5 counterplay. typical blockade setup.",
+    "current_tags": []
+  },
+  {
+    "id": "case_028",
+    "fen": "",
+    "move": "Kh2",
+    "expected_tags": [],
+    "description": "*** quiet king move improving king shell; no direct threat, just safety tightening.",
+    "current_tags": []
+  },
+  {
+    "id": "case_029",
+    "fen": "",
+    "move": "Re1",
+    "expected_tags": [],
+    "description": "*** rook move centralization. constructive_maneuver improving coordination.",
+    "current_tags": []
+  },
+  {
+    "id": "case_030",
+    "fen": "",
+    "move": "f4!",
+    "expected_tags": [],
+    "description": "*** aggressive pawn push on kingside, creating tension and preparing f5. strong initiative attempt.",
+    "current_tags": []
+  },
+  {
+    "id": "case_031",
+    "fen": "",
+    "move": "a5",
+    "expected_tags": [],
+    "description": "*** long-term space gain on queenside; typical prophylactic approach restraining b6 or b5.",
+    "current_tags": []
+  },
+  {
+    "id": "case_032",
+    "fen": "",
+    "move": "Nd2",
+    "expected_tags": [],
+    "description": "*** knight reroute maneuver aiming for f1-g3; latent constructive move.",
+    "current_tags": []
+  },
+  {
+    "id": "case_033",
+    "fen": "",
+    "move": "Kg2",
+    "expected_tags": [],
+    "description": "*** simple king improvement, step toward h3 or f3; typical consolidation phase.",
+    "current_tags": []
+  },
+  {
+    "id": "case_034",
+    "fen": "",
+    "move": "Qh5",
+    "expected_tags": [],
+    "description": "*** active queen sortie, eyeing h7; combines initiative attempt and tactical tension.",
+    "current_tags": []
+  },
+  {
+    "id": "case_035",
+    "fen": "",
+    "move": "Rd1",
+    "expected_tags": [],
+    "description": "*** rook alignment with queen, aiming for d5 pressure. constructive_maneuver.",
+    "current_tags": []
+  },
+  {
+    "id": "case_036",
+    "fen": "",
+    "move": "Rfe1",
+    "expected_tags": [],
+    "description": "*** rook to e1 supports potential e4-e5; typical maneuver improving control.",
+    "current_tags": []
+  },
+  {
+    "id": "case_037",
+    "fen": "",
+    "move": "f3",
+    "expected_tags": [],
+    "description": "*** quiet prophylactic move limiting knight jumps and securing center pawns.",
+    "current_tags": []
+  },
+  {
+    "id": "case_038",
+    "fen": "",
+    "move": "Rb1",
+    "expected_tags": [],
+    "description": "*** rook repositioning for queenside expansion; supports future b4 push.",
+    "current_tags": []
+  },
+  {
+    "id": "case_039",
+    "fen": "",
+    "move": "Rfd1",
+    "expected_tags": [],
+    "description": "*** doubling rooks on d-file, typical constructive_maneuver.",
+    "current_tags": []
+  },
+  {
+    "id": "case_040",
+    "fen": "",
+    "move": "g3",
+    "expected_tags": [],
+    "description": "*** prophylactic pawn move securing f4 and creating luft; strengthens king shell.",
+    "current_tags": []
+  },
+  {
+    "id": "case_041",
+    "fen": "",
+    "move": "c5",
+    "expected_tags": [],
+    "description": "*** dynamic pawn break; creates tension in the center, potential conversion attempt.",
+    "current_tags": []
+  },
+  {
+    "id": "case_042",
+    "fen": "",
+    "move": "Rc2",
+    "expected_tags": [],
+    "description": "*** second-rank defense setup, typical prophylactic arrangement.",
+    "current_tags": []
+  },
+  {
+    "id": "case_043",
+    "fen": "",
+    "move": "Qf6",
+    "expected_tags": [],
+    "description": "*** queen centralization, linking to tactical motifs on h8 diagonal.",
+    "current_tags": []
+  },
+  {
+    "id": "case_046",
+    "fen": "r1bq1rk1/3n1pbp/p2p1np1/2pPp3/1pP1P3/3BBP2/PP1QN1PP/2RNK2R w K - 0 1",
+    "move": "g4",
+    "expected_tags": [],
+    "description": "*** This is an effective pawn push control. Pushing the pawn to g4 is not forming any kind of direct threat, but it is expanding squares on the\n*** This is also an effective pawn push prophylactic, for preventing the idea of Nh5",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "tension_creation",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_047",
+    "fen": "4rrk1/pp1b2bp/nq1p2p1/2pP1p2/2P2Pn1/P1NB1R2/1PQBN1PP/1R4K1 b - - 0 1",
+    "move": "Nb4",
+    "expected_tags": [],
+    "description": "***This is an accurate_exchange. Although it seems that after axb4 black will be down material, cxb4 is with check can immediately gain the material back.\nThis is active exchange because: if axb4 cxb4+ Kh1 bc bc (or Nf2) Qc7, white has to endure passive pawn structure.\nIf Qd1 Nxd3 Rd3, white's light square pawn chain will be weak.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "deferred_initiative",
+      "maneuver_opening",
+      "positional_sacrifice",
+      "positional_space_sacrifice",
+      "prophylactic_strong"
+    ]
+  },
+  {
+    "id": "case_049",
+    "fen": "r1bq1rk1/1pp2p1n/n2p1bp1/p2Pp3/2P1P1P1/2N1B3/PP2BP2/R2QKN1R b KQ - 1 2",
+    "move": "Bg5",
+    "expected_tags": [],
+    "description": "*** This is an constructive_maneuver for trading the passive bishop with the strong e3 bishop.\n***This is also an accurate piece exchange for the eva does not drop.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "neutral_tension_creation",
+      "maneuver_opening",
+      "positional_sacrifice",
+      "positional_space_sacrifice",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_056",
+    "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4",
+    "move": "Bb4+",
+    "expected_tags": [],
+    "description": "*** This can be classified as disappearing move. This induces white to play the move Bc1-d2 and then retreat to e7. White does not want the bishop on d2, for blockading the queen's control on d2, and white in some cases wants the b1 knight on d2.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_file_seal",
+      "risk_avoidance",
+      "neutral_tension_creation"
+    ]
+  },
+  {
+    "id": "case_063",
+    "fen": "3q1rk1/3n1ppp/p2b4/P1pPp2P/1pP1PBQ1/1N6/1P4P1/R4RK1 b - - 0 2",
+    "move": "exf4",
+    "expected_tags": [],
+    "description": "[%csl Gd4][%cal Gd6e5,Ge5d4]",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "tension_creation",
+      "first_choice",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_070",
+    "fen": "r3r1k1/pp2nppp/1qnb2b1/3p4/3N3B/1NP5/PP2BPPP/R2QR1K1 w - - 1 16",
+    "move": "Bg3",
+    "expected_tags": [],
+    "description": "** This is an active exchange because it is changing a passive bishop with a strong bishop.\n** This is also a latent improving maneuver.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_freeze_bind",
+      "risk_avoidance",
+      "neutral_tension_creation",
+      "neutral_maneuver",
+      "tactical_sacrifice",
+      "tactical_combination_sacrifice",
+      "tactical_initiative_sacrifice",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_071",
+    "fen": "r2q1rk1/4bppp/p1b1pn2/1p1p4/3P1B2/1QN3P1/PP2PPBP/2R2RK1 w - - 0 14",
+    "move": "h3",
+    "expected_tags": [],
+    "description": "This is a failed prophylactic. It is not actually preventing anything and eva drops.",
+    "current_tags": [
+      "prophylactic_strong"
+    ]
+  },
+  {
+    "id": "case_072",
+    "fen": "r2q1rk1/4bppp/p1b1pn2/1p1p4/3P1B2/1QN3P1/PP2PPBP/2R2RK1 w - - 0 14",
+    "move": "Ne4",
+    "expected_tags": [],
+    "description": "This is an accurate exchange. Although this is giving the piece to black in this position, if black chooses to take on e4, c6 bishop will be taken.\nThis is a positional sacrifice. This literally sacrifices a pawn after 14...de 15.Rc6 Qxd4. Black's king safety value does not change a lot and, the eva does not drop.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "constructive_maneuver",
+      "positional_sacrifice",
+      "positional_space_sacrifice",
+      "tension_creation",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_075",
+    "fen": "rn1qkb1r/pb1ppp1p/1p3np1/2p5/2PP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 0 6",
+    "move": "cxd4",
+    "expected_tags": [],
+    "description": "This is accurate tension release. When facing pawn tension, this tension releasing move is the top engine choice and has significant higher eva than second choice.",
+    "current_tags": [
+      "control_over_dynamics",
+      "cod_plan_kill",
+      "prophylactic_soft"
+    ]
+  },
+  {
+    "id": "case_080",
+    "fen": "3q1rk1/r2nbpp1/3np2p/p2p4/Pp1P1B2/1N1QPN2/1P3PPP/R1R3K1 w - - 4 19",
+    "move": "Bxd6",
+    "expected_tags": [],
+    "description": "This is an accurate exchange for the knight on d6 has higher mobility than f5 bishop. And f4 bishop is passive so it is also fine if it is classified as latent improvement.",
+    "current_tags": [
+      "file_pressure_c",
+      "initiative_attempt",
+      "tension_creation"
+    ]
+  }
+]
