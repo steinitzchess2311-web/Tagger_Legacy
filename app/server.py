@@ -37,7 +37,7 @@ def _startup() -> None:
 
 
 @app.get("/health")
-def health() -> Dict[str, str]:
+def health() -> Dict[str, object]:
     return {
         "status": "ok",
         "env": {
