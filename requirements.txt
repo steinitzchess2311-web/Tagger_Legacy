@@ -2,3 +2,6 @@ chess==1.11.2
 python-chess==1.999
 numpy>=1.24
 streamlit>=1.30
+fastapi>=0.110
+uvicorn[standard]>=0.24
+requests>=2.31
