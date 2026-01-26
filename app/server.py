@@ -38,7 +38,14 @@ def _startup() -> None:
 
 @app.get("/health")
 def health() -> Dict[str, str]:
-    return {"status": "ok"}
+    return {
+        "status": "ok",
+        "env": {
+            "TAGGER_API_TOKEN": bool(os.getenv("TAGGER_API_TOKEN")),
+            "WORKER_API_TOKEN": bool(os.getenv("WORKER_API_TOKEN")),
+            "ENGINE_URL": bool(os.getenv("ENGINE_URL")),
+        },
+    }
 
 app.include_router(analyze_router)
 app.include_router(imitator_router)
