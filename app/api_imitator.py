@@ -2,11 +2,13 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional
 
+import os
 import chess
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field
 
 from codex_utils import DEFAULT_ENGINE_PATH
+from core.db_player_summaries import load_player_summaries_from_db
 from core.engine_utils import fetch_engine_moves
 from core.file_utils import load_player_summaries
 from core.predictor import compute_move_probability
@@ -21,6 +23,7 @@ class ImitatorRequest(BaseModel):
     top_n: int = Field(5, ge=1, le=10)
     depth: int = Field(14, ge=1, le=30)
     engine_path: Optional[str] = None
+    source: str = Field("library", description="library, user, or all")
 
 
 class ImitatorMove(BaseModel):
@@ -38,6 +41,8 @@ class ImitatorResponse(BaseModel):
 
 
 def _ensure_engine_path(path: Optional[str]) -> str:
+    if os.getenv("ENGINE_URL"):
+        return path or DEFAULT_ENGINE_PATH
     engine_path = path or DEFAULT_ENGINE_PATH
     if not engine_path:
         raise HTTPException(status_code=400, detail="Engine path not configured.")
@@ -67,10 +72,22 @@ def _extract_probabilities(tagged: List[dict], player_summary: Dict[str, Any]) -
     return output
 
 
+def _load_summaries(source: str) -> Dict[str, Dict[str, Any]]:
+    if source == "library":
+        return load_player_summaries("reports")
+    if source == "user":
+        return load_player_summaries_from_db()
+    if source == "all":
+        combined = load_player_summaries("reports")
+        combined.update(load_player_summaries_from_db())
+        return combined
+    raise HTTPException(status_code=400, detail="Invalid source. Use library, user, or all.")
+
+
 @router.get("/tagger/imitator/players")
-def list_imitator_players() -> Dict[str, Any]:
-    summaries = load_player_summaries("reports")
-    return {"players": sorted(summaries.keys())}
+def list_imitator_players(source: str = Query("library")) -> Dict[str, Any]:
+    summaries = _load_summaries(source)
+    return {"players": sorted(summaries.keys()), "source": source}
 
 
 @router.post("/tagger/imitator", response_model=ImitatorResponse)
@@ -80,7 +97,7 @@ def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=f"Invalid FEN: {exc}") from exc
 
-    summaries = load_player_summaries("reports")
+    summaries = _load_summaries(payload.source)
     if not summaries:
         raise HTTPException(status_code=404, detail="No player summaries found.")
 

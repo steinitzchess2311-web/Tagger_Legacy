@@ -5,3 +5,5 @@ streamlit>=1.30
 fastapi>=0.110
 uvicorn[standard]>=0.24
 requests>=2.31
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
