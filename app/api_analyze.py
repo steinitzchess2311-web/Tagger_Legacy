@@ -3,12 +3,25 @@ from __future__ import annotations
 from typing import Any, Dict, Optional
 
 import os
-from fastapi import APIRouter, HTTPException, Header, Depends, status
+from fastapi import APIRouter, Depends, HTTPException, Header, status
 from pydantic import BaseModel, Field
 
 from codex_utils import analyze_position
 
 router = APIRouter()
+
+
+def _auth_guard(authorization: str | None = Header(default=None)) -> None:
+    token = os.getenv("TAGGER_API_TOKEN", "")
+    if not token:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="TAGGER_API_TOKEN not set.",
+        )
+    if not authorization or not authorization.startswith("Bearer "):
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Missing Authorization.")
+    if authorization.split(" ", 1)[1] != token:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Invalid token.")
 
 
 class AnalyzeRequest(BaseModel):
@@ -63,11 +76,3 @@ def analyze(payload: AnalyzeRequest) -> Dict[str, Any]:
         "active_tags": active,
         "analysis": analysis,
     }
-def _auth_guard(authorization: str | None = Header(default=None)) -> None:
-    token = os.getenv("TAGGER_API_TOKEN", "")
-    if not token:
-        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="TAGGER_API_TOKEN not set.")
-    if not authorization or not authorization.startswith("Bearer "):
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Missing Authorization.")
-    if authorization.split(" ", 1)[1] != token:
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Invalid token.")
