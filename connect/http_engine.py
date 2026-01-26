@@ -31,10 +31,15 @@ def _parse_uci_info(line: str) -> Optional[Dict[str, Any]]:
 
 
 def _post_analyze(engine_url: str, fen: str, depth: int, multipv: int) -> Dict[int, Dict[str, Any]]:
+    headers = {}
+    token = os.getenv("WORKER_API_TOKEN") or os.getenv("ENGINE_API_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
     resp = requests.post(
         engine_url,
         json={"fen": fen, "depth": depth, "multipv": multipv},
         timeout=10,
+        headers=headers,
     )
     resp.raise_for_status()
     payload = resp.json()
