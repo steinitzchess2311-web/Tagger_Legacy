@@ -35,7 +35,15 @@ def _extract_tag_flags(result: TagResult) -> Dict[str, bool]:
     return flags
 
 
-def analyze_position(fen: str, move: str, engine_path: str | None = None, use_new: bool | None = None) -> Dict[str, Any]:
+def analyze_position(
+    fen: str,
+    move: str,
+    engine_path: str | None = None,
+    use_new: bool | None = None,
+    *,
+    depth: int | None = None,
+    multipv: int | None = None,
+) -> Dict[str, Any]:
     """
     Run the rule-based tagger and normalize the response structure for the UI.
 
@@ -46,7 +54,16 @@ def analyze_position(fen: str, move: str, engine_path: str | None = None, use_ne
         use_new: Force pipeline version (None=consult NEW_PIPELINE env, True=force new, False=force legacy)
     """
     engine = engine_path or DEFAULT_ENGINE_PATH
-    result = tag_position_impl(engine, fen, move, use_new=use_new)
+    depth_value = depth if depth is not None else 14
+    multipv_value = multipv if multipv is not None else 6
+    result = tag_position_impl(
+        engine,
+        fen,
+        move,
+        depth=depth_value,
+        multipv=multipv_value,
+        use_new=use_new,
+    )
 
     engine_meta = result.analysis_context.get("engine_meta", {})
     tag_flags = _extract_tag_flags(result)
