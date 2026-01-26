@@ -1,12 +1,14 @@
 """Engine helper utilities."""
 from __future__ import annotations
 
+import os
 from typing import List, Optional
 
 import chess
 import chess.engine
 
 from codex_utils import DEFAULT_ENGINE_PATH
+from connect.http_engine import fetch_http_candidates
 
 
 def fetch_engine_moves(
@@ -17,6 +19,18 @@ def fetch_engine_moves(
 ) -> List[dict]:
     """Return top moves suggested by the engine for the given FEN."""
     board = chess.Board(fen)
+    engine_url = os.getenv("ENGINE_URL")
+    if engine_url:
+        moves, scores = fetch_http_candidates(engine_url, board, depth, min(top_n, 7))
+        candidates: List[dict] = []
+        for mv, sc in list(zip(moves, scores))[:top_n]:
+            try:
+                san = board.san(mv)
+            except ValueError:
+                san = mv.uci()
+            candidates.append({"san": san, "uci": mv.uci(), "score_cp": sc})
+        return candidates
+
     engine_bin = engine_path or DEFAULT_ENGINE_PATH
 
     with chess.engine.SimpleEngine.popen_uci(engine_bin) as engine:

@@ -27,6 +27,13 @@ app.add_middleware(
 @app.on_event("startup")
 def _startup() -> None:
     init_jobs()
+    try:
+        from connect.http_engine import install_http_engine_shims
+
+        install_http_engine_shims()
+    except Exception:
+        # Keep service up even if HTTP engine isn't configured.
+        pass
 
 
 @app.get("/health")

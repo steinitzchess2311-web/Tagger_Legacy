@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional
 
-from pathlib import Path
 import chess
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
@@ -42,8 +41,6 @@ def _ensure_engine_path(path: Optional[str]) -> str:
     engine_path = path or DEFAULT_ENGINE_PATH
     if not engine_path:
         raise HTTPException(status_code=400, detail="Engine path not configured.")
-    if not Path(engine_path).exists():
-        raise HTTPException(status_code=400, detail=f"Engine not found: {engine_path}")
     return engine_path
 
 

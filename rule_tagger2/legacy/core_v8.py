@@ -1256,6 +1256,8 @@ def tag_position(
     control_over_dynamics = any(cod_flags.values())
 
     # Pure semantic control detections (no gating/cooldown)
+    control_context = control_meta.get("context", {}) if isinstance(control_meta, dict) else {}
+    control_meta.setdefault("context", control_context)
     control_semantic_results = detect_control_patterns(control_context, control_cfg)
     for tag_name in CONTROL_TAGS:
         if tag_name in control_semantic_results:
