@@ -72,22 +72,40 @@ def _extract_probabilities(tagged: List[dict], player_summary: Dict[str, Any]) -
     return output
 
 
-def _load_summaries(source: str) -> Dict[str, Dict[str, Any]]:
+def _load_summaries(source: str, *, only_success: bool = True) -> Dict[str, Dict[str, Any]]:
     if source == "library":
         return load_player_summaries("reports")
     if source == "user":
-        return load_player_summaries_from_db()
+        return load_player_summaries_from_db(only_success=only_success)
     if source == "all":
         combined = load_player_summaries("reports")
-        combined.update(load_player_summaries_from_db())
+        combined.update(load_player_summaries_from_db(only_success=only_success))
         return combined
     raise HTTPException(status_code=400, detail="Invalid source. Use library, user, or all.")
 
 
 @router.get("/tagger/imitator/players")
-def list_imitator_players(source: str = Query("library")) -> Dict[str, Any]:
-    summaries = _load_summaries(source)
-    return {"players": sorted(summaries.keys()), "source": source}
+def list_imitator_players(
+    source: str = Query("library"),
+    include_ids: bool = Query(False),
+    status: str = Query("success"),
+) -> Dict[str, Any]:
+    only_success = status == "success"
+    summaries = _load_summaries(source, only_success=only_success)
+
+    if include_ids and source in ("user", "all"):
+        # When include_ids requested for user data, rebuild from DB to include IDs.
+        db_summaries = load_player_summaries_from_db(only_success=only_success)
+        if source == "all":
+            library = load_player_summaries("reports")
+            db_summaries.update(library)
+        items = [
+            {"id": meta.get("player_id"), "name": name}
+            for name, meta in ((n, v.get("meta", {})) for n, v in db_summaries.items())
+        ]
+        return {"players": items, "source": source, "status": status}
+
+    return {"players": sorted(summaries.keys()), "source": source, "status": status}
 
 
 @router.post("/tagger/imitator", response_model=ImitatorResponse)
