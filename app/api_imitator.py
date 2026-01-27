@@ -8,7 +8,7 @@ from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field
 
 from codex_utils import DEFAULT_ENGINE_PATH
-from core.db_player_summaries import load_player_summaries_from_db
+from core.db_player_summaries import load_player_summaries_from_db, load_player_summary_by_id
 from core.engine_utils import fetch_engine_moves
 from core.file_utils import load_player_summaries
 from core.predictor import compute_move_probability
@@ -20,6 +20,7 @@ router = APIRouter()
 class ImitatorRequest(BaseModel):
     fen: str = Field(..., min_length=1)
     player: Optional[str] = None
+    player_id: Optional[str] = None
     top_n: int = Field(5, ge=1, le=10)
     depth: int = Field(14, ge=1, le=30)
     engine_path: Optional[str] = None
@@ -120,13 +121,21 @@ def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
         raise HTTPException(status_code=404, detail="No player summaries found.")
 
     player = payload.player or next(iter(summaries.keys()))
-    if player not in summaries:
+    player_summary = summaries.get(player)
+
+    if payload.player_id:
+        player_summary = load_player_summary_by_id(payload.player_id)
+        if player_summary is None:
+            raise HTTPException(status_code=404, detail="Unknown player_id.")
+        player = player_summary["meta"]["player"]
+
+    if player_summary is None:
         raise HTTPException(status_code=404, detail=f"Unknown player: {player}")
 
     engine_path = _ensure_engine_path(payload.engine_path)
     top_moves = fetch_engine_moves(payload.fen, engine_path=engine_path, top_n=payload.top_n, depth=payload.depth)
     tagged = tag_moves(payload.fen, top_moves, engine_path=engine_path)
-    moves = _extract_probabilities(tagged, summaries[player])
+    moves = _extract_probabilities(tagged, player_summary)
 
     response_moves = moves[: payload.top_n]
     return ImitatorResponse(

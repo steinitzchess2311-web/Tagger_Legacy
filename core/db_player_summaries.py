@@ -84,3 +84,80 @@ def load_player_summaries_from_db(
         }
 
     return summaries
+
+
+def load_player_summary_by_id(
+    player_id: str,
+    dsn: str | None = None,
+    *,
+    only_success: bool = True,
+) -> Dict[str, Any] | None:
+    url = dsn or os.getenv("TAGGER_DATABASE_URL", "")
+    if not url:
+        return None
+
+    engine = create_engine(url)
+
+    with engine.connect() as conn:
+        player_row = conn.execute(
+            text("SELECT id, display_name FROM player_profiles WHERE id = :pid"),
+            {"pid": player_id},
+        ).fetchone()
+        if not player_row:
+            return None
+
+        if only_success:
+            stats_rows = conn.execute(
+                text(
+                    """
+                    SELECT tag_name, SUM(tag_count) AS tag_count, MAX(total_positions) AS total_positions
+                    FROM tag_stats
+                    WHERE player_id = :pid AND scope = 'total' AND total_positions > 0
+                    GROUP BY tag_name
+                    """
+                ),
+                {"pid": player_id},
+            ).fetchall()
+        else:
+            stats_rows = conn.execute(
+                text(
+                    """
+                    SELECT tag_name, SUM(tag_count) AS tag_count, MAX(total_positions) AS total_positions
+                    FROM tag_stats
+                    WHERE player_id = :pid AND scope = 'total'
+                    GROUP BY tag_name
+                    """
+                ),
+                {"pid": player_id},
+            ).fetchall()
+
+        games_row = conn.execute(
+            text("SELECT COUNT(*) AS games FROM pgn_games WHERE player_id = :pid"),
+            {"pid": player_id},
+        ).fetchone()
+
+    total_positions = 0
+    tag_counts: Dict[str, int] = {}
+    for row in stats_rows:
+        total_positions = max(total_positions, int(row.total_positions or 0))
+        tag_counts[row.tag_name] = int(row.tag_count or 0)
+
+    if only_success and total_positions <= 0:
+        return None
+
+    if total_positions <= 0:
+        tag_distribution = {tag: 0.0 for tag in tag_counts}
+    else:
+        tag_distribution = {
+            tag: float(count) / float(total_positions) for tag, count in tag_counts.items()
+        }
+
+    return {
+        "meta": {
+            "player": player_row.display_name,
+            "player_id": str(player_row.id),
+            "games": int(games_row.games) if games_row else 0,
+            "moves": total_positions,
+        },
+        "tag_distribution": tag_distribution,
+    }
