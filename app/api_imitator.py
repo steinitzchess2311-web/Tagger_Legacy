@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field
 from codex_utils import DEFAULT_ENGINE_PATH
 from core.db_player_summaries import load_player_summaries_from_db, load_player_summary_by_id
 from core.engine_utils import fetch_engine_moves
-from core.file_utils import load_player_summaries
+from core.file_utils import load_player_profiles, load_player_summaries
 from core.predictor import compute_move_probability
 from core.tagger_utils import tag_moves
 
@@ -75,11 +75,11 @@ def _extract_probabilities(tagged: List[dict], player_summary: Dict[str, Any]) -
 
 def _load_summaries(source: str, *, only_success: bool = True) -> Dict[str, Dict[str, Any]]:
     if source == "library":
-        return load_player_summaries("reports")
+        return load_player_profiles("players")
     if source == "user":
         return load_player_summaries_from_db(only_success=only_success)
     if source == "all":
-        combined = load_player_summaries("reports")
+        combined = load_player_profiles("players")
         combined.update(load_player_summaries_from_db(only_success=only_success))
         return combined
     raise HTTPException(status_code=400, detail="Invalid source. Use library, user, or all.")
@@ -98,7 +98,7 @@ def list_imitator_players(
         # When include_ids requested for user data, rebuild from DB to include IDs.
         db_summaries = load_player_summaries_from_db(only_success=only_success)
         if source == "all":
-            library = load_player_summaries("reports")
+            library = load_player_profiles("players")
             db_summaries.update(library)
         items = [
             {"id": meta.get("player_id"), "name": name}
