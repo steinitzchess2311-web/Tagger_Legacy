@@ -13,6 +13,7 @@ from core.engine_utils import fetch_engine_moves
 from core.file_utils import load_player_profiles, load_player_summaries
 from core.predictor import compute_move_probability
 from core.tagger_utils import tag_moves
+from faster import FastTaggerSession
 
 router = APIRouter()
 
@@ -134,7 +135,28 @@ def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
 
     engine_path = _ensure_engine_path(payload.engine_path)
     top_moves = fetch_engine_moves(payload.fen, engine_path=engine_path, top_n=payload.top_n, depth=payload.depth)
-    tagged = tag_moves(payload.fen, top_moves, engine_path=engine_path)
+    tagged: List[dict] = []
+    with FastTaggerSession(engine_path) as session:
+        for entry in top_moves:
+            move_uci = entry["uci"]
+            analysis = session.tag_position(
+                payload.fen,
+                move_uci,
+                depth=payload.depth,
+                multipv=6,
+            )
+            active_tags = analysis["tags"]["active"]
+            if not active_tags:
+                active_tags = analysis["tags"]["primary"]
+            tagged.append(
+                {
+                    "move": entry["san"],
+                    "uci": move_uci,
+                    "score_cp": entry.get("score_cp"),
+                    "tags": active_tags,
+                    "analysis": analysis,
+                }
+            )
     moves = _extract_probabilities(tagged, player_summary)
 
     response_moves = moves[: payload.top_n]
