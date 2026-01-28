@@ -1,4 +1,5 @@
 import os
+import time
 from dataclasses import fields
 from typing import Any, Dict
 
@@ -56,6 +57,7 @@ def analyze_position(
     engine = engine_path or DEFAULT_ENGINE_PATH
     depth_value = depth if depth is not None else 14
     multipv_value = multipv if multipv is not None else 6
+    t0 = time.perf_counter()
     result = tag_position_impl(
         engine,
         fen,
@@ -64,6 +66,9 @@ def analyze_position(
         multipv=multipv_value,
         use_new=use_new,
     )
+    if os.getenv("TAGGER_TIMING"):
+        elapsed = (time.perf_counter() - t0) * 1000.0
+        print(f"[tagger] total={elapsed:.1f}ms move={move} depth={depth_value} multipv={multipv_value}")
 
     engine_meta = result.analysis_context.get("engine_meta", {})
     tag_flags = _extract_tag_flags(result)

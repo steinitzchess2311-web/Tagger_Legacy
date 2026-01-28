@@ -1,5 +1,6 @@
 import math
 import os
+import time
 from copy import deepcopy
 import chess
 import chess.engine
@@ -252,6 +253,8 @@ def tag_position(
     cp_threshold: int = 100,
     small_drop_cp: int = 30
 ) -> TagResult:
+    timing_enabled = bool(os.getenv("TAGGER_TIMING"))
+    timing: Dict[str, float] = {}
     control_cfg, control_enabled, control_strict = _resolve_control_config()
     if not control_enabled:
         return legacy_tag_position_v8(
@@ -270,9 +273,12 @@ def tag_position(
     played_move = parse_move(board, played_move_uci)
     is_capture_played = board.is_capture(played_move)
 
+    t0 = time.perf_counter()
     candidates, eval_before_cp, analysis_meta = analyse_candidates(
         engine_path, board, depth=depth, multipv=multipv
     )
+    if timing_enabled:
+        timing["analyse_candidates"] = (time.perf_counter() - t0) * 1000.0
     if not candidates:
         raise RuntimeError("Engine returned no candidates.")
 
@@ -294,7 +300,10 @@ def tag_position(
 
     played_entry: Optional[Candidate] = next((c for c in in_band if c.move == played_move), None)
     if played_entry is None:
+        t0 = time.perf_counter()
         played_score_cp = eval_specific_move(engine_path, board, played_move, depth=depth)
+        if timing_enabled:
+            timing["eval_specific_move"] = (time.perf_counter() - t0) * 1000.0
         played_kind = classify_move(board, played_move)
     else:
         played_score_cp = played_entry.score_cp
@@ -363,6 +372,7 @@ def tag_position(
     use_http_engine = bool(os.getenv("ENGINE_URL")) or engine_path.startswith("http")
     if use_http_engine:
         follow_engine = None
+        t0 = time.perf_counter()
         base_self_before, base_opp_before, seq_self_before, seq_opp_before = simulate_followup_metrics(
             follow_engine, board, actor, steps=followup_steps
         )
@@ -372,8 +382,11 @@ def tag_position(
         base_self_best, base_opp_best, seq_self_best, seq_opp_best = simulate_followup_metrics(
             follow_engine, best_board, actor, steps=followup_steps
         )
+        if timing_enabled:
+            timing["followups_total"] = (time.perf_counter() - t0) * 1000.0
     else:
         with chess.engine.SimpleEngine.popen_uci(engine_path) as follow_engine:
+            t0 = time.perf_counter()
             base_self_before, base_opp_before, seq_self_before, seq_opp_before = simulate_followup_metrics(
                 follow_engine, board, actor, steps=followup_steps
             )
@@ -383,6 +396,8 @@ def tag_position(
             base_self_best, base_opp_best, seq_self_best, seq_opp_best = simulate_followup_metrics(
                 follow_engine, best_board, actor, steps=followup_steps
             )
+            if timing_enabled:
+                timing["followups_total"] = (time.perf_counter() - t0) * 1000.0
 
     follow_self_deltas = _compute_delta_sequence(base_self_before, seq_self_played)
     follow_opp_deltas = _compute_delta_sequence(base_opp_before, seq_opp_played)
@@ -999,8 +1014,11 @@ def tag_position(
             opp_mobility_change = opp_vs_best["mobility"]
             opp_tactics_change = opp_vs_best["tactics"]
 
+            t0 = time.perf_counter()
             threat_before = estimate_opponent_threat(engine_path, board, actor, config=PROPHYLAXIS_CONFIG)
             threat_after = estimate_opponent_threat(engine_path, played_board, actor, config=PROPHYLAXIS_CONFIG)
+            if timing_enabled:
+                timing["prophylaxis_threats"] = (time.perf_counter() - t0) * 1000.0
             threat_delta = round(threat_before - threat_after, 3)
             threat_reduced = threat_delta >= PROPHYLAXIS_CONFIG.threat_drop
 
@@ -1138,6 +1156,7 @@ def tag_position(
 
         plan_drop_result = None
         if PLAN_DROP_ENABLED and plan_candidate:
+            t0 = time.perf_counter()
             plan_drop_result = detect_prophylaxis_plan_drop(
                 engine_path,
                 board,
@@ -1148,6 +1167,8 @@ def tag_position(
                 variance_cap=PLAN_DROP_VARIANCE_CAP,
                 runtime_cap_ms=PLAN_DROP_RUNTIME_CAP_MS,
             )
+            if timing_enabled:
+                timing["plan_drop"] = (time.perf_counter() - t0) * 1000.0
         if plan_drop_result:
             plan_pass = (
                 plan_drop_result.sampled
@@ -2375,6 +2396,12 @@ def tag_position(
     analysis_meta["trigger_order"] = trigger_order
 
     _maybe_attach_control_context_snapshot(ctx, notes)
+
+    if timing_enabled:
+        analysis_meta.setdefault("timing_ms", {})
+        analysis_meta["timing_ms"].update(timing)
+        total_ms = sum(timing.values())
+        print(f"[tagger] breakdown move={played_move_uci} total={total_ms:.1f}ms parts={timing}")
 
     return TagResult(
         played_move=played_move_uci,
