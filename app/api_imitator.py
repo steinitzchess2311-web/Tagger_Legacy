@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import Any, Dict, List, Optional
 
 import os
+import time
 import chess
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field
@@ -112,6 +113,7 @@ def list_imitator_players(
 
 @router.post("/tagger/imitator", response_model=ImitatorResponse)
 def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
+    t0 = time.perf_counter()
     try:
         chess.Board(payload.fen)
     except ValueError as exc:
@@ -134,11 +136,16 @@ def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
         raise HTTPException(status_code=404, detail=f"Unknown player: {player}")
 
     engine_path = _ensure_engine_path(payload.engine_path)
+    t_fetch_start = time.perf_counter()
     top_moves = fetch_engine_moves(payload.fen, engine_path=engine_path, top_n=payload.top_n, depth=payload.depth)
+    t_fetch = (time.perf_counter() - t_fetch_start) * 1000.0
     if os.getenv("ENGINE_URL"):
+        t_tag_start = time.perf_counter()
         tagged = tag_moves(payload.fen, top_moves, engine_path=engine_path)
+        t_tag = (time.perf_counter() - t_tag_start) * 1000.0
     else:
         tagged = []
+        t_tag_start = time.perf_counter()
         with FastTaggerSession(engine_path) as session:
             for entry in top_moves:
                 move_uci = entry["uci"]
@@ -157,10 +164,19 @@ def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
                         "uci": move_uci,
                         "score_cp": entry.get("score_cp"),
                         "tags": active_tags,
-                        "analysis": analysis,
-                    }
-                )
+                    "analysis": analysis,
+                }
+            )
+        t_tag = (time.perf_counter() - t_tag_start) * 1000.0
+    t_prob_start = time.perf_counter()
     moves = _extract_probabilities(tagged, player_summary)
+    t_prob = (time.perf_counter() - t_prob_start) * 1000.0
+    t_total = (time.perf_counter() - t0) * 1000.0
+    print(
+        f"[imitator] timing total={t_total:.1f}ms fetch={t_fetch:.1f}ms "
+        f"tag={t_tag:.1f}ms prob={t_prob:.1f}ms moves={len(top_moves)} "
+        f"engine_url={bool(os.getenv('ENGINE_URL'))}"
+    )
 
     response_moves = moves[: payload.top_n]
     return ImitatorResponse(
