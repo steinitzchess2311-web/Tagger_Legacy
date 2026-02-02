@@ -9,6 +9,7 @@ from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field
 
 from codex_utils import DEFAULT_ENGINE_PATH
+from core.blunder_gate import evaluate_engine_gap, forced_probabilities
 from core.db_player_summaries import load_player_summaries_from_db, load_player_summary_by_id
 from core.engine_utils import fetch_engine_moves
 from core.file_utils import load_player_profiles, load_player_summaries
@@ -139,6 +140,31 @@ def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
     t_fetch_start = time.perf_counter()
     top_moves = fetch_engine_moves(payload.fen, engine_path=engine_path, top_n=payload.top_n, depth=payload.depth)
     t_fetch = (time.perf_counter() - t_fetch_start) * 1000.0
+    gate = evaluate_engine_gap(top_moves, threshold_cp=200)
+    if gate["triggered"]:
+        forced = forced_probabilities(top_moves, engine1_index=int(gate["engine1_index"]))
+        moves: List[ImitatorMove] = []
+        for entry, prob in zip(top_moves, forced):
+            moves.append(
+                ImitatorMove(
+                    move=entry["san"],
+                    uci=entry["uci"],
+                    score_cp=entry.get("score_cp"),
+                    tags=[],
+                    probability=float(prob),
+                )
+            )
+        response_moves = moves[: payload.top_n]
+        return ImitatorResponse(
+            player=player,
+            moves=response_moves,
+            meta={
+                "depth": payload.depth,
+                "top_n": payload.top_n,
+                "engine_path": engine_path,
+                "blunder_gate": gate,
+            },
+        )
     if os.getenv("ENGINE_URL"):
         t_tag_start = time.perf_counter()
         tagged = tag_moves(payload.fen, top_moves, engine_path=engine_path)
@@ -186,5 +212,6 @@ def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
             "depth": payload.depth,
             "top_n": payload.top_n,
             "engine_path": engine_path,
+            "blunder_gate": gate,
         },
     )
