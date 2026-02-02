@@ -140,7 +140,7 @@ def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
     t_fetch_start = time.perf_counter()
     top_moves = fetch_engine_moves(payload.fen, engine_path=engine_path, top_n=payload.top_n, depth=payload.depth)
     t_fetch = (time.perf_counter() - t_fetch_start) * 1000.0
-    gate = evaluate_engine_gap(top_moves, threshold_cp=200)
+    gate = evaluate_engine_gap(top_moves, threshold_cp=200, cutoff_cp=-150)
     if gate["triggered"]:
         forced = forced_probabilities(top_moves, engine1_index=int(gate["engine1_index"]))
         moves: List[ImitatorMove] = []
