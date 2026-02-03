@@ -146,16 +146,15 @@ def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
     gate = evaluate_engine_gap(top_moves, threshold_cp=200, cutoff_cp=-150)
     if gate["triggered"]:
         forced = forced_probabilities(top_moves, engine1_index=int(gate["engine1_index"]))
-        adjusted, flags = apply_inaccuracy_patch(top_moves, forced)
         moves: List[ImitatorMove] = []
-        for entry, prob, flagged in zip(top_moves, adjusted, flags):
+        for entry, prob in zip(top_moves, forced):
             moves.append(
                 ImitatorMove(
                     move=entry["san"],
                     uci=entry["uci"],
                     score_cp=entry.get("score_cp"),
                     tags=[],
-                    flags=["inaccuracy"] if flagged else [],
+                    flags=[],
                     probability=float(prob),
                 )
             )
