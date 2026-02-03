@@ -84,3 +84,44 @@ def forced_probabilities(
     if 0 <= engine1_index < len(probs):
         probs[engine1_index] = 1.0
     return probs
+
+
+def apply_inaccuracy_patch(
+    candidates: List[dict],
+    probabilities: List[float],
+    *,
+    gap_cp: int = 40,
+) -> Tuple[List[float], List[bool]]:
+    """Apply inaccuracy penalty when adjacent engine scores diverge sharply."""
+    if not candidates or not probabilities:
+        return list(probabilities), [False for _ in probabilities]
+    if len(candidates) != len(probabilities):
+        return list(probabilities), [False for _ in probabilities]
+
+    scores: List[int] = []
+    for entry in candidates:
+        score = entry.get("score_cp")
+        if score is None:
+            return list(probabilities), [False for _ in probabilities]
+        try:
+            scores.append(int(score))
+        except (TypeError, ValueError):
+            return list(probabilities), [False for _ in probabilities]
+
+    trigger_index: Optional[int] = None
+    for idx in range(1, len(scores)):
+        prev = scores[idx - 1]
+        curr = scores[idx]
+        if (prev - curr) > gap_cp or (prev >= 0 and curr < 0) or (prev <= 0 and curr > 0):
+            trigger_index = idx
+            break
+
+    adjusted = [float(prob) for prob in probabilities]
+    flags = [False for _ in adjusted]
+    if trigger_index is None:
+        return adjusted, flags
+
+    for idx in range(trigger_index, len(adjusted)):
+        adjusted[idx] = max(0.0, adjusted[idx] - 0.05)
+        flags[idx] = True
+    return adjusted, flags

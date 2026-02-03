@@ -9,7 +9,7 @@ from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field
 
 from codex_utils import DEFAULT_ENGINE_PATH
-from core.blunder_gate import evaluate_engine_gap, forced_probabilities
+from core.blunder_gate import apply_inaccuracy_patch, evaluate_engine_gap, forced_probabilities
 from core.db_player_summaries import load_player_summaries_from_db, load_player_summary_by_id
 from core.engine_utils import fetch_engine_moves
 from core.file_utils import load_player_profiles, load_player_summaries
@@ -35,6 +35,7 @@ class ImitatorMove(BaseModel):
     uci: str
     score_cp: Optional[int] = None
     tags: List[str] = Field(default_factory=list)
+    flags: List[str] = Field(default_factory=list)
     probability: float
 
 
@@ -57,19 +58,21 @@ def _extract_probabilities(tagged: List[dict], player_summary: Dict[str, Any]) -
     probabilities = compute_move_probability(tagged, player_summary["tag_distribution"])
     if probabilities.size == 0:
         return []
+    adjusted_probs, flags = apply_inaccuracy_patch(tagged, list(probabilities))
     ranked = sorted(
-        zip(tagged, probabilities),
+        zip(tagged, adjusted_probs, flags),
         key=lambda item: float(item[1]),
         reverse=True,
     )
     output: List[ImitatorMove] = []
-    for entry, prob in ranked:
+    for entry, prob, flagged in ranked:
         output.append(
             ImitatorMove(
                 move=entry["move"],
                 uci=entry["uci"],
                 score_cp=entry.get("score_cp"),
                 tags=list(entry.get("tags") or []),
+                flags=["inaccuracy"] if flagged else [],
                 probability=float(prob),
             )
         )
@@ -143,14 +146,16 @@ def run_imitator(payload: ImitatorRequest) -> ImitatorResponse:
     gate = evaluate_engine_gap(top_moves, threshold_cp=200, cutoff_cp=-150)
     if gate["triggered"]:
         forced = forced_probabilities(top_moves, engine1_index=int(gate["engine1_index"]))
+        adjusted, flags = apply_inaccuracy_patch(top_moves, forced)
         moves: List[ImitatorMove] = []
-        for entry, prob in zip(top_moves, forced):
+        for entry, prob, flagged in zip(top_moves, adjusted, flags):
             moves.append(
                 ImitatorMove(
                     move=entry["san"],
                     uci=entry["uci"],
                     score_cp=entry.get("score_cp"),
                     tags=[],
+                    flags=["inaccuracy"] if flagged else [],
                     probability=float(prob),
                 )
             )
